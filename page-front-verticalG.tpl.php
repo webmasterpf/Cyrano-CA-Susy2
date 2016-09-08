@@ -1,10 +1,8 @@
+<!-- ______________________ LAYOUT HOMEPAGE VERTICAL G_______________________ -->
 <?php
 global $theme_path;
 include ($theme_path.'/includes/inc_header.php');
-?>
-<div class="content-global">
-
-
+?>  
  <!-- ______________________ CONTENU HAUT _______________________ -->
  
    <?php if ($content_top): ?>
@@ -12,8 +10,8 @@ include ($theme_path.'/includes/inc_header.php');
          <?php print $content_top; ?>
      </div> <!--/#content-top -->
  <?php endif; ?>
- <!-- ______________________ LAYOUT HOMEPAGE VERTICAL G_______________________ -->   
  
+     <div class="conteneur-flex">
    <!-- ______________________ ZONE DIAPO _______________________ -->
 			
             <?php if ($DiapoGaucheHP): ?>
@@ -37,7 +35,7 @@ include ($theme_path.'/includes/inc_header.php');
         <?php endif; ?>
 	  
 </div><!--    /Partie Droite -->
-	
+	</div><!--/conteneur-flex -->
     <!-- ______________________ FIN LAYOUT PAGE _______________________ -->
         
 
@@ -58,4 +56,4 @@ include ($theme_path.'/includes/inc_header.php');
     <?php
 global $theme_path;
 include ($theme_path.'/includes/inc_footer.php');
-?>
+?>      

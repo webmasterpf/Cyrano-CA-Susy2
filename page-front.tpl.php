@@ -1,4 +1,4 @@
-<!-- ______________________ LAYOUT HOMEPAGE VERTICAL G_______________________ -->
+<!-- ______________________ LAYOUT HOMEPAGE VERTICAL D_______________________ -->
 <?php
 global $theme_path;
 include ($theme_path.'/includes/inc_header.php');
@@ -12,35 +12,35 @@ include ($theme_path.'/includes/inc_header.php');
  <?php endif; ?>
  
      <div class="conteneur-flex">
-   <!-- ______________________ ZONE DIAPO _______________________ -->
-			
-            <?php if ($DiapoGaucheHP): ?>
-       <div class="HPDiapoVerticalGauche"><?php print $DiapoGaucheHP; ?></div>
-              <?php endif; ?>
+   
         	 
-<!-- ______________________ PARTIE DROITE _______________________ -->
+<!-- ______________________ PARTIE GAUCHE _______________________ -->
       
-	<div class="HPDroite">
+	<div class="HPGauche">
 	 
-        <?php if ($PartieDroite1): ?>
-     <div class="HPDroite1"><?php print $PartieDroite1; ?></div>
+        <?php if ($PartieGauche1): ?>
+     <div class="HPGauche1"><?php print $PartieGauche1; ?></div>
         <?php endif; ?>
 		
-     <?php if ($PartieDroite2): ?>
-     <div class="HPDroite2"><?php print $PartieDroite2; ?></div>
+     <?php if ($PartieGauche2): ?>
+     <div class="HPGauche2"><?php print $PartieGauche2; ?></div>
         <?php endif; ?>
 
-     <?php if ($PartieDroite3): ?>
-     <div class="HPDroite3"><?php print $PartieDroite3; ?></div>
+     <?php if ($PartieGauche3): ?>
+     <div class="HPGauche3"><?php print $PartieGauche3; ?></div>
         <?php endif; ?>
 	  
-</div><!--    /Partie Droite -->
+</div><!--    /Partie Gauche -->
+<!-- ______________________ ZONE DIAPO _______________________ -->
+			
+            <?php if ($DiapoDroiteHP): ?>
+       <div class="HPDiapoVerticalDroite"><?php print $DiapoDroiteHP; ?></div>
+              <?php endif; ?>
+       
 	</div><!--/conteneur-flex -->
     <!-- ______________________ FIN LAYOUT PAGE _______________________ -->
-        
 
-        
-	<!-- ______________________ CONTENU BAS _______________________ -->
+<!-- ______________________ CONTENU BAS _______________________ -->
     <?php if ($content_bottom_home): ?>
     <div class="content-bottom-home">
       <?php print $content_bottom_home; ?>
