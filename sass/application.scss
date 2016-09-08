@@ -66,10 +66,12 @@ breakpoint-2.5.0
 
 //Import Homepage - choisir quel layout et style utiliser
 @import "layout/layout-diapo-frontpage";
-@import "content-type-style/_frontpage-verticalGauche.scss";
-@import "layout/_layout-vertical-hp-gauche.scss";
+@import "layout/_layout-vertical-hp-droite.scss";
+//@import "layout/_layout-vertical-hp-gauche.scss";
 
-
+//Style pour HP
+//@import "content-type-style/_frontpage-verticalGauche.scss";
+@import "content-type-style/_frontpage-verticalDroite.scss";
 
 // Import des partiels pour le style des node.tpl
 //@import "content-type-style/node-TYPE";
