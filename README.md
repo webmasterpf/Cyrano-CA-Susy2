@@ -88,19 +88,23 @@ Compass Recipes : mixin css3
  Breakpoints pour SUSY
 ----------------------------------
 <pre>
- @include susy-breakpoint ($mobile){}
- @include susy-breakpoint ($desktop){}
- @include susy-breakpoint ($tablet){}
+ @include breakpoint ($mobile){}
+ @include breakpoint ($desktop){}
+ @include breakpoint ($tablet){}
 </pre>
 
 Diaporama homepage surimpression
 ------------------------------------
 Changer le code HTML dans Views 
+<pre>
 <div id="transparency"></div>
 <div id="contenu-diapo">
 <h2>[teaser]</h2>
 </div>
+</pre>
 par 
+<pre>
 <div id="transparency">
 <h2>[teaser]</h2>
 </div>
+</pre>
