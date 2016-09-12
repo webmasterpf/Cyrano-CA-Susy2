@@ -6,9 +6,9 @@
 |     FRONTPAGE  VERTICAL DROIT        |
 |--------------------------------------*/
 
-  //@include susy-breakpoint ($mobile){}
-  //@include susy-breakpoint ($desktop){}
-  //@include susy-breakpoint ($tablet){}
+  //@include breakpoint ($mobile){}
+  //@include breakpoint ($desktop){}
+  //@include breakpoint ($tablet){}
 
 //Code imbriqué à 100%
 body .conteneur {
@@ -32,60 +32,28 @@ body .conteneur {
     //Taille du conteneur du groupe    
 
     .HPGauche{
-        @include span(first $desktopcol/2 of $desktopcol);
+        
         .HPGauche1{}
         .HPGauche2{}
         .HPGauche3{}
     }
     .HPDiapoVerticalDroite{
-        @include span(last 6 of $desktopcol);
+        
     }
 }
   
     @include breakpoint($tablet) {/*     //Dimensions pour les tablettes*/
         //Taille du conteneur du groupe
     .HPGauche{
-        @include span(first $tabletcol/2 of $tabletcol);
-        .HPGauche1{}
-        .HPGauche2{}
-        .HPGauche3{}
-    }
-    .HPDiapoVerticalDroite{@include span(last $tabletcol/2 of $tabletcol);} 
         
-}
-//Pour le dev, code visuel sur les blocs selon le breakpoint
-// à commenter ou supprimer pour la production
-body .conteneur {
-        .HPGauche{
         .HPGauche1{}
         .HPGauche2{}
         .HPGauche3{}
     }
     .HPDiapoVerticalDroite{
-        background-color: #66ff33;
-    }
-   
-    @include breakpoint($desktop) {/*    //Dimensions pour les pc*/
-    .HPGauche{
-        background-color: #ffff33;
-        .HPGauche1{background-color: #CFD0D2;}
-        .HPGauche2{background-color: violet;}
-        .HPGauche3{}
-    }
-    .HPDiapoVerticalDroite{background-color: #00A1CB;}
-    }
-   
-    @include breakpoint($tablet) {/*     //Dimensions pour les tablettes*/
-    .HPGauche{
-        .HPGauche1{}
-        .HPGauche2{}
-        .HPGauche3{}
-    }
-    .HPDiapoVerticalDroite{background-color: fuchsia;}
-    }
+        } 
+        
 }
-
-
 /****************/
 .HPGauche1,.HPGauche2,.HPGauche3 {
 

@@ -132,29 +132,29 @@ body .conteneur {
     }
 }
 //Pour le dev, code visuel sur les blocs selon le breakpoint
-// HP Vertical Gauche
+// HP Vertical Gauche ou HP Vertical Droite
 body .conteneur {
 
-    .HPDiapoVerticalGauche{background: orangered;}
+    .HPDiapoVerticalGauche,.HPDiapoVerticalDroite{background: orangered;}
     .HPDroite{}
-    .HPDroite1{background: sienna;}
-    .HPDroite2{background: thistle;}
-    .HPDroite3{}
+    .HPDroite1,.HPGauche1{background: sienna;}
+    .HPDroite2,.HPGauche2{background: thistle;}
+    .HPDroite3,.HPGauche3{background: #00c9fe;}
 
     @include breakpoint($desktop) {/*    //Dimensions pour les pc*/
         .HPDiapoVerticalGauche{background: rosybrown;}
         .HPDroite{}
-        .HPDroite1{background: gold;}
-        .HPDroite2{background: bisque;}
-        .HPDroite3{background: inactiveborder;}
+        .HPDroite1,.HPGauche1{background: gold;}
+        .HPDroite2,.HPGauche2{background: bisque;}
+        .HPDroite3,.HPGauche3{background: #00CC99;}
     }
 
     @include breakpoint($tablet) {/*     //Dimensions pour les tablettes*/
         .HPDiapoVerticalGauche{}
-        .HPDroite{background: #C8D215;}
-        .HPDroite1{background: royalblue;}
-        .HPDroite2{background: #00CC99;}
-        .HPDroite3{}
+        .HPDroite,.HPGauche{background: #C8D215;}
+        .HPDroite1,.HPGauche1{background: royalblue;}
+        .HPDroite2,.HPGauche2{background: #00CC99;}
+        .HPDroite3,.HPGauche3{background: yellow;}
     }
 }
 //Pour le dev, code visuel sur les blocs selon le breakpoint : HP Diapo Panoramique

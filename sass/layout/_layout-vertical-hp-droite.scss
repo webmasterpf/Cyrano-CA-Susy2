@@ -2,10 +2,10 @@
 // Regroupe le style pour le contenu des node.tpl custom
 // créer des fichiers _node-TYPE.scss et les importer dans application.scss
 
-/*-------------------------------------|
-|       CONTENU CUSTOM NODE.TPL        |
-|     FRONTPAGE  VERTICAL GAUCHE       |
-|--------------------------------------*/
+/*------------------------------------------|
+|       CONTENU CUSTOM NODE.TPL    |
+|     FRONTPAGE  VERTICAL DROITE   |
+|-----------------------------------------*/
 
   //@include breakpoint ($mobile){}
   //@include breakpoint ($desktop){}
@@ -68,15 +68,16 @@ body .conteneur
            
         .HPDiapoVerticalDroite{
              //@include span(6 of $desktopcol first);
-             @include flex(1 0 span(6 of $desktopcol first));
-             @include order(1);
+              @include flex(1 0 span(6 of $desktopcol last));
+            @include order(2);
+            padding: 0;
             
         }
         .HPGauche{
             //@include span(6 of $desktopcol);
-            @include flex(1 0 span(6 of $desktopcol last));
-            @include order(2);
-            padding: 0;
+        
+               @include flex(1 0 span(6 of $desktopcol first));
+             @include order(1);
             
         }
         .HPGauche1{
