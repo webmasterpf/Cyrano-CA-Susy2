@@ -26,6 +26,7 @@
 /*-------- IMAGES ADAPTABLES -----------*/
 @mixin adaptable-img {
     max-width: 100%;
+    height:auto;//proportions
     @-moz-document url-prefix() {  
         img{
             width: 100%;
