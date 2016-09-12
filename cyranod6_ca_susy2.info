@@ -69,22 +69,22 @@ regions[bandeau1] = Bandeau haut de page
 
 ;Diaporama HP selon layout choisi (décommenter pour choisir)
 ;regions[DiapoPanoHP] = Diaporama Panoramique Homepage - Bloc
-regions[DiapoGaucheHP] = Diaporama Gauche Homepage - Bloc
-;regions[DiapoDroiteHP] = Diaporama Droite Homepage - Bloc
+;regions[DiapoGaucheHP] = Diaporama Gauche Homepage - Bloc
+regions[DiapoDroiteHP] = Diaporama Droite Homepage - Bloc
 
 ;Diaporama panoramique
 ;regions[HPBasG] = Zone Bas Gauche HP - Bloc
 ;regions[HPBasD] = Zone Bas Droit HP - Bloc
 
 ;Diaporama vertical Gauche
-regions[PartieDroite1] = Zone Droite 1 HP - Bloc
-regions[PartieDroite2] = Zone Droite 2 HP - Bloc
-regions[PartieDroite3] = Zone Droite 3 HP - Bloc
+;regions[PartieDroite1] = Zone Droite 1 HP - Bloc
+;regions[PartieDroite2] = Zone Droite 2 HP - Bloc
+;regions[PartieDroite3] = Zone Droite 3 HP - Bloc
 
 ;Diaporama vertical Droite
-;regions[PartieGauche1] = Zone Gauche 1 HP - Bloc
-;regions[PartieGauche2] = Zone Gauche 2 HP - Bloc
-;regions[PartieGauche3] = Zone Gauche 3 HP - Bloc
+regions[PartieGauche1] = Zone Gauche 1 HP - Bloc
+regions[PartieGauche2] = Zone Gauche 2 HP - Bloc
+regions[PartieGauche3] = Zone Gauche 3 HP - Bloc
 
 ;Region pour les node.tpl (ajouter dans template.php)
 regions[actuAssociation] = Zone pour RSS issu du site PF - Vue Bloc RSS
