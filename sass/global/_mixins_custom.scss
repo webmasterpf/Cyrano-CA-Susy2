@@ -34,6 +34,16 @@
         }
     }
 }
+@mixin img-centered {
+    display: block;
+    margin: 0 auto;
+    @-moz-document url-prefix() {  
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
 /*--------- MASQUAGE ELEMENTS ---------*/
 @mixin visuallyhidden {
   margin: -1px;

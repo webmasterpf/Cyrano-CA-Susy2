@@ -3759,7 +3759,7 @@ body .conteneur .HPDiapo {
     behavior: url(/sites/all/libraries/PIE/PIE.htc);
     /*Couleur et opacité du fond*/
   }
-  /* line 63, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 62, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur .HPDiapo #contenu-diapo {
     position: relative;
     bottom: 8.375em;
@@ -3767,19 +3767,127 @@ body .conteneur .HPDiapo {
     color: white;
     z-index: 20;
   }
-  /* line 72, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 71, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur .HPDiapo #contenu-diapo h2, body .conteneur .HPDiapo #contenu-diapo p {
     color: white;
     padding: 0.3125em;
     font-family: "Arista", Trebuchet MS, sans-serif;
     line-height: 1.3em;
   }
-  /* line 78, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 77, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur .HPDiapo #contenu-diapo a {
     text-decoration: none;
   }
-  /* line 82, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 81, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur .HPDiapo #contenu-diapo p {
+    margin-top: 0.2em;
+    font-size: larger;
+  }
+}
+
+/*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE  VERTICAL DROITE----*/
+/* line 95, ../sass/layout/_layout-diapo-frontpage.scss */
+body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP #transparency {
+  display: none;
+}
+/* line 99, ../sass/layout/_layout-diapo-frontpage.scss */
+body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP #contenu-diapo {
+  display: none;
+}
+/* line 102, ../sass/layout/_layout-diapo-frontpage.scss */
+body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP img {
+  max-width: 100%;
+  height: auto;
+}
+@-moz-document url-prefix() {
+  /* line 31, ../sass/global/_mixins_custom.scss */
+  body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP img img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 800px) and (max-width: 989px) {
+  /* line 104, ../sass/layout/_layout-diapo-frontpage.scss */
+  body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP #transparency {
+    display: block;
+  }
+  /* line 105, ../sass/layout/_layout-diapo-frontpage.scss */
+  body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP #contenu-diapo {
+    display: block;
+  }
+}
+@media (min-width: 990px) {
+  /* line 111, ../sass/layout/_layout-diapo-frontpage.scss */
+  body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP #transparency {
+    display: block;
+  }
+  /* line 112, ../sass/layout/_layout-diapo-frontpage.scss */
+  body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP #contenu-diapo {
+    display: block;
+  }
+  /* line 113, ../sass/layout/_layout-diapo-frontpage.scss */
+  body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP img {
+    max-width: 100%;
+    height: auto;
+  }
+  @-moz-document url-prefix() {
+    /* line 31, ../sass/global/_mixins_custom.scss */
+    body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP img img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+/* line 124, ../sass/layout/_layout-diapo-frontpage.scss */
+body .conteneur-flex .HPDiapoVerticalDroite {
+  display: none;
+}
+@media (min-width: 990px) {
+  /* line 124, ../sass/layout/_layout-diapo-frontpage.scss */
+  body .conteneur-flex .HPDiapoVerticalDroite {
+    display: block;
+  }
+  /* line 127, ../sass/layout/_layout-diapo-frontpage.scss */
+  body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP {
+    max-height: 31em;
+  }
+  /* line 131, ../sass/layout/_layout-diapo-frontpage.scss */
+  body .conteneur-flex .HPDiapoVerticalDroite #transparency {
+    height: 3.75em;
+    bottom: 4.5625em;
+    left: 0.75em;
+    width: 93%;
+    position: relative;
+    z-index: 15;
+    position: relative;
+    background: #9898a6;
+    background: rgba(152, 152, 166, 0.6);
+    -pie-background: rgba(152, 152, 166, 0.6);
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+    /*Couleur et opacité du fond*/
+  }
+  /* line 140, ../sass/layout/_layout-diapo-frontpage.scss */
+  body .conteneur-flex .HPDiapoVerticalDroite #contenu-diapo {
+    position: relative;
+    bottom: 8.375em;
+    left: 0.625em;
+    color: white;
+    z-index: 20;
+  }
+  /* line 149, ../sass/layout/_layout-diapo-frontpage.scss */
+  body .conteneur-flex .HPDiapoVerticalDroite #contenu-diapo h2, body .conteneur-flex .HPDiapoVerticalDroite #contenu-diapo p {
+    color: white;
+    padding: 0.3125em;
+    font-family: "Arista", Trebuchet MS, sans-serif;
+    line-height: 1.3em;
+  }
+  /* line 155, ../sass/layout/_layout-diapo-frontpage.scss */
+  body .conteneur-flex .HPDiapoVerticalDroite #contenu-diapo a {
+    text-decoration: none;
+  }
+  /* line 159, ../sass/layout/_layout-diapo-frontpage.scss */
+  body .conteneur-flex .HPDiapoVerticalDroite #contenu-diapo p {
     margin-top: 0.2em;
     font-size: larger;
   }
@@ -3962,77 +4070,89 @@ body .conteneur {
 body .conteneur .HPGauche {
   /*Table pour la vue filtre dyn sur tid - ajouter classe sur le bloc via blockclass*/
 }
-/* line 21, ../sass/content-type-style/_frontpage-verticalDroite.scss */
-body .conteneur .HPGauche .table-bloc-vdl-liste-hp, body .conteneur .HPGauche .table-bloc-vdl-actu-hp {
+/* line 22, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+body .conteneur .HPGauche .table-bloc-vdl-liste-hp table, body .conteneur .HPGauche .table-bloc-vdl-actu-hp table {
+  max-width: 100%;
   margin: 0 auto;
   border: 0;
+  width: 98%;
 }
-/* line 25, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 29, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche .table-bloc-vdl-liste-hp tr, body .conteneur .HPGauche .table-bloc-vdl-actu-hp tr {
-  margin: 3px;
+  margin: 0.1875em;
 }
-/* line 26, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 30, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche .table-bloc-vdl-liste-hp td, body .conteneur .HPGauche .table-bloc-vdl-actu-hp td {
   background: white;
   border: 0;
-  margin: 2px 0;
-  padding: 5px;
+  margin: 0.125em 0;
+  padding: 0.3125em;
   display: block;
-  border-bottom: 1px solid #00ACD1;
+  border-bottom: 0.0625em solid #01ABCF;
 }
-/* line 33, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 37, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche .table-bloc-vdl-liste-hp td:hover, body .conteneur .HPGauche .table-bloc-vdl-actu-hp td:hover {
-  background: #9C9D9F;
-}
-/* line 35, ../sass/content-type-style/_frontpage-verticalDroite.scss */
-body .conteneur .HPGauche .table-bloc-vdl-liste-hp a, body .conteneur .HPGauche .table-bloc-vdl-actu-hp a {
-  color: #950F7E;
-  text-decoration: none;
-  font-weight: bold;
+  background: #9898a6;
 }
 /* line 39, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+body .conteneur .HPGauche .table-bloc-vdl-liste-hp a, body .conteneur .HPGauche .table-bloc-vdl-actu-hp a {
+  color: #911381;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: small;
+}
+/* line 44, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche .table-bloc-vdl-liste-hp a:hover, body .conteneur .HPGauche .table-bloc-vdl-actu-hp a:hover {
   text-decoration: underline;
   color: white;
 }
-/* line 43, ../sass/content-type-style/_frontpage-verticalDroite.scss */
-body .conteneur .HPGauche .table-bloc-vdl-liste-hp a h3, body .conteneur .HPGauche .table-bloc-vdl-actu-hp a h3 {
-  color: #00ACD1;
+/* line 50, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+body .conteneur .HPGauche .table-bloc-vdl-liste-hp h3, body .conteneur .HPGauche .table-bloc-vdl-actu-hp h3 {
+  color: #01ABCF;
   display: block;
   font-family: "Arista", Trebuchet MS, sans-serif;
-  font-size: 18px;
+  font-size: 1.125em;
   margin: 0 auto;
-  padding: 10px;
+  padding: 0.625em;
   text-align: center;
 }
-/* line 57, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 63, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche .table-bloc-vdl-liste-hp thead th {
-  border-bottom: 3px solid #DE603A;
+  border-bottom: 0.1875em solid #DE603A;
 }
-/* line 61, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 67, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche .table-bloc-vdl-liste-hp span.date-display-single {
   text-align: right;
   float: right;
   font-style: italic;
 }
-/* line 69, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 75, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche .table-bloc-vdl-actu-hp thead th {
-  border-bottom: 3px solid #91127D;
+  border-bottom: 0.1875em solid #911381;
 }
-/* line 71, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 77, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche #block-views-vdl_global-block_7 h3 {
-  color: #E3007A;
+  color: #E30078;
 }
-/* line 78, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 84, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPDiapoVerticalDroite aside.DiapoDroiteHP img {
   max-width: 100%;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 @-moz-document url-prefix() {
   /* line 31, ../sass/global/_mixins_custom.scss */
   body .conteneur .HPDiapoVerticalDroite aside.DiapoDroiteHP img img {
     width: 100%;
     max-width: 100%;
+  }
+}
+@-moz-document url-prefix() {
+  /* line 41, ../sass/global/_mixins_custom.scss */
+  body .conteneur .HPDiapoVerticalDroite aside.DiapoDroiteHP img img {
+    display: block;
+    margin: 0 auto;
   }
 }
 @media (min-width: 990px) {
@@ -4042,55 +4162,22 @@ body .conteneur .HPDiapoVerticalDroite aside.DiapoDroiteHP img {
   /*     //Dimensions pour les tablettes*/
 }
 /****************/
-/* line 110, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 119, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 .HPGauche1, .HPGauche2, .HPGauche3 {
   background: none;
   color: black;
 }
-/* line 114, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 123, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 .HPGauche1 ul li, .HPGauche2 ul li, .HPGauche3 ul li {
   list-style: square;
 }
-/* line 117, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 126, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 .HPGauche1 a, .HPGauche2 a, .HPGauche3 a {
   text-decoration: none;
 }
-/* line 119, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 128, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 .HPGauche1 a:hover, .HPGauche2 a:hover, .HPGauche3 a:hover {
   text-decoration: underline;
-}
-
-/*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE ----*/
-/* line 130, ../sass/content-type-style/_frontpage-verticalDroite.scss */
-#transparency {
-  height: 4.0625em;
-  bottom: 5em;
-  left: 0.75em;
-  position: relative;
-  z-index: 15;
-  width: 95%;
-  position: relative;
-  background: #E3001C;
-  background: rgba(227, 0, 28, 0.6);
-  -pie-background: rgba(227, 0, 28, 0.6);
-  behavior: url(/sites/all/libraries/PIE/PIE.htc);
-  /*Couleur et opacité du fond*/
-}
-/* line 140, ../sass/content-type-style/_frontpage-verticalDroite.scss */
-#transparency h2 {
-  color: white;
-  padding: 0.3125em;
-  font-family: "Arista", Trebuchet MS, sans-serif;
-  font-size: larger;
-  bottom: 0.75em;
-}
-/* line 148, ../sass/content-type-style/_frontpage-verticalDroite.scss */
-#transparency a {
-  text-decoration: none;
-}
-/* line 152, ../sass/content-type-style/_frontpage-verticalDroite.scss */
-#transparency p {
-  margin-top: 0.2em;
 }
 
 /*-------------------------------------|
