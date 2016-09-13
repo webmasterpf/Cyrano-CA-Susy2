@@ -51,7 +51,6 @@ body .conteneur .HPDiapo{
     @include breakpoint ($desktop){
         display: block;
         #transparency{
-            
             height:em(60px);
             bottom:em(73px); 
             left:em(12px);
@@ -59,6 +58,84 @@ body .conteneur .HPDiapo{
             position:relative;
             z-index:15;
             @include rgba-background($orange,0.6);/*Couleur et opacité du fond*/
+        }
+        #contenu-diapo {
+
+            position: relative;
+            bottom:8.375em;
+            left: em(10px);
+            color: white;
+            z-index: 20;
+
+
+            h2,p {
+                color: white;
+                padding: em(5px);
+                font-family: $AristaFont;
+                line-height: 1.3em;
+            }
+            a {
+
+                text-decoration: none;
+            }
+              p{
+      margin-top: 0.2em;
+      font-size: larger;//taille du texte cartouche
+  }
+        }
+    }
+}
+
+
+/*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE  VERTICAL DROITE----*/
+body .conteneur-flex .HPDiapoVerticalDroite{
+    aside.DiapoDroiteHP{
+   
+     //max-width: container();
+        #transparency{
+           display: none;
+           
+        }
+        #contenu-diapo{
+           display: none;
+        }
+    img{@include adaptable-img;}
+       @include breakpoint($tablet) {
+        #transparency{display: block;}
+        #contenu-diapo{display: block;}
+
+    }
+    @include breakpoint($desktop) { 
+      // @include span(12 of $desktopcol);
+       
+        #transparency{display: block;}
+        #contenu-diapo{display: block;}
+      img{@include adaptable-img;}
+    }
+ 
+}
+}
+
+// Style du diaporama dynamique avec Overlay // Pas affiché sur Mobile
+body .conteneur .HPDiapo .field-content{
+    
+}
+
+body .conteneur-flex .HPDiapoVerticalDroite{
+    display: none;
+    @include breakpoint ($desktop){
+        aside.DiapoDroiteHP{
+             max-height: 31em;//résoudre problème d'espace vide sous le diapo
+        }
+        display: block;
+        #transparency{
+            height:em(60px);
+            bottom:em(73px); 
+            left:em(12px);
+            width: 93%;
+            position:relative;
+            z-index:15;
+            @include rgba-background($gris-clair-moyen,0.6);/*Couleur et opacité du fond*/
         }
         #contenu-diapo {
 
