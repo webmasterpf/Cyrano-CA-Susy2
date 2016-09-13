@@ -11,12 +11,64 @@
   //@include breakpoint ($tablet){}
 
 //Code imbriqué à 100%
+/*-------------STYLE POUR CONTENU HOMEPAGE -----------------*/
 body .conteneur {
     background:transparent image-url ("bg_content_etoile.gif") no-repeat left bottom;
        
     
     .HPGauche{
-        
+        /*Table pour la vue filtre dyn sur tid - ajouter classe sur le bloc via blockclass*/
+        .table-bloc-vdl-liste-hp,.table-bloc-vdl-actu-hp{
+            margin: 0 auto;
+            border: 0;
+            p{}
+            tr{margin: 3px;}
+            td{
+                background: white;
+                border: 0;
+                margin: 2px 0;
+                padding: 5px;
+                display: block;
+                border-bottom: 1px solid #00ACD1;
+                &:hover{background: #9C9D9F;}
+            }
+            a{
+                color: #950F7E;
+                text-decoration: none;
+                font-weight: bold;
+                &:hover{
+                    text-decoration: underline;
+                    color: white;
+                }
+                h3{
+                    color: #00ACD1;
+                    display: block;
+                    font-family: $AristaFont;
+                    font-size: 18px;
+                    margin: 0 auto;
+                    padding: 10px;
+                    text-align: center;
+
+                }
+            }
+        }
+
+            .table-bloc-vdl-liste-hp {
+                thead th{
+                    border-bottom: 3px solid #DE603A;
+                }
+                tbody{}
+                span.date-display-single{
+                    text-align: right;
+                    float: right;
+                    font-style: italic;
+                }
+            }
+            .table-bloc-vdl-actu-hp 
+            {
+                thead th{border-bottom: 3px solid #91127D;}
+            }
+            #block-views-vdl_global-block_7 h3{color: #E3007A;}
         .HPGauche1{}
         .HPGauche2{}
         .HPGauche3{}
