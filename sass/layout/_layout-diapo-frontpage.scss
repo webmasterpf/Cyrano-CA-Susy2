@@ -7,6 +7,7 @@
   //@include breakpoint ($mobile){}
   //@include breakpoint ($desktop){}
   //@include breakpoint ($tablet){}
+  //@include breakpoint(($desktop,$tablet)){}
 
 
 /*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE  PANORAMIQUE----*/
@@ -47,13 +48,14 @@ body .conteneur .HPDiapo .field-content{
 }
 
 body .conteneur .HPDiapo{
-    display: none;
-    @include breakpoint ($desktop){
+   // display: none; //decommenter pour ne pas afficher sur mobile
+   @include breakpoint(($mobile,$desktop,$tablet)){ //commenter pour ne pas afficher sur mobile
+    //@include breakpoint ($desktop){
         display: block;
         #transparency{
             height:em(60px);
-            bottom:em(73px); 
-            left:em(12px);
+            bottom:em(69px); 
+            left:em(19px);
             width: 98%;
             position:relative;
             z-index:15;

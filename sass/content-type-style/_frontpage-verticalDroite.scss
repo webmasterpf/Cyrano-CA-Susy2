@@ -19,43 +19,49 @@ body .conteneur {
     .HPGauche{
         /*Table pour la vue filtre dyn sur tid - ajouter classe sur le bloc via blockclass*/
         .table-bloc-vdl-liste-hp,.table-bloc-vdl-actu-hp{
-            margin: 0 auto;
-            border: 0;
+           table{
+               max-width: 100%;
+               margin: 0 auto;
+               border: 0;
+               width: 98%;
+            }
             p{}
-            tr{margin: 3px;}
+            tr{margin: em(3px);}
             td{
                 background: white;
                 border: 0;
-                margin: 2px 0;
-                padding: 5px;
+                margin: em(2px) 0;
+                padding: em(5px);
                 display: block;
-                border-bottom: 1px solid #00ACD1;
-                &:hover{background: #9C9D9F;}
+                border-bottom: em(1px) solid $bleu-turquoise;
+                &:hover{background: $gris-clair-moyen;}
             }
             a{
-                color: #950F7E;
+                color: $violet;
                 text-decoration: none;
                 font-weight: bold;
+                font-size:small;
                 &:hover{
                     text-decoration: underline;
                     color: white;
                 }
+            
+            }
                 h3{
-                    color: #00ACD1;
+                    color: $bleu-turquoise;
                     display: block;
                     font-family: $AristaFont;
-                    font-size: 18px;
+                    font-size: em(18px);
                     margin: 0 auto;
-                    padding: 10px;
+                    padding: em(10px);
                     text-align: center;
 
                 }
-            }
         }
 
             .table-bloc-vdl-liste-hp {
                 thead th{
-                    border-bottom: 3px solid #DE603A;
+                    border-bottom: em(3px) solid $orange-fonce;
                 }
                 tbody{}
                 span.date-display-single{
@@ -66,16 +72,19 @@ body .conteneur {
             }
             .table-bloc-vdl-actu-hp 
             {
-                thead th{border-bottom: 3px solid #91127D;}
+                thead th{border-bottom: em(3px) solid $violet;}
             }
-            #block-views-vdl_global-block_7 h3{color: #E3007A;}
+            #block-views-vdl_global-block_7 h3{color: $rose-fushia;}
         .HPGauche1{}
         .HPGauche2{}
         .HPGauche3{}
     }
     .HPDiapoVerticalDroite{
         aside.DiapoDroiteHP {
-            img{@include adaptable-img;}
+            img{
+                @include adaptable-img;
+                @include img-centered;
+            }
         }
     }
     
@@ -121,35 +130,4 @@ body .conteneur {
         }
     }
 
-}
-/*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE ----*/
-
-
-// Style du diaporama dynamique
-
-#transparency{
-
-height:em(65px);
-bottom:5em; 
-left:em(12px);
-position:relative;
-z-index:15;
-width: 95%;
-@include rgba-background($rouge,0.6);/*Couleur et opacité du fond*/
-
-h2 {
-    color: white;
-    padding: em(5px);
-    font-family: $AristaFont;
-    font-size: larger;
-     bottom:0.75em;
-     
-  }
-  a {
-    
-    text-decoration: none;
-  }
-  p{
-      margin-top: 0.2em;
-  }
 }

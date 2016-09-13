@@ -3682,15 +3682,15 @@ ul.primary a {
 |      PANO / VERTICAL                  |
 |--------------------------------------*/
 /*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE  PANORAMIQUE----*/
-/* line 20, ../sass/layout/_layout-diapo-frontpage.scss */
+/* line 21, ../sass/layout/_layout-diapo-frontpage.scss */
 body .conteneur .HPDiapo aside.DiapoPanoHP #transparency {
   display: none;
 }
-/* line 24, ../sass/layout/_layout-diapo-frontpage.scss */
+/* line 25, ../sass/layout/_layout-diapo-frontpage.scss */
 body .conteneur .HPDiapo aside.DiapoPanoHP #contenu-diapo {
   display: none;
 }
-/* line 27, ../sass/layout/_layout-diapo-frontpage.scss */
+/* line 28, ../sass/layout/_layout-diapo-frontpage.scss */
 body .conteneur .HPDiapo aside.DiapoPanoHP img {
   max-width: 100%;
   height: auto;
@@ -3703,25 +3703,25 @@ body .conteneur .HPDiapo aside.DiapoPanoHP img {
   }
 }
 @media (min-width: 800px) and (max-width: 989px) {
-  /* line 29, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 30, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur .HPDiapo aside.DiapoPanoHP #transparency {
     display: block;
   }
-  /* line 30, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 31, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur .HPDiapo aside.DiapoPanoHP #contenu-diapo {
     display: block;
   }
 }
 @media (min-width: 990px) {
-  /* line 36, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 37, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur .HPDiapo aside.DiapoPanoHP #transparency {
     display: block;
   }
-  /* line 37, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 38, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur .HPDiapo aside.DiapoPanoHP #contenu-diapo {
     display: block;
   }
-  /* line 38, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 39, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur .HPDiapo aside.DiapoPanoHP img {
     max-width: 100%;
     height: auto;
@@ -3735,20 +3735,16 @@ body .conteneur .HPDiapo aside.DiapoPanoHP img {
   }
 }
 
-/* line 49, ../sass/layout/_layout-diapo-frontpage.scss */
-body .conteneur .HPDiapo {
-  display: none;
-}
-@media (min-width: 990px) {
-  /* line 49, ../sass/layout/_layout-diapo-frontpage.scss */
+@media (max-width: 799px), (min-width: 990px), (min-width: 800px) and (max-width: 989px) {
+  /* line 50, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur .HPDiapo {
     display: block;
   }
-  /* line 53, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 55, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur .HPDiapo #transparency {
     height: 3.75em;
-    bottom: 4.5625em;
-    left: 0.75em;
+    bottom: 4.3125em;
+    left: 1.1875em;
     width: 98%;
     position: relative;
     z-index: 15;
@@ -3759,7 +3755,7 @@ body .conteneur .HPDiapo {
     behavior: url(/sites/all/libraries/PIE/PIE.htc);
     /*Couleur et opacité du fond*/
   }
-  /* line 62, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 64, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur .HPDiapo #contenu-diapo {
     position: relative;
     bottom: 8.375em;
@@ -3767,18 +3763,18 @@ body .conteneur .HPDiapo {
     color: white;
     z-index: 20;
   }
-  /* line 71, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 73, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur .HPDiapo #contenu-diapo h2, body .conteneur .HPDiapo #contenu-diapo p {
     color: white;
     padding: 0.3125em;
     font-family: "Arista", Trebuchet MS, sans-serif;
     line-height: 1.3em;
   }
-  /* line 77, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 79, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur .HPDiapo #contenu-diapo a {
     text-decoration: none;
   }
-  /* line 81, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 83, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur .HPDiapo #contenu-diapo p {
     margin-top: 0.2em;
     font-size: larger;
@@ -3786,15 +3782,15 @@ body .conteneur .HPDiapo {
 }
 
 /*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE  VERTICAL DROITE----*/
-/* line 95, ../sass/layout/_layout-diapo-frontpage.scss */
+/* line 97, ../sass/layout/_layout-diapo-frontpage.scss */
 body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP #transparency {
   display: none;
 }
-/* line 99, ../sass/layout/_layout-diapo-frontpage.scss */
+/* line 101, ../sass/layout/_layout-diapo-frontpage.scss */
 body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP #contenu-diapo {
   display: none;
 }
-/* line 102, ../sass/layout/_layout-diapo-frontpage.scss */
+/* line 104, ../sass/layout/_layout-diapo-frontpage.scss */
 body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP img {
   max-width: 100%;
   height: auto;
@@ -3807,25 +3803,25 @@ body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP img {
   }
 }
 @media (min-width: 800px) and (max-width: 989px) {
-  /* line 104, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 106, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP #transparency {
     display: block;
   }
-  /* line 105, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 107, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP #contenu-diapo {
     display: block;
   }
 }
 @media (min-width: 990px) {
-  /* line 111, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 113, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP #transparency {
     display: block;
   }
-  /* line 112, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 114, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP #contenu-diapo {
     display: block;
   }
-  /* line 113, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 115, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP img {
     max-width: 100%;
     height: auto;
@@ -3839,20 +3835,20 @@ body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP img {
   }
 }
 
-/* line 124, ../sass/layout/_layout-diapo-frontpage.scss */
+/* line 126, ../sass/layout/_layout-diapo-frontpage.scss */
 body .conteneur-flex .HPDiapoVerticalDroite {
   display: none;
 }
 @media (min-width: 990px) {
-  /* line 124, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 126, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite {
     display: block;
   }
-  /* line 127, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 129, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP {
     max-height: 31em;
   }
-  /* line 131, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 133, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite #transparency {
     height: 3.75em;
     bottom: 4.5625em;
@@ -3867,7 +3863,7 @@ body .conteneur-flex .HPDiapoVerticalDroite {
     behavior: url(/sites/all/libraries/PIE/PIE.htc);
     /*Couleur et opacité du fond*/
   }
-  /* line 140, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 142, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite #contenu-diapo {
     position: relative;
     bottom: 8.375em;
@@ -3875,18 +3871,18 @@ body .conteneur-flex .HPDiapoVerticalDroite {
     color: white;
     z-index: 20;
   }
-  /* line 149, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 151, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite #contenu-diapo h2, body .conteneur-flex .HPDiapoVerticalDroite #contenu-diapo p {
     color: white;
     padding: 0.3125em;
     font-family: "Arista", Trebuchet MS, sans-serif;
     line-height: 1.3em;
   }
-  /* line 155, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 157, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite #contenu-diapo a {
     text-decoration: none;
   }
-  /* line 159, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 161, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite #contenu-diapo p {
     margin-top: 0.2em;
     font-size: larger;
