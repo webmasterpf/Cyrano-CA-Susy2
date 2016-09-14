@@ -44,7 +44,7 @@ aside.navStatic{
                     font-size: x-large;
                     font-weight: bold;//si typo trop fine
                     &:hover {
-                        color: $gris-clair;//couleur du hover
+                        color: $gris-clair-moyen;//couleur du hover
                     }
                     img{
                    @include adaptable-img;

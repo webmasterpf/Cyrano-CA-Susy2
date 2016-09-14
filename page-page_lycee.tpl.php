@@ -4,7 +4,7 @@ global $theme_path;
 include ($theme_path.'/includes/inc_header.php');
 ?>  
 
-       <!-- ______________________ CONTENT INNER GLOBAL _______________________ -->
+  <!-- ______________________ CONTENT INNER GLOBAL _______________________ -->
 
         <div class="content-inner">
               <!-- ______________________ CONTENT TOP _______________________ -->
@@ -63,6 +63,7 @@ include ($theme_path.'/includes/inc_header.php');
               <?php print $content_bottom; ?>
             </div><!-- /#content-bottom -->
           <?php endif; ?>
+	
 	
 <?php
 global $theme_path;

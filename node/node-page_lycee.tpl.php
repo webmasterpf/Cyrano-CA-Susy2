@@ -3,17 +3,22 @@
     <div class="node-inner">
 <!--______________COLONNE GAUCHE 1________________ -->
   <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
-<div id="pageLycee_col_G1">
+<div id="colonne-1" class="col1_layout_3_6_3 page-lycee">
      <?php if ($title): /*insertion du titre de la page et style differencié*/?>
-     <h1 class="titre_pl"><?php print $title; ?></h1>
+     <h1 class="titre-lycee"><?php print $title; ?></h1>
      
     <?php endif; ?>
       <br clear="all"/>
        <!-- Deco page-->
     <?php  print $node->field_image_deco_lycee[0]['view'] /*Image deco page lycee*/ ?>
+       
+         <?php
+           global $theme_path;
+              include ($theme_path.'/includes/regions_inc/inc_region_col_1.php');
+              ?>
 </div>
 <!--______________COLONNE GAUCHE 2________________ -->
-<div id="pageLycee_col_G2">
+<div id="colonne-2" class="col2_layout_3_6_3 page-lycee">
      <?php if ($submitted): ?>
       <span class="submitted"><?php print $submitted; ?></span>
     <?php endif; ?>
@@ -21,16 +26,16 @@
      /*insertion du contenu du corps de la page*/
       print $node->content['body']['#value']
       ?>
-        <?php
-              $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
-              include ($theme_path.'/includes/inc_region_col_G2.php');
+     <?php
+           global $theme_path;
+              include ($theme_path.'/includes/regions_inc/inc_region_col_2.php');
               ?>
      <!-- retour haut selon resolution de l'ecran -->
           <!--<a href="#general" id="retour_haut">Haut de page</a>-->
 </div>
 <!--______________COLONNE GAUCHE 3________________ -->
    
-<div id="pageLycee_col_G3">
+<div id="colonne-3" class="col3_layout_3_6_3 page-lycee">
      <?php print $picture; ?>
 
    
@@ -49,6 +54,10 @@ include ($theme_path.'/includes/inc_lycee_docs_joints.php');
            <?php  print $node->field_caucadis_actus[0]['view'] /*Vue actus du lycée*/ ?>
         </div>
            <?php endif;?>
+          <?php
+           global $theme_path;
+              include ($theme_path.'/includes/regions_inc/inc_region_col_3.php');
+              ?>
     </div>
 
     <?php if ($terms): ?>

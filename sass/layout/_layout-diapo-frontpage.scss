@@ -124,16 +124,17 @@ body .conteneur .HPDiapo .field-content{
 }
 
 body .conteneur-flex .HPDiapoVerticalDroite{
-    display: none;
-    @include breakpoint ($desktop){
+    // display: none; //decommenter pour ne pas afficher sur mobile
+   @include breakpoint(($mobile,$desktop,$tablet)){ //commenter pour ne pas afficher sur mobile
+   //@include breakpoint ($desktop){
         aside.DiapoDroiteHP{
              max-height: 31em;//résoudre problème d'espace vide sous le diapo
         }
         display: block;
         #transparency{
             height:em(60px);
-            bottom:em(73px); 
-            left:em(12px);
+            bottom:em(69px); 
+            left:em(19px);
             width: 93%;
             position:relative;
             z-index:15;
