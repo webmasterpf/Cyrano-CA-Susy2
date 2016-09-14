@@ -27,7 +27,7 @@ body .conteneur .conteneur-flex{
 /*######-------- ||| BORDURES ||| --------######*/
 body .conteneur{
     @include breakpoint ($desktop){
-        #colonne-2.page-lycee{@include border-L-violet;}
+        #colonne-2.page-lycee{@include border-vert-violet;}
     }
     
 }
@@ -53,7 +53,7 @@ h4{}
 p{}
 ul{}
 img{
-    //@include ombrage(0.3em,0,0,0.1em);
+    @include ombrage(0.3em,0,0,0.1em);
     display: block;
     margin: 0 auto;
     @include adaptable-img;
@@ -79,7 +79,7 @@ h4 a:hover{}
     h2{
         color: $vert;
         padding: em(5px);
-    }
+        }
     h3{
         color: $violet;
         padding: em(5px);
@@ -154,37 +154,108 @@ h4 a:hover{}
     h4 a:hover{}
 }
 
-#service-tiers{
+/*________ STYLES SPECIFIQUES ________*/
+
+/*--------- LISTE VUE FICHIERS DOCS JOINTS (Colonne G3)--------*/
+#bloc_docs_utiles_plycee{
     margin: 0 auto;
-    width: 55%;
-    border: 0.15em solid $violet;
-    padding: 0.2em;
+    h3{
+        text-align: center;
+        color: $vert;
+        font-family: $AristaFont;
+        font-size: 2.0em;
+        margin: em(5px);
+
+    }
+    thead{
+        display: none;
+    }
+    tbody{}
+    td{}
+    tr{}
 }
-#docs-utiles{
-    margin: 1em auto;
-    width: 40%;
-    background: $gris-clair;
-    text-align: left;
-}
-table.doc-joint-lycee{
-       tr.even, tr.odd {//override suite stacktable.js
-                         background-color: transparent;
-                         border-bottom: none;
-                         padding: 0;
+
+
+
+.liste_docs_joints {
+    width: 98%;
+    margin: 0 auto;
+    background: transparent url(../images/bg_docs_utiles_lycee.jpg) repeat ;
+    @include arrondis(5px);
+
+    padding: em(10px) em(5px);
+    list-style: none;
+    div{
+        margin: em(5px) 0;
+    }
+
+    span{
+        margin: em(2px) 0;
+    }
+
+    a{
+        font-weight: bold;
+        text-decoration: none;
+        padding:em(3px);
+        color:  $gris-anthracite;
+        background: white;
+        &:hover{
+            text-decoration: none;
+            background: $gris-clair;
 
         }
+    }
+
+    .filefield-icon {
+        display: none;
+    }
 }
 
-
-/*________ CLASSES DOCUMENTS ________*/
-
-.accordeon-classes{}
-.accordeon-classes a{color: $violet;text-decoration: none;}
-.accordeon-classes a:hover{text-decoration: underline;}
-.accordeon-classes .views-accordion-item .accordion-header-active {
-background: $violet;color: $gris-clair;
+/*------ LISTE VUE ACTU LYCEE CAUCADIS ACTU (Colonne G3) ---------*/
+#caucadis-actu{
+    margin: 0 em(5px);
+    width: 98%;
+    #caucadis-actu ul{
+    margin: 0 auto;
+    background: transparent url(../images/bg_caucadis_actu.jpg) no-repeat top left ;
+    list-style: none;
+    padding: em(5px) em(10px);
+    @include arrondis(5px);
 }
-/*________ CONTENU INFOS ADMIN ________*/
-#colonne-2.info-admin{
-    padding: 0.5em;
+#caucadis-actu li{
+    padding: em(3px) 0;
+    margin: 0;
+}
+#caucadis-actu h3{
+    color: $violet;
+    font-family: $AristaFont;
+    font-size: 2.0em;
+    margin:em(5px);
+    display: block;
+    text-align: center;
+
+}
+#caucadis-actu  a{
+    color:  $gris-anthracite;
+    background: $gris-clair;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: em(2px);
+    &:hover{
+    background: $gris-anthracite;
+    color: white;
+}
+}
+
+}
+
+.caucadis-actu-item{
+    width: 95%;
+    margin: em(2px) 0;;
+
+    a{
+        @include arrondis(5px);
+    }
+
 }
