@@ -148,6 +148,14 @@ h4 a:hover{}
 
     h2 a{}
     h2 a:hover{}
+    h3{
+        font-family: $AristaFont;
+        font-size: larger;
+        text-align: center;
+        margin: em(5px);
+        display: block;
+    }
+    
     h3 a{}
     h3 a:hover{}
     h4 a{}
@@ -160,12 +168,9 @@ h4 a:hover{}
 #bloc_docs_utiles_plycee{
     margin: 0 auto;
     h3{
-        text-align: center;
+       
         color: $vert;
-        font-family: $AristaFont;
-        font-size: 2.0em;
-        margin: em(5px);
-
+        
     }
     thead{
         display: none;
@@ -214,34 +219,30 @@ h4 a:hover{}
 /*------ LISTE VUE ACTU LYCEE CAUCADIS ACTU (Colonne G3) ---------*/
 #caucadis-actu{
     margin: 0 em(5px);
-    width: 98%;
-    #caucadis-actu ul{
+    width: 93%;
+    ul{
     margin: 0 auto;
     background: transparent url(../images/bg_caucadis_actu.jpg) no-repeat top left ;
     list-style: none;
     padding: em(5px) em(10px);
     @include arrondis(5px);
 }
-#caucadis-actu li{
+li{
     padding: em(3px) 0;
     margin: 0;
 }
-#caucadis-actu h3{
+h3{
     color: $violet;
-    font-family: $AristaFont;
-    font-size: 2.0em;
-    margin:em(5px);
-    display: block;
-    text-align: center;
-
-}
-#caucadis-actu  a{
+ }
+ a{
     color:  $gris-anthracite;
     background: $gris-clair;
     display: block;
     font-weight: bold;
     text-decoration: none;
     padding: em(2px);
+    font-size:smaller;
+    @include arrondis(5px);
     &:hover{
     background: $gris-anthracite;
     color: white;
