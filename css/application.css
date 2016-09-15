@@ -4386,39 +4386,40 @@ h1.titre-lycee, h1.title-classes {
 /* line 173, ../sass/content-type-style/_page-lycee.scss */
 #bloc_docs_utiles_plycee table {
   width: 93%;
+  margin: 0 auto;
   background: transparent url(../images/bg_docs_utiles_lycee.jpg) no-repeat top left;
   background-size: cover;
 }
-/* line 178, ../sass/content-type-style/_page-lycee.scss */
+/* line 179, ../sass/content-type-style/_page-lycee.scss */
 #bloc_docs_utiles_plycee thead {
   display: none;
 }
-/* line 181, ../sass/content-type-style/_page-lycee.scss */
+/* line 182, ../sass/content-type-style/_page-lycee.scss */
 #bloc_docs_utiles_plycee tbody {
   border: 0;
 }
-/* line 186, ../sass/content-type-style/_page-lycee.scss */
+/* line 187, ../sass/content-type-style/_page-lycee.scss */
 #bloc_docs_utiles_plycee tr {
   background: 0;
   border: 0;
 }
 
-/* line 194, ../sass/content-type-style/_page-lycee.scss */
+/* line 195, ../sass/content-type-style/_page-lycee.scss */
 .liste_docs_joints_vdl {
   width: 98%;
   margin: 0 auto;
   padding: 0.625em 0.3125em;
   list-style: none;
 }
-/* line 202, ../sass/content-type-style/_page-lycee.scss */
+/* line 203, ../sass/content-type-style/_page-lycee.scss */
 .liste_docs_joints_vdl div {
   margin: 0.3125em 0;
 }
-/* line 206, ../sass/content-type-style/_page-lycee.scss */
+/* line 207, ../sass/content-type-style/_page-lycee.scss */
 .liste_docs_joints_vdl span {
   margin: 0.125em 0;
 }
-/* line 210, ../sass/content-type-style/_page-lycee.scss */
+/* line 211, ../sass/content-type-style/_page-lycee.scss */
 .liste_docs_joints_vdl a {
   font-weight: bold;
   text-decoration: none;
@@ -4429,23 +4430,23 @@ h1.titre-lycee, h1.title-classes {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 217, ../sass/content-type-style/_page-lycee.scss */
+/* line 218, ../sass/content-type-style/_page-lycee.scss */
 .liste_docs_joints_vdl a:hover {
   text-decoration: none;
   background: #ECECED;
 }
-/* line 224, ../sass/content-type-style/_page-lycee.scss */
+/* line 225, ../sass/content-type-style/_page-lycee.scss */
 .liste_docs_joints_vdl .filefield-icon {
   display: none;
 }
 
 /*------ LISTE VUE ACTU LYCEE CAUCADIS ACTU (Colonne G3) ---------*/
-/* line 230, ../sass/content-type-style/_page-lycee.scss */
+/* line 231, ../sass/content-type-style/_page-lycee.scss */
 #caucadis-actu {
   margin: 0 0.3125em;
   width: 93%;
 }
-/* line 233, ../sass/content-type-style/_page-lycee.scss */
+/* line 234, ../sass/content-type-style/_page-lycee.scss */
 #caucadis-actu ul {
   margin: 0 auto;
   background: transparent url(../images/bg_caucadis_actu.jpg) no-repeat top left;
@@ -4456,16 +4457,16 @@ h1.titre-lycee, h1.title-classes {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 241, ../sass/content-type-style/_page-lycee.scss */
+/* line 242, ../sass/content-type-style/_page-lycee.scss */
 #caucadis-actu li {
   padding: 0.1875em 0;
   margin: 0;
 }
-/* line 245, ../sass/content-type-style/_page-lycee.scss */
+/* line 246, ../sass/content-type-style/_page-lycee.scss */
 #caucadis-actu h3 {
   color: #911381;
 }
-/* line 248, ../sass/content-type-style/_page-lycee.scss */
+/* line 249, ../sass/content-type-style/_page-lycee.scss */
 #caucadis-actu a {
   color: #606070;
   background: #ECECED;
@@ -4478,18 +4479,18 @@ h1.titre-lycee, h1.title-classes {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 257, ../sass/content-type-style/_page-lycee.scss */
+/* line 258, ../sass/content-type-style/_page-lycee.scss */
 #caucadis-actu a:hover {
   background: #606070;
   color: white;
 }
 
-/* line 265, ../sass/content-type-style/_page-lycee.scss */
+/* line 266, ../sass/content-type-style/_page-lycee.scss */
 .caucadis-actu-item {
   width: 95%;
   margin: 0.125em 0;
 }
-/* line 269, ../sass/content-type-style/_page-lycee.scss */
+/* line 270, ../sass/content-type-style/_page-lycee.scss */
 .caucadis-actu-item a {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -4547,109 +4548,122 @@ h1.titre_page_pole {
   color: #911381;
 }
 
-/*--------------------------------------
-**** POLE FORMATION REDESIGN 2012 ******
-_________________________________________*/
-/* line 51, ../sass/content-type-style/_page-pole.scss */
-.bloc-pole td a, .bloc-pole a {
-  text-align: center;
+/*-----------------------------------------------
+*********  PAGE POLE FORMATION GLOBALE ***********
+------------------------------------------------
+*/
+/*----------- STYLES POUR PAGE POLE ------------------*/
+/* line 53, ../sass/content-type-style/_page-pole.scss */
+h3.block-title {
+  font-size: larger;
+  margin: 0.625em 1.5625em;
+  display: block;
+  width: auto;
+  font-family: "Arista", Trebuchet MS, sans-serif;
+}
+
+/* line 62, ../sass/content-type-style/_page-pole.scss */
+.page-pole p {
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+/* line 67, ../sass/content-type-style/_page-pole.scss */
+.page-pole tr {
+  background: 0;
+}
+/* line 70, ../sass/content-type-style/_page-pole.scss */
+.page-pole .view-content h3 {
   color: #911381;
   text-decoration: none;
-  line-height: 1.6em;
-  padding: 0.0625em;
-  text-align: center;
-  display: block;
+  padding: 0.125em;
 }
-/* line 53, ../sass/content-type-style/_page-pole.scss */
-.bloc-pole td a:hover, .bloc-pole a:hover {
+/* line 76, ../sass/content-type-style/_page-pole.scss */
+.page-pole .views-field-title {
+  font-size: small;
+}
+/* line 80, ../sass/content-type-style/_page-pole.scss */
+.page-pole .views-field-title a {
+  color: #ADC91F;
+  text-decoration: none;
+  padding: 0.125em;
+}
+/* line 84, ../sass/content-type-style/_page-pole.scss */
+.page-pole .views-field-title a:hover {
   background: #ADC91F;
-  color: whitesmoke;
-}
-/* line 55, ../sass/content-type-style/_page-pole.scss */
-.bloc-pole h3 {
-  text-align: center;
-  margin: 0 0 0.3125em 0;
-}
-/* line 56, ../sass/content-type-style/_page-pole.scss */
-.bloc-pole .views-field-field-complement-info-formation-value {
-  text-align: center;
-  font-style: italic;
-  color: #606070;
-  display: block;
-}
-/* line 57, ../sass/content-type-style/_page-pole.scss */
-.bloc-pole table, .bloc-pole tbody, .bloc-pole tr, .bloc-pole td {
-  background: #ECECED;
-  max-width: 100%;
-  display: block;
-}
-/* line 60, ../sass/content-type-style/_page-pole.scss */
-.bloc-pole table tbody > tr.odd, .bloc-pole tbody tbody > tr.odd, .bloc-pole tr tbody > tr.odd, .bloc-pole td tbody > tr.odd {
-  background: transparent;
-  border: 0;
-}
-/* line 64, ../sass/content-type-style/_page-pole.scss */
-.bloc-pole table tbody > tr.even, .bloc-pole tbody tbody > tr.even, .bloc-pole tr tbody > tr.even, .bloc-pole td tbody > tr.even {
-  background: transparent;
-  border: 0;
+  color: white;
 }
 
-/* line 72, ../sass/content-type-style/_page-pole.scss */
-#industrie table {
-  border: 0.1875em solid #F29400;
-  padding: 0.1875em;
-  margin: 1.375em 0 0 0;
+/* line 93, ../sass/content-type-style/_page-pole.scss */
+#block-views-liste_formation_poles-block_1, #block-views-liste_formation_poles-block_2, #block-views-liste_formation_poles-block_3 {
+  padding: 13em 0 2em;
 }
 
-/* line 73, ../sass/content-type-style/_page-pole.scss */
-#restauration table {
-  border: 0.1875em solid #ADC91F;
-  padding: 0.1875em;
-  margin: 0;
-}
-
-/* line 74, ../sass/content-type-style/_page-pole.scss */
-#services table {
-  border: 0.1875em solid #01ABCF;
-  padding: 0.1875em;
-}
-
-/* line 75, ../sass/content-type-style/_page-pole.scss */
-#orientation table {
-  border: 0.1875em solid #E30078;
-  padding: 0.1875em;
-  margin: 1.375em 0 0 0;
-}
-
-/* line 77, ../sass/content-type-style/_page-pole.scss */
-#industrie h3 {
-  color: #F29400;
-}
-
-/* line 78, ../sass/content-type-style/_page-pole.scss */
-#services h3 {
+/* line 96, ../sass/content-type-style/_page-pole.scss */
+#block-views-liste_formation_poles-block_2 h3.block-title {
   color: #01ABCF;
 }
 
-/* line 79, ../sass/content-type-style/_page-pole.scss */
-#restauration h3 {
+/* line 99, ../sass/content-type-style/_page-pole.scss */
+#block-views-liste_formation_poles-block_1 h3.block-title {
   color: #ADC91F;
 }
 
-/* line 80, ../sass/content-type-style/_page-pole.scss */
-#orientation h3 {
-  color: #E30078;
+/* line 102, ../sass/content-type-style/_page-pole.scss */
+#block-views-liste_formation_poles-block_3 h3.block-title {
+  color: #911381;
 }
 
-/* line 81, ../sass/content-type-style/_page-pole.scss */
-#industrie tr, #services tr, #restauration tr, #orientation tr {
-  margin: 0.125em 0;
+/* line 106, ../sass/content-type-style/_page-pole.scss */
+#block-views-liste_formation_poles-block_1 {
+  /*   background: white url('../images/bg_pole_enseignement_pro.jpg') no-repeat top left;*/
+  background: white url("../images/bg_pole_tpl.jpg") no-repeat top left;
+  background-size: contain;
 }
 
-/* line 82, ../sass/content-type-style/_page-pole.scss */
-#industrie td, #services td, #restauration td, #orientation td {
-  padding: 0.625em 0.3125em;
+/* line 111, ../sass/content-type-style/_page-pole.scss */
+#block-views-liste_formation_poles-block_2 {
+  /*     background: white url('../images/bg_pole_enseignement_gen_techno.jpg') no-repeat left 1px;*/
+  background: white url("../images/bg_pole_sp.jpg") no-repeat left 0.0625em;
+  background-size: contain;
+}
+
+/* line 116, ../sass/content-type-style/_page-pole.scss */
+#block-views-liste_formation_poles-block_3 {
+  /*     background: white url('../images/bg_pole_enseignement_sup.jpg') no-repeat top left;*/
+  background: white url("../images/bg_pole_ga.jpg") no-repeat left 0.0625em;
+  background-size: contain;
+}
+
+/* line 121, ../sass/content-type-style/_page-pole.scss */
+.bloc-vue-enseignement-pro, .bloc-vue-enseignement-general, .bloc-vue-enseignement-superieur {
+  width: auto;
   display: block;
+  padding: 0.9375em 1.25em;
+}
+
+/*H3 de couleur differente selon pole*/
+/* line 128, ../sass/content-type-style/_page-pole.scss */
+.bloc-vue-enseignement-general h3, .bloc-vue-enseignement-superieur h3, .bloc-vue-enseignement-pro h3 {
+  font-family: "Arista", Trebuchet MS, sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  background: white;
+}
+
+/*TABLE PAGE FORMATION PAR POLES*/
+/* line 137, ../sass/content-type-style/_page-pole.scss */
+.table_bloc_form_pole {
+  width: 98%;
+}
+
+/* line 141, ../sass/content-type-style/_page-pole.scss */
+.table_bloc_form_pole td {
+  margin: 0.125em 0;
+  padding: 0.25em 0;
+  border-bottom: 0.0625em solid #94127F;
 }
 
 /*----------------------------------------
