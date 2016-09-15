@@ -172,15 +172,21 @@ h4 a:hover{}
     }
     table{
         width: 93%;
-        background: transparent url(../images/bg_docs_utiles_lycee.jpg) repeat ;
-    background-size: cover;
+        background: transparent url(../images/bg_docs_utiles_lycee.jpg) no-repeat top left ;
+        background-size: cover;
     }            
     thead{
         display: none;
     }
-    tbody{}
+    tbody{
+
+        border: 0;
+    }
     td{}
-    tr{}
+    tr{
+        background: 0;
+        border: 0;
+    }
 }
 
 
@@ -189,7 +195,7 @@ h4 a:hover{}
     width: 98%;
     margin: 0 auto;
     
-    @include arrondis(5px);
+    
 
     padding: em(10px) em(5px);
     list-style: none;
@@ -207,6 +213,7 @@ h4 a:hover{}
         padding:em(3px);
         color:  $gris-anthracite;
         background: white;
+        @include arrondis(5px);
         &:hover{
             text-decoration: none;
             background: $gris-clair;
