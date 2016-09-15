@@ -909,7 +909,7 @@ aside.navStatic select {
     margin: 0.25em;
     border: 0;
     font-family: "Arista", Trebuchet MS, sans-serif;
-    color: #ADC91F;
+    color: #01ABCF;
     text-decoration: none;
     display: block;
     font-size: x-large;
@@ -917,7 +917,7 @@ aside.navStatic select {
   }
   /* line 46, ../sass/global/_sub-nav.scss */
   aside.navStatic ul.horizontal-nav li a:hover {
-    color: #911381;
+    color: #9898a6;
   }
   /* line 49, ../sass/global/_sub-nav.scss */
   aside.navStatic ul.horizontal-nav li a img {
@@ -2705,63 +2705,63 @@ body .conteneur #header .headBas .headSearch {
 /*---- HEADER BAS ----*/
 /* line 97, ../sass/layout/_layout-header.scss */
 .headBas {
-  background: #911381;
+  background: #9898a6;
 }
 
-/* line 102, ../sass/layout/_layout-header.scss */
+/* line 101, ../sass/layout/_layout-header.scss */
 .headSearch {
   padding: 0 0.5em;
   text-align: right;
   margin: 0.125em 0 0 0;
 }
-/* line 108, ../sass/layout/_layout-header.scss */
+/* line 107, ../sass/layout/_layout-header.scss */
 .headSearch .form-item > label {
   color: #DDD;
   font-family: "Arista", Trebuchet MS, sans-serif;
   font-size: medium;
 }
-/* line 109, ../sass/layout/_layout-header.scss */
+/* line 108, ../sass/layout/_layout-header.scss */
 .headSearch input[type=image] {
   vertical-align: middle;
 }
 @media (min-width: 990px) {
-  /* line 102, ../sass/layout/_layout-header.scss */
+  /* line 101, ../sass/layout/_layout-header.scss */
   .headSearch {
     padding: 0;
   }
 }
 
-/* line 119, ../sass/layout/_layout-header.scss */
+/* line 118, ../sass/layout/_layout-header.scss */
 .name-and-slogan {
   vertical-align: bottom;
 }
 
-/* line 123, ../sass/layout/_layout-header.scss */
+/* line 122, ../sass/layout/_layout-header.scss */
 .site-name {
   padding: 10em 0 0 0;
   margin: 0;
 }
-/* line 124, ../sass/layout/_layout-header.scss */
+/* line 123, ../sass/layout/_layout-header.scss */
 .site-name a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
 }
 
-/* line 133, ../sass/layout/_layout-header.scss */
+/* line 132, ../sass/layout/_layout-header.scss */
 .site-slogan {
   color: white;
   font-size: small;
   text-align: center;
 }
 @media (min-width: 990px) {
-  /* line 133, ../sass/layout/_layout-header.scss */
+  /* line 132, ../sass/layout/_layout-header.scss */
   .site-slogan {
     text-align: left;
     padding: 0.1875em 0 0 1em;
   }
 }
-/* line 143, ../sass/layout/_layout-header.scss */
+/* line 142, ../sass/layout/_layout-header.scss */
 .site-slogan a {
   text-decoration: none;
   color: white;
@@ -2777,7 +2777,7 @@ body .conteneur #header .headBas .headSearch {
 body .conteneur #footer {
   padding: 0;
   color: #9898a6;
-  background: transparent url('../images/bg_footer.jpg?1473681635') no-repeat scroll right bottom;
+  background: transparent url('../images/bg_footer.jpg?1473864587') no-repeat scroll right bottom;
 }
 /* line 21, ../sass/layout/_layout-footer.scss */
 body .conteneur #footer a {
@@ -3625,7 +3625,7 @@ Layout pour les desktop.Breakpoint définit par variable dans _variables.scss
 /*----Navigation backoffice------*/
 /* line 12, ../sass/ui/_style-backoffice.scss */
 #block-user-1 {
-  background: url('../images/bg_nav_backoffice.gif?1473681635') repeat scroll left top;
+  background: url('../images/bg_nav_backoffice.gif?1473864587') repeat scroll left top;
   padding: 0;
   margin: 0;
 }
@@ -3835,24 +3835,20 @@ body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP img {
   }
 }
 
-/* line 126, ../sass/layout/_layout-diapo-frontpage.scss */
-body .conteneur-flex .HPDiapoVerticalDroite {
-  display: none;
-}
-@media (min-width: 990px) {
+@media (max-width: 799px), (min-width: 990px), (min-width: 800px) and (max-width: 989px) {
   /* line 126, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite {
     display: block;
   }
-  /* line 129, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 130, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP {
     max-height: 31em;
   }
-  /* line 133, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 134, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite #transparency {
     height: 3.75em;
-    bottom: 4.5625em;
-    left: 0.75em;
+    bottom: 4.3125em;
+    left: 1.1875em;
     width: 93%;
     position: relative;
     z-index: 15;
@@ -3863,7 +3859,7 @@ body .conteneur-flex .HPDiapoVerticalDroite {
     behavior: url(/sites/all/libraries/PIE/PIE.htc);
     /*Couleur et opacité du fond*/
   }
-  /* line 142, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 143, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite #contenu-diapo {
     position: relative;
     bottom: 8.375em;
@@ -3871,18 +3867,18 @@ body .conteneur-flex .HPDiapoVerticalDroite {
     color: white;
     z-index: 20;
   }
-  /* line 151, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 152, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite #contenu-diapo h2, body .conteneur-flex .HPDiapoVerticalDroite #contenu-diapo p {
     color: white;
     padding: 0.3125em;
     font-family: "Arista", Trebuchet MS, sans-serif;
     line-height: 1.3em;
   }
-  /* line 157, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 158, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite #contenu-diapo a {
     text-decoration: none;
   }
-  /* line 161, ../sass/layout/_layout-diapo-frontpage.scss */
+  /* line 162, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite #contenu-diapo p {
     margin-top: 0.2em;
     font-size: larger;
@@ -4258,7 +4254,8 @@ body .conteneur .conteneur-flex #colonne-3.page-lycee {
 @media (min-width: 990px) {
   /* line 30, ../sass/content-type-style/_page-lycee.scss */
   body .conteneur #colonne-2.page-lycee {
-    border-left: 0.0625em solid #911381;
+    border-left: 0.0625em solid #ADC91F;
+    border-right: 0.0625em solid #911381;
   }
 }
 
@@ -4280,6 +4277,10 @@ h1.titre-lycee, h1.title-classes {
 /*######-------- COLONNE 1 --------######*/
 /* line 55, ../sass/content-type-style/_page-lycee.scss */
 #colonne-1.page-lycee img {
+  border: 0.3em solid #fff;
+  -moz-box-shadow: 0 0 0.3em 0.1em;
+  -webkit-box-shadow: 0 0 0.3em 0.1em;
+  box-shadow: 0 0 0.3em 0.1em;
   display: block;
   margin: 0 auto;
   max-width: 100%;
@@ -4363,51 +4364,136 @@ h1.titre-lycee, h1.title-classes {
 }
 
 /*######-------- COLONNE 3 --------######*/
-/* line 157, ../sass/content-type-style/_page-lycee.scss */
-#service-tiers {
+/* line 151, ../sass/content-type-style/_page-lycee.scss */
+#colonne-3.page-lycee h3 {
+  font-family: "Arista", Trebuchet MS, sans-serif;
+  font-size: larger;
+  text-align: center;
+  margin: 0.3125em;
+  display: block;
+}
+
+/*________ STYLES SPECIFIQUES ________*/
+/*--------- LISTE VUE FICHIERS DOCS JOINTS (Colonne G3)--------*/
+/* line 168, ../sass/content-type-style/_page-lycee.scss */
+#bloc_docs_utiles_plycee {
   margin: 0 auto;
-  width: 55%;
-  border: 0.15em solid #911381;
-  padding: 0.2em;
 }
-
-/* line 163, ../sass/content-type-style/_page-lycee.scss */
-#docs-utiles {
-  margin: 1em auto;
-  width: 40%;
-  background: #ECECED;
-  text-align: left;
-}
-
 /* line 170, ../sass/content-type-style/_page-lycee.scss */
-table.doc-joint-lycee tr.even, table.doc-joint-lycee tr.odd {
-  background-color: transparent;
-  border-bottom: none;
-  padding: 0;
+#bloc_docs_utiles_plycee h3 {
+  color: #ADC91F;
+}
+/* line 173, ../sass/content-type-style/_page-lycee.scss */
+#bloc_docs_utiles_plycee table {
+  width: 93%;
+  background: transparent url(../images/bg_docs_utiles_lycee.jpg) no-repeat top left;
+  background-size: cover;
+}
+/* line 178, ../sass/content-type-style/_page-lycee.scss */
+#bloc_docs_utiles_plycee thead {
+  display: none;
+}
+/* line 181, ../sass/content-type-style/_page-lycee.scss */
+#bloc_docs_utiles_plycee tbody {
+  border: 0;
+}
+/* line 186, ../sass/content-type-style/_page-lycee.scss */
+#bloc_docs_utiles_plycee tr {
+  background: 0;
+  border: 0;
 }
 
-/*________ CLASSES DOCUMENTS ________*/
-/* line 182, ../sass/content-type-style/_page-lycee.scss */
-.accordeon-classes a {
-  color: #911381;
+/* line 194, ../sass/content-type-style/_page-lycee.scss */
+.liste_docs_joints_vdl {
+  width: 98%;
+  margin: 0 auto;
+  padding: 0.625em 0.3125em;
+  list-style: none;
+}
+/* line 202, ../sass/content-type-style/_page-lycee.scss */
+.liste_docs_joints_vdl div {
+  margin: 0.3125em 0;
+}
+/* line 206, ../sass/content-type-style/_page-lycee.scss */
+.liste_docs_joints_vdl span {
+  margin: 0.125em 0;
+}
+/* line 210, ../sass/content-type-style/_page-lycee.scss */
+.liste_docs_joints_vdl a {
+  font-weight: bold;
   text-decoration: none;
+  padding: 0.1875em;
+  color: #606070;
+  background: white;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 217, ../sass/content-type-style/_page-lycee.scss */
+.liste_docs_joints_vdl a:hover {
+  text-decoration: none;
+  background: #ECECED;
+}
+/* line 224, ../sass/content-type-style/_page-lycee.scss */
+.liste_docs_joints_vdl .filefield-icon {
+  display: none;
 }
 
-/* line 183, ../sass/content-type-style/_page-lycee.scss */
-.accordeon-classes a:hover {
-  text-decoration: underline;
+/*------ LISTE VUE ACTU LYCEE CAUCADIS ACTU (Colonne G3) ---------*/
+/* line 230, ../sass/content-type-style/_page-lycee.scss */
+#caucadis-actu {
+  margin: 0 0.3125em;
+  width: 93%;
+}
+/* line 233, ../sass/content-type-style/_page-lycee.scss */
+#caucadis-actu ul {
+  margin: 0 auto;
+  background: transparent url(../images/bg_caucadis_actu.jpg) no-repeat top left;
+  background-size: cover;
+  list-style: none;
+  padding: 0.3125em 0.625em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 241, ../sass/content-type-style/_page-lycee.scss */
+#caucadis-actu li {
+  padding: 0.1875em 0;
+  margin: 0;
+}
+/* line 245, ../sass/content-type-style/_page-lycee.scss */
+#caucadis-actu h3 {
+  color: #911381;
+}
+/* line 248, ../sass/content-type-style/_page-lycee.scss */
+#caucadis-actu a {
+  color: #606070;
+  background: #ECECED;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.125em;
+  font-size: smaller;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 257, ../sass/content-type-style/_page-lycee.scss */
+#caucadis-actu a:hover {
+  background: #606070;
+  color: white;
 }
 
-/* line 184, ../sass/content-type-style/_page-lycee.scss */
-.accordeon-classes .views-accordion-item .accordion-header-active {
-  background: #911381;
-  color: #ECECED;
+/* line 265, ../sass/content-type-style/_page-lycee.scss */
+.caucadis-actu-item {
+  width: 95%;
+  margin: 0.125em 0;
 }
-
-/*________ CONTENU INFOS ADMIN ________*/
-/* line 188, ../sass/content-type-style/_page-lycee.scss */
-#colonne-2.info-admin {
-  padding: 0.5em;
+/* line 269, ../sass/content-type-style/_page-lycee.scss */
+.caucadis-actu-item a {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
 /*-------------------------------------|
