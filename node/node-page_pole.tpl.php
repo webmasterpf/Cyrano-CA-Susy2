@@ -3,7 +3,7 @@
   <div class="node-inner">
 
   <?php if ($title): /*copier le titre dans la colonne desirée*/?>
-            <h1 class="page-pole"><?php print $title; ?></h1>
+            <h1 class="titre_page_pole"><?php print $title; ?></h1>
             <?php endif; ?>
 
     <?php print $picture; ?>
@@ -15,19 +15,19 @@
              
 <!-- ______________________ COLONNE 1  _______________________ -->
  <?php if ($pole_col1): ?>
-              <div class="layout_4col_all3 page-pole">
+              <div class="layout_3col_all4 page-pole">
                   <?php print $pole_col1; ?>
               </div>
 <?php endif; ?>
 <!-- ______________________ COLONNE 2  _______________________ -->
               <?php if ($pole_col2): ?>
-              <div class="layout_4col_all3 page-pole">
+              <div class="layout_3col_all4 page-pole">
                   <?php print $pole_col2; ?>
               </div>
 <?php endif; ?>
 <!-- ______________________ COLONNE 3  _______________________ -->
               <?php if ($pole_col3): ?>
-              <div class="layout_4col_all3last page-pole">
+              <div class="layout_3col_all4last page-pole">
                   <?php print $pole_col3; ?>
               </div>
 <?php endif; ?>
