@@ -50,9 +50,9 @@ function cyranod6_ca_susy2_preprocess_node(&$vars, $hook) {
  //
 //Partie template node.tpl
 $node = $vars['node'];
-$lesTypes=array('page_fiche_formation', 'page_pole','contenu_actualites');
-//ajouter les vids possibles pour chaque quelquesoit le type
 $lesTypes=array('fiche_formation', 'page_pole','contenu_actualites');
+//ajouter les vids possibles pour chaque quelquesoit le type
+$lesVid=array('1', '6');
 //ajouter les vids possibles pour chaque quelquesoit le type
 /* vid 1 pour pole formation
  * vid 2 pour évènement

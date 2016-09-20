@@ -32,51 +32,18 @@ body .conteneur {
     
 }
 /*######-------- ||| STYLE ||| --------######*/
-h1.titre_ficheform{
-    color: $violet;
+.titre_fiche-formation{
+    width: auto;
+    text-shadow: 1px 1px 2px $gris-clair;
+    filter: dropshadow(color=$gris-clair, offx=1, offy=1);
 }
+.titre-gris{color:$gris-anthracite;}
+.titre-sup{color: $violet;}
+.titre-pro{color: $vert;}
+.titre-techno{color: $bleu-turquoise;}
+
 #colonne-1.fiche-formation{
-    ul{
-        padding:0;
-        margin:0;
-        
-         li{
-        padding: em(2px);
-        list-style: square inside none;
-        line-height: 1;
-    }
-    }
-    .complement_titre_fiche h3{
-        font-size: small;
-        color: $vert;
-        text-align: right;
-    }
-
-    .programme{
-        font-size: small;
-        a{
-            text-decoration: none;
-            color: $violet;
-            padding: em(2px);
-            font-size: small;
-            &:hover{
-                color: $gris-clair;
-                background: $violet;
-            }
-        }
-    }
-
-    .lien-ficheform{
-        font-size: small;
-        a{
-            text-decoration: none;color: $violet;padding: em(2px);
-            &:hover{
-                color: $gris-clair;
-                  background: $violet;
-            }
-        }
-    }
-
+  
 }
 
 
@@ -116,3 +83,236 @@ h1.titre_ficheform{
 }
 
 .views-field-field-complement-info-formation-value{text-align: center;margin: 0 auto;width: 160px;}
+
+#entete-fiche-formation{
+    margin: 0 auto;
+    //width: 990px;
+}
+
+#intro-fiche-formation{
+    padding: em(20px) em(10px);
+    h2{
+    display: block;
+    width: 25em;
+    margin: 0;
+    padding: 0;
+}
+p{
+    padding: 2px;
+    width: auto;
+    display: block;
+}
+ul{
+    padding: 2px;
+    width: auto;
+    display: block;
+}
+}
+
+#illustration-slider{
+    margin: 0;
+    padding: 0;
+  
+}
+#slider-fiche {
+    padding: 0;
+    
+}
+#slider-fiche img{
+    @include arrondis(5px);
+    @include ombrage-bloc;
+    
+}
+hr.fin-entete-fiche{
+    border: 2px;
+    height: 1px;
+    margin: 0 auto;
+    width: 95%;
+   
+}
+/*Bloc documents utiles*/
+#docs-utiles-fiche-formation{
+    
+}
+#docs-utiles-fiche-formation h3{
+    font-size: 18px;
+    font-family: arista,Trebuchet MS, sans-serif;
+    color: #E10279;
+    margin: 5px 0;
+     text-align: center;
+}
+.view-Documents-utiles-fiche-formation{
+    
+}
+table#tb-docs-utiles-fiche-formation {
+    background: transparent url('../images/bg_doc_utile_ficheform.jpg') no-repeat top left;
+    margin: 0 auto;
+    padding: 15px 5px 5px;
+    width: 160px;
+    display: block;
+    list-style: none;
+}
+#tb-docs-utiles-fiche-formation tr{
+    width: 160px;
+    text-align: center;
+}
+#tb-docs-utiles-fiche-formation td{
+    width: 160px;
+    text-align: center;
+}
+#tb-docs-utiles-fiche-formation tbody{}
+#tb-docs-utiles-fiche-formation a{
+     background: none repeat scroll 0 0 #EFEFEF;
+  
+    color: black;
+    display: block;
+    margin: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+     -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+
+}
+#tb-docs-utiles-fiche-formation .filefield-icon {
+    display: none;
+}
+#tb-docs-utiles-fiche-formation a:hover {
+    background: white;
+}
+/* Fiche formation generik*/
+/* Style de base pour fiche non tagguée ou sans tpl spécifique*/
+.fiche-formation-generik{
+    background: transparent url('../images/bg_titre_fiche_gris.jpg') no-repeat top left;
+}
+.fiche-formation-generik h2{
+    color: #9C9D9F;
+    padding: 2px;
+    width: 360px;
+}
+.fiche-formation-generik h3{
+
+}
+.fiche-formation-generik p{
+    padding: 2px;
+}
+.fiche-formation-generik a{
+
+}
+.fiche-formation-generik a:hover{
+
+}
+.fiche-formation-generik ul{
+    list-style-position: inside;
+    list-style-type: circle;
+     padding: 5px;
+}
+.fiche-formation-generik li{
+    color: #62616F;
+}
+hr.fiche-formation-generik{
+    background: #00AAD4;
+}
+/*Fiche formation pro*/
+.fiche-formation-pro-bg{
+    background: transparent url('../images/bg_titre_fiche_pro.jpg') no-repeat top left;
+}
+.fiche-formation-pro h2{
+    color: #C7D31B;
+    padding: 2px;
+    width: 360px;
+}
+.fiche-formation-pro h3{
+
+}
+.fiche-formation-pro p{
+    padding: 2px;
+}
+.fiche-formation-pro a{
+
+}
+.fiche-formation-pro a:hover{
+
+}
+.fiche-formation-pro ul{
+    list-style-position: inside;
+    list-style-type: circle;
+     padding: 5px;
+}
+.fiche-formation-pro li{
+    color: #62616F;
+}
+hr.fiche-formation-pro{
+    background: #C7D31B;
+}
+/*Fiche formation techno*/
+.fiche-formation-techno-bg{
+    background: transparent url('../images/bg_titre_fiche_techno.jpg') no-repeat top left;
+}
+.fiche-formation-techno h2{
+    color: #01ABCF;
+     padding: 2px;
+}
+.fiche-formation-techno h3{
+      color: #01ABCF;
+     padding: 2px;
+}
+.fiche-formation-techno p{
+     padding: 2px;
+}
+.fiche-formation-techno a{
+    color: #01ABCF;
+     padding:  0 2px;
+     text-decoration: none;
+}
+.fiche-formation-techno a:hover{
+    color: black;
+    background: #01ABCF;
+}
+hr.fiche-formation-techno{
+    background: #01ABCF;
+}
+.fiche-formation-techno ul{
+    list-style-position: inside;
+    list-style-type: circle;
+     padding: 5px;
+}
+.fiche-formation-techno li{
+    color: #62616F;
+}
+/*Fiche formation supérieur*/
+.fiche-formation-superieur-bg{
+    background: transparent url('../images/bg_titre_fiche_superieur.jpg') no-repeat top left;
+}
+
+
+.fiche-formation-superieur h2{
+     color: #E10279;
+    padding: 2px;
+}
+.fiche-formation-superieur h3{
+
+}
+.fiche-formation-superieur a{
+
+}
+.fiche-formation-superieur a:hover{
+
+}
+hr.fiche-formation-superieur{
+    background: #950F7E;
+}
+.fiche-formation-superieur p{
+    padding: 2px;
+    color: #606171;
+}
+.fiche-formation-superieur ul{
+    list-style-position: inside;
+    list-style-type: circle;
+     padding: 5px;
+}
+.fiche-formation-superieur li{
+    color: #62616F;
+}
