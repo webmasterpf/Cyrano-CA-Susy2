@@ -24,7 +24,7 @@ $view->execute();
 
 if ($view->result) {
   // S'il y a un resultat on récupère le titre (ajoute tag h3, et le contenu)
-  $output = '<div id="docs-utiles-fiche-formation"><h3>'.$view->get_title().'</h3>' . $view->render().'</div>';
+  $output = '<div class="docs-utiles-fiche-formation"><h3>'.$view->get_title().'</h3>' . $view->render().'</div>';
 }
 
 //Affiche la vue
