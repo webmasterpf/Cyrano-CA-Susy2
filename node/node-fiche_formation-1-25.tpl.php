@@ -35,14 +35,11 @@ include ($theme_path.'/includes/dedicates_inc/inc_vue_slider_illustration_fiche_
 
 </div><!-- /entete-fiche-formation -->
 
-<br clear="all">
-<hr class="fin-entete-fiche fiche-formation-superieur">
-  
 
-            
-<br clear="all">
+<hr class="fin-entete-fiche fiche-formation-superieur">
+<div class="conteneur-flex">
         <!--______________COLONNE 1________________ -->
-        <div id="colonne-infos-vdl" class="fiche-formation-superieur">
+        <div id="colonne-infos-vdl" class="col1_layoutflex_2_5_5 fiche-formation fiche-formation-superieur">
         <?php
    global $theme_path;
 include ($theme_path.'/includes/dedicates_inc/inc_docs_utiles_fiche_formation.php');
@@ -51,7 +48,7 @@ include ($theme_path.'/includes/dedicates_inc/inc_docs_utiles_fiche_formation.ph
         </div><!-- fin colonne -->
 
         <!--______________COLONNE 2________________ -->
-        <div id="colonne-intro-complement" class="fiche-formation-superieur">
+        <div id="colonne-intro-complement" class="col2_layoutflex_2_5_5 fiche-formation fiche-formation-superieur">
         <?php
    global $theme_path;
 include ($theme_path.'/includes/dedicates_inc/inc_intro2_fiche_formation.php');
@@ -60,13 +57,13 @@ include ($theme_path.'/includes/dedicates_inc/inc_intro2_fiche_formation.php');
         </div><!-- fin colonne -->
 
         <!--______________COLONNE 3________________ -->
-        <div id="colonne-fiche-formation" class="fiche-formation-superieur">
+        <div id="colonne-fiche-formation" class="col3_layoutflex_2_5_5 fiche-formation fiche-formation-superieur">
   <div class="content">
                 <?php   print $node->content['body']['#value'];/*déplacer le contenu dans la colonne désirée*/ ?>
             </div>
         </div><!-- fin colonne -->
 
-       
+   </div><!-- fin  conteneur flex -->    
 
         <?php if ($terms): ?>
         <div class="taxonomy"><?php //print $terms; ?></div>

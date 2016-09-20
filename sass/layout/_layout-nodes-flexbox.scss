@@ -205,6 +205,64 @@ body .conteneur {
 
     }
 }
+body .conteneur {
+  
+    .col1_layoutflex_2_5_5{
+       @include flex(1 0 span($mobilecol));
+       
+        @include breakpoint ($tablet){
+            @include flex(1 0 span(2 of $tabletcol));
+             
+            
+        }
+        @include breakpoint ($desktop){
+           @include clearfix; //empeche affichage  page sous IE
+           @include flex(1 0 span(first 2 of $desktopcol));
+            
+        }
+        //Pour orientation paysage
+         @include breakpoint ($tabletlandscape){
+           @include flex(1 0 span(2 of $tabletcol-landcsape));
+            
+        }
+    }
+    .col2_layoutflex_2_5_5{
+       @include flex(1 0 span($mobilecol));
+   
+        @include breakpoint ($tablet){
+           @include flex(1 0 span(4 of $tabletcol));
+        
+        }
+        @include breakpoint ($desktop){
+@include clearfix; //empeche affichage  page sous IE
+@include flex(1 0 span(5 of $desktopcol first));    
+
+        }
+        //Pour orientation paysage
+         @include breakpoint ($tabletlandscape){
+           @include flex(1 0 span(5 of $tabletcol-landcsape));
+        
+        }
+
+    }
+    .col3_layoutflex_2_5_5{
+        @include flex(1 0 span($mobilecol));
+       @include clearfix; //empeche affichage  page sous IE
+        @include breakpoint ($tablet){
+             @include isolate(.3%);
+        }
+        @include breakpoint ($desktop){
+           @include flex(1 0 span(last 5 of $desktopcol));
+           @include last;
+        }
+        //Pour orientation paysage
+         @include breakpoint ($tabletlandscape){
+             @include flex(1 0 span(last 5 of $tabletcol-landcsape));
+            @include isolate(.3%);
+        }
+
+    }
+}
 //Pour un 3 colonnes egales : page pole
 body .conteneur {
     .conteneur-flex {
@@ -301,7 +359,7 @@ body .conteneur {
         }
         @include breakpoint ($desktop){
            @include flex(1 0 span(last 7 of $desktopcol ));
-         @include isolate(-20%);//pour régler le margin-left
+         //@include isolate(-20%);//pour régler le margin-left , marche pas
         }
   }
   

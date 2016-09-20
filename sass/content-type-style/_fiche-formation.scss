@@ -50,7 +50,7 @@ body .conteneur {
 }
 
 
-#colonne-2.fiche-formation{
+.fiche-formation{
     p{
         line-height: 1.5em;
         padding: 0.325em;
@@ -58,12 +58,11 @@ body .conteneur {
     }
     h2{
         font-size: inherit;
-        color: $violet;
         padding: em(3px);
     }
     h3{
         font-size: small;
-        color: $vert;
+       
         padding: em(2px);
     }
     ul li{
@@ -85,9 +84,9 @@ body .conteneur {
     }
 }
 
-.views-field-field-complement-info-formation-value{text-align: center;margin: 0 auto;width: 160px;}
+.views-field-field-complement-info-formation-value{text-align: center;margin: 0 auto;width: auto;}
 
-#entete-fiche-formation{
+.entete-fiche-formation{
     margin: 0 auto;
     //width: 990px;
 }
@@ -95,21 +94,21 @@ body .conteneur {
 .intro-fiche-formation{
     padding: em(20px) em(10px);
     h2{
-    display: block;
-    width: 80%;
-    margin: 0;
-    padding: 0;
-}
-p{
-    padding: 2px;
-    width: auto;
-    display: block;
-}
-ul{
-    padding: 2px;
-    width: auto;
-    display: block;
-}
+        display: block;
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        padding: em(2px);
+        width: auto;
+        display: block;
+    }
+    ul{
+        padding: em(2px);
+        width: auto;
+        display: block;
+    }
 }
 
 .illustration-slider{
@@ -119,13 +118,14 @@ ul{
 }
 #slider-fiche {
     padding: 0;
-    
+    img{
+        @include arrondis(5px);
+        @include ombrage-bloc;
+        margin: 0 auto;
+    display: block;
+    }
 }
-#slider-fiche img{
-    @include arrondis(5px);
-    @include ombrage-bloc;
-    
-}
+
 hr.fin-entete-fiche{
     border: 2px;
     height: 1px;
@@ -134,13 +134,13 @@ hr.fin-entete-fiche{
    
 }
 /*Bloc documents utiles*/
-#docs-utiles-fiche-formation{
+.docs-utiles-fiche-formation{
     
 }
-#docs-utiles-fiche-formation h3{
+.docs-utiles-fiche-formation h3{
     font-size: 18px;
     font-family: arista,Trebuchet MS, sans-serif;
-    color: #E10279;
+    color: $rose-fushia;
     margin: 5px 0;
      text-align: center;
 }
@@ -149,42 +149,41 @@ hr.fin-entete-fiche{
 }
 table#tb-docs-utiles-fiche-formation {
     background: transparent url('../images/bg_doc_utile_ficheform.jpg') no-repeat top left;
+    background-size: cover;
     margin: 0 auto;
-    padding: 15px 5px 5px;
-    width: 160px;
+    padding: em(15px) em(5px) em(5px);
+    width: auto;
     display: block;
     list-style: none;
 }
-#tb-docs-utiles-fiche-formation tr{
-    width: 160px;
-    text-align: center;
+#tb-docs-utiles-fiche-formation{
+    tbody{}
+    tr{
+        width: auto;
+        text-align: center;
+    }
+    td{
+        width: auto;
+        text-align: center;
+    }
+    a{
+        color: $gris-anthracite;
+        display: block;
+        margin: 5px 0;
+        text-align: center;
+        text-decoration: none;
+        width: auto;
+        @include arrondis(5px);
+        display: block;
+        &:hover {
+            background: white;
+        }
+    }
+    .filefield-icon {
+        display: none;
+    }
 }
-#tb-docs-utiles-fiche-formation td{
-    width: 160px;
-    text-align: center;
-}
-#tb-docs-utiles-fiche-formation tbody{}
-#tb-docs-utiles-fiche-formation a{
-     background: none repeat scroll 0 0 #EFEFEF;
-  
-    color: black;
-    display: block;
-    margin: 5px 0;
-    text-align: center;
-    text-decoration: none;
-    width: 150px;
-     -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    display: block;
 
-}
-#tb-docs-utiles-fiche-formation .filefield-icon {
-    display: none;
-}
-#tb-docs-utiles-fiche-formation a:hover {
-    background: white;
-}
 /* Fiche formation generik*/
 /* Style de base pour fiche non tagguée ou sans tpl spécifique*/
 .fiche-formation-generik{
@@ -193,14 +192,14 @@ table#tb-docs-utiles-fiche-formation {
 }
 .fiche-formation-generik h2{
     color: $gris-clair-moyen;
-    padding: 2px;
+    padding: em(2px);
     width: 80%;
 }
 .fiche-formation-generik h3{
 
 }
 .fiche-formation-generik p{
-    padding: 2px;
+    padding: em(2px);
 }
 .fiche-formation-generik a{
 
@@ -217,7 +216,7 @@ table#tb-docs-utiles-fiche-formation {
     color: $gris-anthracite;
 }
 hr.fiche-formation-generik{
-    background: #00AAD4;
+    background: $bleu-turquoise;
 }
 /*Fiche formation pro*/
 .fiche-formation-pro-bg{
@@ -225,15 +224,15 @@ hr.fiche-formation-generik{
     background-size: contain;
 }
 .fiche-formation-pro h2{
-    color: #C7D31B;
-    padding: 2px;
-    width: 360px;
+    color: $vert;
+    padding: em(2px);
+    
 }
 .fiche-formation-pro h3{
 
 }
 .fiche-formation-pro p{
-    padding: 2px;
+    padding: em(2px);
 }
 .fiche-formation-pro a{
 
@@ -244,13 +243,13 @@ hr.fiche-formation-generik{
 .fiche-formation-pro ul{
     list-style-position: inside;
     list-style-type: circle;
-     padding: 5px;
+     padding: em(5px);
 }
 .fiche-formation-pro li{
     color: $gris-anthracite;
 }
 hr.fiche-formation-pro{
-    background: #C7D31B;
+    background: $vert;
 }
 /*Fiche formation techno*/
 .fiche-formation-techno-bg{
@@ -258,27 +257,27 @@ hr.fiche-formation-pro{
     background-size: contain;
 }
 .fiche-formation-techno h2{
-    color: #01ABCF;
-     padding: 2px;
+    color: $bleu-turquoise;
+     padding: em(2px);
 }
 .fiche-formation-techno h3{
-      color: #01ABCF;
-     padding: 2px;
+      color: $bleu-turquoise;
+     padding: em(2px);
 }
 .fiche-formation-techno p{
-     padding: 2px;
+     padding: em(2px);
 }
 .fiche-formation-techno a{
-    color: #01ABCF;
+    color: $bleu-turquoise;
      padding:  0 2px;
      text-decoration: none;
 }
 .fiche-formation-techno a:hover{
     color: black;
-    background: #01ABCF;
+    background: $bleu-turquoise;
 }
 hr.fiche-formation-techno{
-    background: #01ABCF;
+    background: $bleu-turquoise;
 }
 .fiche-formation-techno ul{
     list-style-position: inside;
@@ -296,8 +295,8 @@ hr.fiche-formation-techno{
 
 
 .fiche-formation-superieur h2{
-     color: #E10279;
-    padding: 2px;
+     color: $rose-fushia;
+    padding: em(2px);
 }
 .fiche-formation-superieur h3{
 
@@ -312,7 +311,7 @@ hr.fiche-formation-superieur{
     background: $violet;
 }
 .fiche-formation-superieur p{
-    padding: 2px;
+    padding: em(2px);
     color: $gris-anthracite;
 }
 .fiche-formation-superieur ul{
@@ -322,4 +321,16 @@ hr.fiche-formation-superieur{
 }
 .fiche-formation-superieur li{
     color: $gris-anthracite;
+}
+
+#colonne-fiche-formation{
+    background: transparent
+}
+#colonne-intro-complement{
+    background: $gris-clair;
+    @include arrondis (5px);
+    margin: em(5px) 0;
+}
+#colonne-infos-vdl{
+    margin: em(5px) 0;
 }
