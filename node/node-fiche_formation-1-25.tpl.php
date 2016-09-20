@@ -15,13 +15,13 @@
             
 <!-- ZONE EN TETE DE LA FICHE FORMATION -->
 <div id="entete-fiche-formation" class="fiche-formation-superieur conteneur-flex">
-    <div id="illustration-slider" class="conteneur-flexchild">
+    <div id="colonne-1" class="col1_layoutflex_5_7 illustration-slider">
          <?php
    global $theme_path;
 include ($theme_path.'/includes/dedicates_inc/inc_vue_slider_illustration_fiche_formation.php');
 
 ?>    </div><!-- /illustration-slider -->
-<div id="intro-fiche-formation" class="fiche-formation-superieur-bg conteneur-flexchild">
+<div id="" class="fiche-formation-superieur-bg col2_layoutflex_5_7 intro-fiche-formation">
      <?php if ($title): /*copier le titre dans la colonne desirée*/?>
             <h1 class="titre_fiche-formation titre-sup"><?php print $title; ?></h1>
             <?php endif; ?>

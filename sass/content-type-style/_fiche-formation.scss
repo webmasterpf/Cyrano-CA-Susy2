@@ -16,10 +16,13 @@
 
 /*######-------- ||| ORDRE FLEXBOX ||| --------######*/
 body .conteneur .conteneur-flex{
-    #colonne-1.CLASS_NAME{order:1;}
-    #colonne-2.CLASS_NAME{order:2;}
+    .illustration-slider{order:2;}
+    .intro-fiche-formation{order:1;}
     #colonne-3.CLASS_NAME{order:3;}
-    @include breakpoint ($desktop){}
+    @include breakpoint ($desktop){
+        .illustration-slider{order:1;}
+        .intro-fiche-formation{order:2;}
+    }
 }
 
 /*######-------- ||| BORDURES ||| --------######*/
@@ -89,11 +92,11 @@ body .conteneur {
     //width: 990px;
 }
 
-#intro-fiche-formation{
+.intro-fiche-formation{
     padding: em(20px) em(10px);
     h2{
     display: block;
-    width: 25em;
+    width: 80%;
     margin: 0;
     padding: 0;
 }
@@ -109,7 +112,7 @@ ul{
 }
 }
 
-#illustration-slider{
+.illustration-slider{
     margin: 0;
     padding: 0;
   
@@ -186,11 +189,12 @@ table#tb-docs-utiles-fiche-formation {
 /* Style de base pour fiche non tagguée ou sans tpl spécifique*/
 .fiche-formation-generik{
     background: transparent url('../images/bg_titre_fiche_gris.jpg') no-repeat top left;
+    background-size: contain;
 }
 .fiche-formation-generik h2{
-    color: #9C9D9F;
+    color: $gris-clair-moyen;
     padding: 2px;
-    width: 360px;
+    width: 80%;
 }
 .fiche-formation-generik h3{
 
@@ -210,7 +214,7 @@ table#tb-docs-utiles-fiche-formation {
      padding: 5px;
 }
 .fiche-formation-generik li{
-    color: #62616F;
+    color: $gris-anthracite;
 }
 hr.fiche-formation-generik{
     background: #00AAD4;
@@ -218,6 +222,7 @@ hr.fiche-formation-generik{
 /*Fiche formation pro*/
 .fiche-formation-pro-bg{
     background: transparent url('../images/bg_titre_fiche_pro.jpg') no-repeat top left;
+    background-size: contain;
 }
 .fiche-formation-pro h2{
     color: #C7D31B;
@@ -242,7 +247,7 @@ hr.fiche-formation-generik{
      padding: 5px;
 }
 .fiche-formation-pro li{
-    color: #62616F;
+    color: $gris-anthracite;
 }
 hr.fiche-formation-pro{
     background: #C7D31B;
@@ -250,6 +255,7 @@ hr.fiche-formation-pro{
 /*Fiche formation techno*/
 .fiche-formation-techno-bg{
     background: transparent url('../images/bg_titre_fiche_techno.jpg') no-repeat top left;
+    background-size: contain;
 }
 .fiche-formation-techno h2{
     color: #01ABCF;
@@ -280,11 +286,12 @@ hr.fiche-formation-techno{
      padding: 5px;
 }
 .fiche-formation-techno li{
-    color: #62616F;
+    color: $gris-anthracite;
 }
 /*Fiche formation supérieur*/
 .fiche-formation-superieur-bg{
     background: transparent url('../images/bg_titre_fiche_superieur.jpg') no-repeat top left;
+    background-size: contain;
 }
 
 
@@ -302,11 +309,11 @@ hr.fiche-formation-techno{
 
 }
 hr.fiche-formation-superieur{
-    background: #950F7E;
+    background: $violet;
 }
 .fiche-formation-superieur p{
     padding: 2px;
-    color: #606171;
+    color: $gris-anthracite;
 }
 .fiche-formation-superieur ul{
     list-style-position: inside;
@@ -314,5 +321,5 @@ hr.fiche-formation-superieur{
      padding: 5px;
 }
 .fiche-formation-superieur li{
-    color: #62616F;
+    color: $gris-anthracite;
 }
