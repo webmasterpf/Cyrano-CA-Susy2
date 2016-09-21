@@ -21,7 +21,7 @@
 include ($theme_path.'/includes/dedicates_inc/inc_vue_slider_illustration_fiche_formation.php');
 
 ?>    </div><!-- /illustration-slider -->
-<div id="" class="fiche-formation-superieur-bg col2_layoutflex_5_7 intro-fiche-formation">
+<div id="colonne-2" class="fiche-formation-superieur-bg col2_layoutflex_5_7 intro-fiche-formation">
      <?php if ($title): /*copier le titre dans la colonne desirée*/?>
             <h1 class="titre_fiche-formation titre-sup"><?php print $title; ?></h1>
             <?php endif; ?>
