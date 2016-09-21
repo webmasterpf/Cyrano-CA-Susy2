@@ -5747,12 +5747,12 @@ body .conteneur .conteneur-flex #colonne-3.CLASS_NAME {
 
 /* line 45, ../sass/content-type-style/_fiche-formation.scss */
 .titre-pro {
-  color: #ADC91F;
+  color: #01ABCF;
 }
 
 /* line 46, ../sass/content-type-style/_fiche-formation.scss */
 .titre-techno {
-  color: #01ABCF;
+  color: #E30078;
 }
 
 /* line 54, ../sass/content-type-style/_fiche-formation.scss */
@@ -6073,6 +6073,7 @@ hr.fiche-formation-superieur {
   color: #606070;
 }
 
+/*Zones de la page*/
 /* line 327, ../sass/content-type-style/_fiche-formation.scss */
 #colonne-fiche-formation {
   background: transparent;
