@@ -1,7 +1,7 @@
 <?php
 /* Template pour node.tpl fiche formation selon tid - Enseignement Techno
 */?>
-<!--______________NODE TPL FICHE-FORMATION.TECHNO CUSTOM________________ -->
+<!--______________NODE TPL 1-16 FICHE-FORMATION.TECHNO CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
     <div class="node-inner">
              <?php print $picture; ?>
@@ -10,57 +10,56 @@
             <span class="submitted"><?php print $submitted; ?></span>
             <?php endif; ?>
 <!-- ZONE EN TETE DE LA FICHE FORMATION -->
-<div id="entete-fiche-formation" class="fiche-formation-techno">
-    <div id="illustration-slider">
+<div id="entete-fiche-formation" class="conteneur-flex fiche-formation-techno">
+    <div id="colonne-1" class="col1_layoutflex_5_7 illustration-slider">
          <?php
- global $theme_path;
+ $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_vue_slider_illustration_fiche_formation.php');
 
 ?>    </div><!-- /illustration-slider -->
-<div id="intro-fiche-formation" class="fiche-formation-techno-bg">
-     <?php if ($title): /* copier le titre dans la colonne desirée */ ?>
-        <h1 class="titre_fiche-formation titre-techno"><?php print $title; ?></h1>
-    <?php endif; ?>
-    <br/>
-    <?php if ($node->field_intro_ficheform[0]['view']): ?>
-        <?php print $node->field_intro_ficheform[0]['view'] /* intro fiche formation */ ?>
-    <?php endif; ?>
+<div id="colonne-2" class="col2_layoutflex_5_7 intro-fiche-formation fiche-formation-techno-bg">
+     <?php if ($title): /*copier le titre dans la colonne desirée*/?>
+            <h1 class="titre_fiche-formation titre-techno"><?php print $title; ?></h1>
+            <?php endif; ?>
+            <br/>
+             <?php if ($node->field_intro_ficheform[0]['view']): ?>
+                    <?php  print $node->field_intro_ficheform[0]['view'] /*intro fiche formation*/ ?>
+             <?php endif; ?>
 
 </div>
 
 
 </div><!-- /entete-fiche-formation -->
 
-<br clear="all">
 <hr class="fin-entete-fiche fiche-formation-techno">
   
 
             
-<br clear="all">
+<div class="conteneur-flex">
         <!--______________COLONNE 1________________ -->
-        <div id="colonne-infos-vdl" class="fiche-formation-techno">
+        <div id="colonne-infos-vdl" class="col1_layoutflex_2_5_5 fiche-formation fiche-formation-techno">
         <?php
- global $theme_path;
-include ($theme_path.'/includes/inc_docs_utiles_fiche_formation.php');
-
+   global $theme_path;
+include ($theme_path.'/includes/dedicates_inc/inc_docs_utiles_fiche_formation.php');
 ?>
         </div><!-- fin colonne -->
 
         <!--______________COLONNE 2________________ -->
-        <div id="colonne-intro-complement" class="fiche-formation-techno">
-        <?php
- global $theme_path;
-include ($theme_path.'/includes/inc_intro2_fiche_formation.php');
-
+        <div id="colonne-intro-complement" class="col2_layoutflex_2_5_5 fiche-formation fiche-formation-techno">
+          <?php
+   global $theme_path;
+include ($theme_path.'/includes/dedicates_inc/inc_intro2_fiche_formation.php');
 ?>
         </div><!-- fin colonne -->
 
         <!--______________COLONNE 3________________ -->
-        <div id="colonne-fiche-formation" class="fiche-formation-techno">
+        <div id="colonne-fiche-formation" class="col3_layoutflex_2_5_5 fiche-formation fiche-formation-techno">
   <div class="content">
                 <?php   print $node->content['body']['#value'];/*déplacer le contenu dans la colonne désirée*/ ?>
             </div>
         </div><!-- fin colonne -->
+
+   </div><!-- fin  conteneur flex -->   
 
        
       

@@ -5916,7 +5916,7 @@ table#tb-docs-utiles-fiche-formation {
 /* line 190, ../sass/content-type-style/_fiche-formation.scss */
 .fiche-formation-generik {
   background: transparent url("../images/bg_titre_fiche_gris.jpg") no-repeat top left;
-  background-size: contain;
+  background-size: initial;
 }
 
 /* line 194, ../sass/content-type-style/_fiche-formation.scss */
@@ -5952,7 +5952,7 @@ hr.fiche-formation-generik {
 /* line 223, ../sass/content-type-style/_fiche-formation.scss */
 .fiche-formation-pro-bg {
   background: transparent url("../images/bg_titre_fiche_pro.jpg") no-repeat top left;
-  background-size: contain;
+  background-size: initial;
 }
 
 /* line 227, ../sass/content-type-style/_fiche-formation.scss */
@@ -5987,7 +5987,7 @@ hr.fiche-formation-pro {
 /* line 256, ../sass/content-type-style/_fiche-formation.scss */
 .fiche-formation-techno-bg {
   background: transparent url("../images/bg_titre_fiche_techno.jpg") no-repeat top left;
-  background-size: contain;
+  background-size: initial;
 }
 
 /* line 260, ../sass/content-type-style/_fiche-formation.scss */
@@ -6041,7 +6041,7 @@ hr.fiche-formation-techno {
 /* line 292, ../sass/content-type-style/_fiche-formation.scss */
 .fiche-formation-superieur-bg {
   background: transparent url("../images/bg_titre_fiche_superieur.jpg") no-repeat top left;
-  background-size: contain;
+  background-size: initial;
 }
 
 /* line 298, ../sass/content-type-style/_fiche-formation.scss */
