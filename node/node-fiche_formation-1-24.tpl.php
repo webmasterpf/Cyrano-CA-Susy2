@@ -3,7 +3,7 @@
  * PROD = VID 1 TID 17
  * devient 1-24 avec nouveaux tags
 */?>
-<!--______________NODE TPL FICHE-FORMATION.TPL TECHNO CUSTOM________________ -->
+<!--______________NODE TPL 1-24 FICHE-FORMATION.TPL TECHNO CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
     <div class="node-inner">
              <?php print $picture; ?>

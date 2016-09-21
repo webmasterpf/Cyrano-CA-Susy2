@@ -1,7 +1,7 @@
 <?php
 /* Template pour node.tpl fiche formation selon tid - Enseignement Techno
 */?>
-<!--______________NODE TPL POUR FICHE-FORMATION.TPL CUSTOM________________ -->
+<!--______________NODE TPL FICHE-FORMATION.TECHNO CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
     <div class="node-inner">
              <?php print $picture; ?>

@@ -4,7 +4,7 @@
  *PROD = VID 1 TID 17
  * devient 1-25 avec nouveaux tags
 */?>
-<!--______________NODE TPL FICHE-FORMATION.TPL SUP CUSTOM________________ -->
+<!--______________NODE TPL 1-25 FICHE-FORMATION.TPL SUP CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
     <div class="node-inner">
              <?php print $picture; ?>
@@ -14,14 +14,14 @@
             <?php endif; ?>
             
 <!-- ZONE EN TETE DE LA FICHE FORMATION -->
-<div id="entete-fiche-formation" class="fiche-formation-superieur conteneur-flex">
+<div id="entete-fiche-formation" class="conteneur-flex fiche-formation-superieur">
     <div id="colonne-1" class="col1_layoutflex_5_7 illustration-slider">
          <?php
    global $theme_path;
 include ($theme_path.'/includes/dedicates_inc/inc_vue_slider_illustration_fiche_formation.php');
 
 ?>    </div><!-- /illustration-slider -->
-<div id="colonne-2" class="fiche-formation-superieur-bg col2_layoutflex_5_7 intro-fiche-formation">
+<div id="colonne-2" class="col2_layoutflex_5_7 intro-fiche-formation fiche-formation-superieur-bg ">
      <?php if ($title): /*copier le titre dans la colonne desirée*/?>
             <h1 class="titre_fiche-formation titre-sup"><?php print $title; ?></h1>
             <?php endif; ?>
