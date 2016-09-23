@@ -7,10 +7,13 @@ Override du style de galerie vignettes Chocolat
 //@include breakpoint ($tablet){}
 .galerie-vdl .chocolat-parent{
     div{
-        @include gallery(4 of 12);
+        @include gallery(2 of $mobilecol);
+        @include breakpoint ($desktop){
+            @include gallery(4 of 12);
+        }
     }
     img{
         //@include gallery(4 of 12);
-        @include cadre-ombre;
+        @include cadre-ombre(0.3em,white,$gris-anthracite);
     }
 }

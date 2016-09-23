@@ -75,11 +75,11 @@
 }
 }
 /*------- EFFETS VISUELS GENERIQUES--------------*/
-@mixin cadre-ombre($epaisseur-cadre:0.5em,$couleur-cadre:#fff){
+@mixin cadre-ombre($epaisseur-cadre:0.5em,$couleur-cadre:#fff,$couleur-ombre:#AAAAAA){
      border: $epaisseur-cadre solid $couleur-cadre;
-    -moz-box-shadow: #AAAAAA 0px 0px 5px ;
-    -webkit-box-shadow: #AAAAAA 0px 0px 5px;
-    box-shadow: #AAAAAA 0px 0px 5px;
+    -moz-box-shadow: $couleur-ombre 0px 0px 0.5em;
+    -webkit-box-shadow: $couleur-ombre 0px 0px 0.5em;
+    box-shadow: $couleur-ombre 0px 0px 0.5em;
 }
 @mixin ombrage ($contour:0.5em,$decalage-horizontal:0.5em,$decalage-vertical:0.5em,$couleur-ombre:#aaa){
     border: $contour solid #fff;
