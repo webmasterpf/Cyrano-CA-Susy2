@@ -7682,4 +7682,39 @@ Indiquer les classes ou les IDs des enveloppes des galeries
   display: none;
 }
 
+/*
+Override du style de galerie vignettes Chocolat
+*/
+/* line 9, ../sass/galeries/_chocolat-vignette-zoom.scss */
+.galerie-vdl .chocolat-parent div {
+  width: 32.23684%;
+  float: left;
+}
+/* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
+.galerie-vdl .chocolat-parent div:nth-child(3n + 1) {
+  margin-left: 0;
+  margin-right: -100%;
+  clear: both;
+  margin-left: 0;
+}
+/* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
+.galerie-vdl .chocolat-parent div:nth-child(3n + 2) {
+  margin-left: 33.88158%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
+.galerie-vdl .chocolat-parent div:nth-child(3n + 3) {
+  margin-left: 67.76316%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 12, ../sass/galeries/_chocolat-vignette-zoom.scss */
+.galerie-vdl .chocolat-parent img {
+  border: 0.5em solid #fff;
+  -moz-box-shadow: #AAAAAA 0px 0px 5px;
+  -webkit-box-shadow: #AAAAAA 0px 0px 5px;
+  box-shadow: #AAAAAA 0px 0px 5px;
+}
+
 /*# sourceMappingURL=application.css.map */
