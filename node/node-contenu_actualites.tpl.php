@@ -52,30 +52,13 @@
 <!--______________COLONNE GAUCHE 2________________ -->
 <div id="colonne-2" class="col2_layout_9_3 actualites_content_G2">
      
+     
 
-
+                <?php
+           global $theme_path;
+              include ($theme_path.'/includes/dedicates_inc/inc_actu_docs.php');
+              ?>
        
-  <?php if ($node->field_fichier_joint_rp[0]['view']): ?>
-        <div id="bloc-docs-actualites">
-            <h3 class="docs-actualites">Informations &amp; Documents joints</h3>
-             <table id="table-docs-actualites">
-                                <tbody>
-                              
-           <tr class="line1">
-                <td>  Date : <?php  print $node->field_date_evenement[0]['view']  ?></td>
-                <td>  Type de m&eacute;dia : <?php  print $node->field_type_media[0]['view']  ?></td>
-               <td>  <?php  print $node->field_fichier_joint_rp[0]['view']  ?></td>
-               <td>  <?php  print $node->field_fichier_joint_rp[1]['view']  ?></td>
-               <td>  <?php  print $node->field_fichier_joint_rp[2]['view']  ?></td>
-              
-
-                </tr>
-                 </tbody>
-
-       </table>
-        </div>
-           <?php endif;?>
-    
      
                  <?php
            global $theme_path;
