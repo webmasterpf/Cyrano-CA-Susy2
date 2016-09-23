@@ -1,12 +1,15 @@
 /*
-Override du style de galerie Bxslider
+Override du style de galerie vignettes Chocolat
 */
 
 //@include breakpoint ($mobile){}
 //@include breakpoint ($desktop){}
 //@include breakpoint ($tablet){}
 .galerie-vdl .chocolat-parent{
+    div{
+        @include gallery(4);
+    }
     img{
-        @include gallery(2 of 12);
+        //@include gallery(4 of 12);
     }
 }
