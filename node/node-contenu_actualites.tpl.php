@@ -3,7 +3,7 @@
   <div class="node-inner">
 <!--______________COLONNE GAUCHE 1________________ -->
   <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
-<div  id="colonne-1" class="col1_layout_9_3 actualites_content_G1">
+<div  id="colonne-1" class="col1_layout_9_3 contenu-actu">
 
      <?php if ($title): /*insertion du titre de la page et style differencié*/?>
      <h1 class="titre_actualites_content"><?php print $title; ?></h1>
@@ -14,6 +14,12 @@
     <?php endif; ?>
      
        <div class="content">
+           
+             <?php if ($node->field_illustration_vdl[0]['view']): ?>
+        <div class="illus-contenu">
+           <?php  print $node->field_illustration_vdl[0]['view'] /**/ ?>
+        </div>
+           <?php endif;?>
  <?php
      /*insertion du contenu du corps de la page*/
       print $node->content['body']['#value'];
@@ -50,9 +56,8 @@
 </div><!-- /fin colonne -->
 
 <!--______________COLONNE GAUCHE 2________________ -->
-<div id="colonne-2" class="col2_layout_9_3 actualites_content_G2">
-     
-     
+<div id="colonne-2" class="col2_layout_9_3 contenu-actu">
+         
 
                 <?php
            global $theme_path;
