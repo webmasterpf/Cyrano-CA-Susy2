@@ -102,18 +102,25 @@ h3.docs-actualites{
     text-align: center;
 }
 #bloc-docs-actualites{
-    width: 100%;
+    width: auto;
     background: $gris-clair;
     padding: em(10px);
     a{
-    text-decoration: none;
-    color: $bleu-turquoise;
-    padding: em(4px);
-    &:hover{
-    background: $bleu-turquoise;
-    color: white;
-}
-}
+        text-decoration: none;
+        color: $bleu-turquoise;
+        padding: em(4px);
+        &:hover{
+            background: $bleu-turquoise;
+            color: white;
+        }
+    }
+    span{
+        width: 100%;
+        display: block;
+        font-size: smaller;
+        text-align: center;
+        @include cesure-txt;
+    }
 }
 
 #table-docs-actualites td{
@@ -122,4 +129,3 @@ h3.docs-actualites{
 }
 #table-docs-actualites a{}
 #table-docs-actualites a:hover{}
-.actualites_content_G3 a{color: #91127D;}

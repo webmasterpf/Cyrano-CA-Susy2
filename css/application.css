@@ -5526,7 +5526,7 @@ h3.docs-actualites {
 
 /* line 104, ../sass/content-type-style/_contenu-actualite.scss */
 #bloc-docs-actualites {
-  width: 100%;
+  width: auto;
   background: #ECECED;
   padding: 0.625em;
 }
@@ -5541,16 +5541,25 @@ h3.docs-actualites {
   background: #01ABCF;
   color: white;
 }
+/* line 117, ../sass/content-type-style/_contenu-actualite.scss */
+#bloc-docs-actualites span {
+  width: 100%;
+  display: block;
+  font-size: smaller;
+  text-align: center;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+}
 
-/* line 119, ../sass/content-type-style/_contenu-actualite.scss */
+/* line 126, ../sass/content-type-style/_contenu-actualite.scss */
 #table-docs-actualites td {
   display: inline-block;
   margin: 0 0.625em;
-}
-
-/* line 125, ../sass/content-type-style/_contenu-actualite.scss */
-.actualites_content_G3 a {
-  color: #91127D;
 }
 
 /*-------------------------------------|
@@ -5601,8 +5610,8 @@ h1.titre-vdl {
   text-align: center;
   color: #ADC91F;
   font-family: "Arista", Trebuchet MS, sans-serif;
-  font-size: 2.0em;
-  margin: 5px;
+  font-size: auto;
+  margin: 0.3125em;
 }
 /* line 59, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements ul {
@@ -5648,23 +5657,24 @@ h1.titre-vdl {
   margin: 0.125em;
   color: #606070;
   background: white;
+  font-size: smaller;
   -moz-border-radius: 0.5em;
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
 }
-/* line 99, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 100, ../sass/content-type-style/_contenu-vdl.scss */
 .liste-autre-evenement li a:hover {
   background: #01ABCF;
   color: white;
 }
 
-/* line 108, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 109, ../sass/content-type-style/_contenu-vdl.scss */
 .bloc_vdl_autres_evenements-item {
   width: 185px;
   margin: 2px 0;
 }
 
-/* line 115, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 116, ../sass/content-type-style/_contenu-vdl.scss */
 li.bloc_vdl_autres_evenements-item a {
   -moz-border-radius: 5px;
   border-radius: 5px;

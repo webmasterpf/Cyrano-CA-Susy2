@@ -84,7 +84,12 @@
 
 //Pour Chocolat.js (vignettes zoom)
     $(document).ready(function () {
-        $('.chocolat-parent').Chocolat();
+        $('.chocolat-parent').Chocolat(
+                {
+                    loop           : true,
+                    imageSize     : 'default',
+                    overlayOpacity : 0.9
+                });
     });
     
     //Pour stacktable (tableaux RWD)

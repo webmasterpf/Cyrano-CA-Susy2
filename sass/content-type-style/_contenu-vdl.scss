@@ -53,8 +53,8 @@ h1.titre-vdl{
     text-align: center;
     color: $vert;
     font-family: $AristaFont;
-    font-size: 2.0em;
-    margin: 5px;
+    font-size: auto;
+    margin: em(5px);
 }
  ul{
       width: auto;
@@ -94,6 +94,7 @@ a{
             margin: em(2px);
             color:  $gris-anthracite;
             background: white;
+            font-size: smaller;
             @include arrondis;
             
             &:hover{
