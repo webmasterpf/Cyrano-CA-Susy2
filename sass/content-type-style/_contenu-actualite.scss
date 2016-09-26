@@ -88,7 +88,7 @@ h1.titre_actualites_content{
 
 } 
 
-#colonne-3.contenu-actu{
+#colonne-2.contenu-actu{
     a{
         color: $orange-fonce;text-decoration: none;
       &:hover{
@@ -96,3 +96,30 @@ h1.titre_actualites_content{
       }
     }
 }
+/*Blocs docs joints actualité*/
+h3.docs-actualites{
+    color: $vert;
+    text-align: center;
+}
+#bloc-docs-actualites{
+    width: 100%;
+    background: $gris-clair;
+    padding: em(10px);
+    a{
+    text-decoration: none;
+    color: $bleu-turquoise;
+    padding: em(4px);
+    &:hover{
+    background: $bleu-turquoise;
+    color: white;
+}
+}
+}
+
+#table-docs-actualites td{
+    display: inline-block;
+    margin: 0 em(10px);
+}
+#table-docs-actualites a{}
+#table-docs-actualites a:hover{}
+.actualites_content_G3 a{color: #91127D;}

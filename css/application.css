@@ -5473,8 +5473,17 @@ h1.titre_actualites_content {
   background: #01ABCF;
   color: white;
 }
+/* line 57, ../sass/content-type-style/_contenu-actualite.scss */
+#colonne-1.contenu-actu .illus-contenu img {
+  border: 0.3em solid white;
+  -moz-box-shadow: #606070 0px 0px 0.5em;
+  -webkit-box-shadow: #606070 0px 0px 0.5em;
+  box-shadow: #606070 0px 0px 0.5em;
+  display: block;
+  margin: 0 auto;
+}
 
-/* line 59, ../sass/content-type-style/_contenu-actualite.scss */
+/* line 66, ../sass/content-type-style/_contenu-actualite.scss */
 #bloc-video-actualites {
   width: 89%;
   display: block;
@@ -5483,29 +5492,65 @@ h1.titre_actualites_content {
   padding: 0.125em;
 }
 
-/* line 68, ../sass/content-type-style/_contenu-actualite.scss */
+/* line 75, ../sass/content-type-style/_contenu-actualite.scss */
 #table-docs-actualites tbody {
   border: 0;
 }
-/* line 71, ../sass/content-type-style/_contenu-actualite.scss */
+/* line 78, ../sass/content-type-style/_contenu-actualite.scss */
 #table-docs-actualites tr {
   border: 0 none;
 }
-/* line 74, ../sass/content-type-style/_contenu-actualite.scss */
+/* line 81, ../sass/content-type-style/_contenu-actualite.scss */
 #table-docs-actualites td {
   display: inline-block;
   margin: 0 3.125em;
 }
 
-/* line 85, ../sass/content-type-style/_contenu-actualite.scss */
-#colonne-3.contenu-actu a {
+/* line 92, ../sass/content-type-style/_contenu-actualite.scss */
+#colonne-2.contenu-actu a {
   color: #DE603A;
   text-decoration: none;
 }
-/* line 87, ../sass/content-type-style/_contenu-actualite.scss */
-#colonne-3.contenu-actu a:hover {
+/* line 94, ../sass/content-type-style/_contenu-actualite.scss */
+#colonne-2.contenu-actu a:hover {
   background: #DE603A;
   color: #ECECED;
+}
+
+/*Blocs docs joints actualité*/
+/* line 100, ../sass/content-type-style/_contenu-actualite.scss */
+h3.docs-actualites {
+  color: #ADC91F;
+  text-align: center;
+}
+
+/* line 104, ../sass/content-type-style/_contenu-actualite.scss */
+#bloc-docs-actualites {
+  width: 100%;
+  background: #ECECED;
+  padding: 0.625em;
+}
+/* line 108, ../sass/content-type-style/_contenu-actualite.scss */
+#bloc-docs-actualites a {
+  text-decoration: none;
+  color: #01ABCF;
+  padding: 0.25em;
+}
+/* line 112, ../sass/content-type-style/_contenu-actualite.scss */
+#bloc-docs-actualites a:hover {
+  background: #01ABCF;
+  color: white;
+}
+
+/* line 119, ../sass/content-type-style/_contenu-actualite.scss */
+#table-docs-actualites td {
+  display: inline-block;
+  margin: 0 0.625em;
+}
+
+/* line 125, ../sass/content-type-style/_contenu-actualite.scss */
+.actualites_content_G3 a {
+  color: #91127D;
 }
 
 /*-------------------------------------|
@@ -5548,6 +5593,81 @@ h1.titre-vdl {
 /* line 43, ../sass/content-type-style/_contenu-vdl.scss */
 .contenu-vdl a:hover {
   text-decoration: underline;
+}
+
+/*---- AUTRES EVENEMENTS VDL ------*/
+/* line 52, ../sass/content-type-style/_contenu-vdl.scss */
+#bloc_vdl_autres_evenements h3 {
+  text-align: center;
+  color: #ADC91F;
+  font-family: "Arista", Trebuchet MS, sans-serif;
+  font-size: 2.0em;
+  margin: 5px;
+}
+/* line 59, ../sass/content-type-style/_contenu-vdl.scss */
+#bloc_vdl_autres_evenements ul {
+  width: auto;
+  margin: 0 auto;
+  background: transparent url(../images/bg_caucadis_actu.jpg) repeat top right;
+  background-size: contain;
+  padding: 0.625em 0.3125em;
+  list-style: none;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+}
+/* line 68, ../sass/content-type-style/_contenu-vdl.scss */
+#bloc_vdl_autres_evenements li {
+  padding: 0.1875em 0;
+  margin: 0;
+}
+/* line 72, ../sass/content-type-style/_contenu-vdl.scss */
+#bloc_vdl_autres_evenements a {
+  color: #606070;
+  background: #ECECED;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.125em;
+}
+/* line 79, ../sass/content-type-style/_contenu-vdl.scss */
+#bloc_vdl_autres_evenements a:hover {
+  background: #9898a6;
+  color: white;
+}
+
+/* line 88, ../sass/content-type-style/_contenu-vdl.scss */
+.liste-autre-evenement li {
+  display: block;
+}
+/* line 90, ../sass/content-type-style/_contenu-vdl.scss */
+.liste-autre-evenement li a {
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.1875em;
+  margin: 0.125em;
+  color: #606070;
+  background: white;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+}
+/* line 99, ../sass/content-type-style/_contenu-vdl.scss */
+.liste-autre-evenement li a:hover {
+  background: #01ABCF;
+  color: white;
+}
+
+/* line 108, ../sass/content-type-style/_contenu-vdl.scss */
+.bloc_vdl_autres_evenements-item {
+  width: 185px;
+  margin: 2px 0;
+}
+
+/* line 115, ../sass/content-type-style/_contenu-vdl.scss */
+li.bloc_vdl_autres_evenements-item a {
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 /*-------------------------------------|
@@ -7685,7 +7805,11 @@ Indiquer les classes ou les IDs des enveloppes des galeries
 /*
 Override du style de galerie vignettes Chocolat
 */
-/* line 9, ../sass/galeries/_chocolat-vignette-zoom.scss */
+/* line 8, ../sass/galeries/_chocolat-vignette-zoom.scss */
+.galerie-vdl .chocolat-parent {
+  margin: 0 1.875em;
+}
+/* line 10, ../sass/galeries/_chocolat-vignette-zoom.scss */
 .galerie-vdl .chocolat-parent div {
   width: 47.44898%;
   float: left;
@@ -7704,7 +7828,7 @@ Override du style de galerie vignettes Chocolat
   clear: none;
 }
 @media (min-width: 990px) {
-  /* line 9, ../sass/galeries/_chocolat-vignette-zoom.scss */
+  /* line 10, ../sass/galeries/_chocolat-vignette-zoom.scss */
   .galerie-vdl .chocolat-parent div {
     width: 32.23684%;
     float: left;
@@ -7729,7 +7853,7 @@ Override du style de galerie vignettes Chocolat
     clear: none;
   }
 }
-/* line 15, ../sass/galeries/_chocolat-vignette-zoom.scss */
+/* line 16, ../sass/galeries/_chocolat-vignette-zoom.scss */
 .galerie-vdl .chocolat-parent img {
   border: 0.3em solid white;
   -moz-box-shadow: #606070 0px 0px 0.5em;

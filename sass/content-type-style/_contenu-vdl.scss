@@ -47,3 +47,72 @@ h1.titre-vdl{
     }
     
 }
+/*---- AUTRES EVENEMENTS VDL ------*/
+#bloc_vdl_autres_evenements{
+    h3{
+    text-align: center;
+    color: $vert;
+    font-family: $AristaFont;
+    font-size: 2.0em;
+    margin: 5px;
+}
+ ul{
+      width: auto;
+    margin: 0 auto;
+     background: transparent url(../images/bg_caucadis_actu.jpg) repeat top right ;
+     background-size: contain;
+    padding: em(10px) em(5px);
+    list-style: none;
+    @include arrondis;
+}
+li{
+    padding: em(3px) 0;
+    margin: 0;
+}
+a{
+    color:  $gris-anthracite;
+    background: $gris-clair;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: em(2px);
+    &:hover{
+    background: $gris-clair-moyen;
+    color: white;
+}
+}
+
+}
+
+.liste-autre-evenement{
+    li{
+        display: block;
+        a{
+            font-weight: bold;
+            text-decoration: none;
+            padding: em(3px);
+            margin: em(2px);
+            color:  $gris-anthracite;
+            background: white;
+            @include arrondis;
+            
+            &:hover{
+                background: $bleu-turquoise;
+                color: white;
+            }
+        }
+    }
+
+}
+
+.bloc_vdl_autres_evenements-item{
+    width: 185px;
+    margin: 2px 0;;
+
+
+
+}
+li.bloc_vdl_autres_evenements-item a{
+     -moz-border-radius: 5px;
+    border-radius: 5px;
+}
