@@ -43,10 +43,16 @@ h1.titre-vdl{
         &:hover{
             text-decoration: underline;
         }
-        
     }
-    
 }
+  /* ILLUSTRATION DANS CONTENU */
+  #bloc_illustration_vdl{
+      margin: em(5px);
+      img{
+          @include cadre-ombre(0.3em,white,$gris-anthracite);
+      }
+  }
+
 /*---- AUTRES EVENEMENTS VDL ------*/
 #bloc_vdl_autres_evenements{
     h3{

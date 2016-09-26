@@ -54,7 +54,8 @@ h1.titre_actualites_content{
         }
     }
     .illus-contenu{
-        img{@include cadre-ombre(0.3em,white,$gris-anthracite);
+        img{
+        @include cadre-ombre(0.3em,white,$gris-anthracite);
         display: block;
         margin: 0 auto;
         }
