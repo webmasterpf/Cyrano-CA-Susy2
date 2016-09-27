@@ -48,11 +48,27 @@ h1.titre-vdl{
   /* ILLUSTRATION DANS CONTENU */
   #bloc_illustration_vdl{
       margin: em(5px);
+          
       img{
           @include cadre-ombre(0.3em,white,$gris-anthracite);
+          @include breakpoint ($desktop){
+              //habillage de texte avec shape-outisde (CSS)
+              @include forme-habillage(inset(23% 0%));
+              float: right;
+              margin: 8em 1em;
+          }
+
       }
   }
-
+  img.illustration-vdl{
+      @include cadre-ombre(0.3em,white,$gris-anthracite);
+          @include breakpoint ($desktop){
+              //habillage de texte avec shape-outisde (CSS)
+              @include forme-habillage(inset(23% 0%));
+              float: right;
+              margin: 8em 1em;
+  }
+  }
 /*---- AUTRES EVENEMENTS VDL ------*/
 #bloc_vdl_autres_evenements{
     h3{
@@ -65,8 +81,8 @@ h1.titre-vdl{
  ul{
       width: auto;
     margin: 0 auto;
-     background: transparent url(../images/bg_caucadis_actu.jpg) repeat top right ;
-     background-size: contain;
+     background: transparent url(../images/bg_caucadis_actu.jpg) no-repeat top right ;
+     background-size: cover;
     padding: em(10px) em(5px);
     list-style: none;
     @include arrondis;
@@ -82,6 +98,7 @@ a{
     font-weight: bold;
     text-decoration: none;
     padding: em(2px);
+    line-height: 1.5em;
     &:hover{
     background: $gris-clair-moyen;
     color: white;
@@ -125,10 +142,12 @@ li.bloc_vdl_autres_evenements-item a{
 }
 
 #bloc_docs_utiles_vdl{
-    
-    margin: 0 auto;
+   
     table{
         width: auto;
+         margin: 0 auto;
+        background: transparent url(../images/bg_docs_utiles_lycee.jpg) no-repeat ;
+        background-size: cover;
     }
     thead{
         display: none;
@@ -138,6 +157,8 @@ li.bloc_vdl_autres_evenements-item a{
     }
     tr{
         background: none;
+        border: 0;
+        padding: 0;
     }
     h3{
         text-align: center;
@@ -154,8 +175,7 @@ li.bloc_vdl_autres_evenements-item a{
     margin: 0 auto;
     padding: em(10px) em(5px);
     list-style: none;
-    background: transparent url(../images/bg_docs_utiles_lycee.jpg) no-repeat ;
-    background-size: cover;
+    
     div{
         margin: em(5px) 0;
     }
