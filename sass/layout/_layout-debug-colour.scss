@@ -482,6 +482,7 @@ body .conteneur{
   }
   
   .col1_layout_9_3{
+          background: #764479;
         @include breakpoint ($tablet){
           background: #00CC99;
       }
@@ -490,6 +491,7 @@ body .conteneur{
       }
   }
   .col2_layout_9_3{
+      background: tan;
           @include breakpoint ($tablet){
           background: tomato;
       }

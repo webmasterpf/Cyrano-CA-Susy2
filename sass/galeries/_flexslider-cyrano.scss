@@ -131,6 +131,7 @@ Indiquer les classes ou les IDs des enveloppes des galeries
     }
 }
 //Override pour Version Classic
+#colonne-1 .galerie-vdl,
 #colonne-2 .galerie-vdl{
     .flexslider-classic{
         ul.slides{
@@ -147,6 +148,7 @@ Indiquer les classes ou les IDs des enveloppes des galeries
 
 /*######-------- ||| POSITION NAV ||| --------######*/
 //Flexslider Thumbnails - retrait des fleches directionnelles via le JS
+#colonne-1 .galerie-vdl,
 #colonne-2 .galerie-vdl{
     #carousel{
         height: 9em;
