@@ -36,7 +36,8 @@ h1.titre-vdl{
     color: $violet;
   
 }
-.contenu-vdl{
+#colonne-2.contenu-vdl{
+    clear:both;
     a{
         color: $violet;
         text-decoration: none;
@@ -50,8 +51,9 @@ h1.titre-vdl{
       margin: em(5px);
           
       img{
-          @include cadre-ombre(0.3em,white,$gris-anthracite);
+          @include cadre-ombre(0.003em,white,$gris-anthracite);
           @include breakpoint ($desktop){
+              @include cadre-ombre(0.3em,white,$gris-anthracite);
               //habillage de texte avec shape-outisde (CSS)
               @include forme-habillage(inset(23% 0%));
               float: right;
@@ -61,8 +63,9 @@ h1.titre-vdl{
       }
   }
   img.illustration-vdl{
-      @include cadre-ombre(0.3em,white,$gris-anthracite);
+     @include cadre-ombre(0.003em,white,$gris-anthracite);
           @include breakpoint ($desktop){
+              @include cadre-ombre(0.3em,white,$gris-anthracite);
               //habillage de texte avec shape-outisde (CSS)
               @include forme-habillage(inset(23% 0%));
               float: right;

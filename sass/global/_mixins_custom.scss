@@ -75,11 +75,14 @@
 }
 }
 /*------- EFFETS VISUELS GENERIQUES--------------*/
-@mixin forme-habillage($forme:inset()){
+@mixin forme-habillage($forme:inset(),$marge-forme:0){
     //     circle()     ellipse()     inset()     polygon() , fonctionne uniquement sur élement flottant
     shape-outside:$forme;
     -webkit-shape-outside:$forme;
     -moz-shape-outside:$forme;
+    shape-margin:$marge-forme;
+    -webkit-shape-margin:$marge-forme;
+    -moz-shape-margin:$marge-forme;
 }
     
 @mixin cadre-ombre($epaisseur-cadre:0.5em,$couleur-cadre:#fff,$couleur-ombre:#AAAAAA){

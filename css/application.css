@@ -5558,31 +5558,77 @@ h1.titre-vdl {
   color: #911381;
 }
 
-/* line 40, ../sass/content-type-style/_contenu-vdl.scss */
-.contenu-vdl a {
+/* line 39, ../sass/content-type-style/_contenu-vdl.scss */
+#colonne-2.contenu-vdl {
+  clear: both;
+}
+/* line 41, ../sass/content-type-style/_contenu-vdl.scss */
+#colonne-2.contenu-vdl a {
   color: #911381;
   text-decoration: none;
 }
-/* line 43, ../sass/content-type-style/_contenu-vdl.scss */
-.contenu-vdl a:hover {
+/* line 44, ../sass/content-type-style/_contenu-vdl.scss */
+#colonne-2.contenu-vdl a:hover {
   text-decoration: underline;
 }
 
 /* ILLUSTRATION DANS CONTENU */
-/* line 49, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 50, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_illustration_vdl {
   margin: 0.3125em;
 }
-/* line 51, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 53, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_illustration_vdl img {
-  border: 0.3em solid white;
+  border: 0.003em solid white;
   -moz-box-shadow: #606070 0px 0px 0.5em;
   -webkit-box-shadow: #606070 0px 0px 0.5em;
   box-shadow: #606070 0px 0px 0.5em;
 }
+@media (min-width: 990px) {
+  /* line 53, ../sass/content-type-style/_contenu-vdl.scss */
+  #bloc_illustration_vdl img {
+    border: 0.3em solid white;
+    -moz-box-shadow: #606070 0px 0px 0.5em;
+    -webkit-box-shadow: #606070 0px 0px 0.5em;
+    box-shadow: #606070 0px 0px 0.5em;
+    shape-outside: inset(23% 0%);
+    -webkit-shape-outside: inset(23% 0%);
+    -moz-shape-outside: inset(23% 0%);
+    shape-margin: 0;
+    -webkit-shape-margin: 0;
+    -moz-shape-margin: 0;
+    float: right;
+    margin: 8em 1em;
+  }
+}
+
+/* line 65, ../sass/content-type-style/_contenu-vdl.scss */
+img.illustration-vdl {
+  border: 0.003em solid white;
+  -moz-box-shadow: #606070 0px 0px 0.5em;
+  -webkit-box-shadow: #606070 0px 0px 0.5em;
+  box-shadow: #606070 0px 0px 0.5em;
+}
+@media (min-width: 990px) {
+  /* line 65, ../sass/content-type-style/_contenu-vdl.scss */
+  img.illustration-vdl {
+    border: 0.3em solid white;
+    -moz-box-shadow: #606070 0px 0px 0.5em;
+    -webkit-box-shadow: #606070 0px 0px 0.5em;
+    box-shadow: #606070 0px 0px 0.5em;
+    shape-outside: inset(23% 0%);
+    -webkit-shape-outside: inset(23% 0%);
+    -moz-shape-outside: inset(23% 0%);
+    shape-margin: 0;
+    -webkit-shape-margin: 0;
+    -moz-shape-margin: 0;
+    float: right;
+    margin: 8em 1em;
+  }
+}
 
 /*---- AUTRES EVENEMENTS VDL ------*/
-/* line 58, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 77, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements h3 {
   text-align: center;
   color: #ADC91F;
@@ -5590,24 +5636,24 @@ h1.titre-vdl {
   font-size: larger;
   margin: 0.3125em;
 }
-/* line 65, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 84, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements ul {
   width: auto;
   margin: 0 auto;
-  background: transparent url(../images/bg_caucadis_actu.jpg) repeat top right;
-  background-size: contain;
+  background: transparent url(../images/bg_caucadis_actu.jpg) no-repeat top right;
+  background-size: cover;
   padding: 0.625em 0.3125em;
   list-style: none;
   -moz-border-radius: 0.5em;
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
 }
-/* line 74, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 93, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements li {
   padding: 0.1875em 0;
   margin: 0;
 }
-/* line 78, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 97, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements a {
   color: #606070;
   background: #ECECED;
@@ -5615,18 +5661,19 @@ h1.titre-vdl {
   font-weight: bold;
   text-decoration: none;
   padding: 0.125em;
+  line-height: 1.5em;
 }
-/* line 85, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 105, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements a:hover {
   background: #9898a6;
   color: white;
 }
 
-/* line 94, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 114, ../sass/content-type-style/_contenu-vdl.scss */
 .liste-autre-evenement li {
   display: block;
 }
-/* line 96, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 116, ../sass/content-type-style/_contenu-vdl.scss */
 .liste-autre-evenement li a {
   font-weight: bold;
   text-decoration: none;
@@ -5639,45 +5686,46 @@ h1.titre-vdl {
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
 }
-/* line 106, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 126, ../sass/content-type-style/_contenu-vdl.scss */
 .liste-autre-evenement li a:hover {
   background: #01ABCF;
   color: white;
 }
 
-/* line 115, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 135, ../sass/content-type-style/_contenu-vdl.scss */
 .bloc_vdl_autres_evenements-item {
   width: auto;
   margin: 2px 0;
 }
 
-/* line 122, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 142, ../sass/content-type-style/_contenu-vdl.scss */
 li.bloc_vdl_autres_evenements-item a {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
 
-/* line 127, ../sass/content-type-style/_contenu-vdl.scss */
-#bloc_docs_utiles_vdl {
-  margin: 0 auto;
-}
-/* line 130, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 149, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl table {
   width: auto;
+  margin: 0 auto;
+  background: transparent url(../images/bg_docs_utiles_lycee.jpg) no-repeat;
+  background-size: cover;
 }
-/* line 133, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 155, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl thead {
   display: none;
 }
-/* line 136, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 158, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl tbody {
   border: 0;
 }
-/* line 139, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 161, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl tr {
   background: none;
+  border: 0;
+  padding: 0;
 }
-/* line 142, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 166, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl h3 {
   text-align: center;
   color: #01ABCF;
@@ -5686,24 +5734,22 @@ li.bloc_vdl_autres_evenements-item a {
   margin: 0.3125em;
 }
 
-/* line 152, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 176, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl {
   width: 98%;
   margin: 0 auto;
   padding: 0.625em 0.3125em;
   list-style: none;
-  background: transparent url(../images/bg_docs_utiles_lycee.jpg) no-repeat;
-  background-size: cover;
 }
-/* line 159, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 182, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl div {
   margin: 0.3125em 0;
 }
-/* line 163, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 186, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl span {
   margin: 0.125em 0;
 }
-/* line 167, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 190, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl a {
   font-weight: bold;
   text-decoration: none;
@@ -5714,12 +5760,12 @@ li.bloc_vdl_autres_evenements-item a {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 174, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 197, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl a:hover {
   text-decoration: none;
   background: #ECECED;
 }
-/* line 181, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 204, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl .filefield-icon {
   display: none;
 }

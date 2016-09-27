@@ -97,6 +97,10 @@ function cyranod6_ca_susy2_preprocess_page(&$vars){
 //   drupal_add_js('https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js', 'external');
 //   drupal_add_js('http://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js', 'external');
 //   
+//   
+// JS pour compatibilité des CSS tous navigateurs
+//drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery_plugin/shapes-polyfill.min.js', 'theme');
+  drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery_plugin/shapes-polyfill.js', 'theme');
 // permet usage de vieilles versions de jQuery
         //drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery-migrate-1.2.1.min.js', 'theme');
 //chargement des plugins qui utilisent la version de jQuery par défaut du site
@@ -121,12 +125,13 @@ function cyranod6_ca_susy2_preprocess_page(&$vars){
     drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery_plugin/ninja-slider/ninja-slider.js', 'theme');
     drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery_plugin/ninja-slider/thumbnail-slider.js', 'theme');
     drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery_plugin/slick/slick.min.js', 'theme');
-    drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery_plugin/jquery.chocolat.min.js', 'theme');
+    
     //drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery_plugin/salvattore.min.js', 'theme');
     drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery_plugin/salvattore.js', 'theme');
     //drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/3rdparty/buttons/js/buttons.js', 'theme');
     drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/js_jquery_new.js', 'theme');
     drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery_plugin/salvattore.js', 'theme');
+    drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery_plugin/jquery.chocolat.min.js', 'theme');
     //  mise à disposition des 2 versions de jQuery
     drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery_exit.js', 'theme');
    
