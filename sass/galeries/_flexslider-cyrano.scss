@@ -8,6 +8,7 @@ Indiquer les classes ou les IDs des enveloppes des galeries
 //@include breakpoint ($tablet){}
 
 //indiquer la classe qui gère flexslider
+#colonne-1 .galerie-vdl,
 #colonne-2 .galerie-vdl{
     display:inline-block;
     .flexslider, .flexslider-classic{
@@ -85,7 +86,7 @@ Indiquer les classes ou les IDs des enveloppes des galeries
         ul.slides{
             padding: 0;
             margin:0;
-            width: 1500%;//pas ajouté par js, mais nécessaire pour afficher correctement la galerie
+            width: auto;//pas ajouté par js, mais nécessaire pour afficher correctement la galerie
         }
         li, ul.slides li{
             padding: 0;
