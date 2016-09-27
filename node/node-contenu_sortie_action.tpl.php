@@ -49,7 +49,7 @@ global $theme_path;
 include ($theme_path.'/includes/dedicates_inc/inc_vdl_docs_joints.php');
 ?>
 
-       <br clear="all"/>
+      
  <?php //inclusion de la vue Autres evenements
 global $theme_path;
 include ($theme_path.'/includes/dedicates_inc/inc_vdl_autres_evenements.php');

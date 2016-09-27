@@ -59,7 +59,7 @@ h1.titre-vdl{
     text-align: center;
     color: $vert;
     font-family: $AristaFont;
-    font-size: auto;
+    font-size: larger;
     margin: em(5px);
 }
  ul{
@@ -113,7 +113,7 @@ a{
 }
 
 .bloc_vdl_autres_evenements-item{
-    width: 185px;
+    width: auto;
     margin: 2px 0;;
 
 
@@ -122,4 +122,63 @@ a{
 li.bloc_vdl_autres_evenements-item a{
      -moz-border-radius: 5px;
     border-radius: 5px;
+}
+
+#bloc_docs_utiles_vdl{
+    
+    margin: 0 auto;
+    table{
+        width: auto;
+    }
+    thead{
+        display: none;
+    }
+    tbody{
+        border: 0;
+    }
+    tr{
+        background: none;
+    }
+    h3{
+        text-align: center;
+        color: $bleu-turquoise;
+        font-family: $AristaFont;
+        font-size: larger;
+        margin: em(5px);
+
+    }
+}
+
+.liste_docs_joints_vdl {
+    width: 98%;
+    margin: 0 auto;
+    padding: em(10px) em(5px);
+    list-style: none;
+    background: transparent url(../images/bg_docs_utiles_lycee.jpg) no-repeat ;
+    background-size: cover;
+    div{
+        margin: em(5px) 0;
+    }
+
+    span{
+        margin: em(2px) 0;
+    }
+
+    a{
+        font-weight: bold;
+        text-decoration: none;
+        padding:em(3px);
+        color:  $gris-anthracite;
+        background: white;
+        @include arrondis(5px);
+        &:hover{
+            text-decoration: none;
+            background: $gris-clair;
+
+        }
+    }
+
+    .filefield-icon {
+        display: none;
+    }
 }

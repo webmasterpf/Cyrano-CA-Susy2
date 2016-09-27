@@ -190,43 +190,6 @@ h4 a:hover{}
     }
 }
 
-
-
-.liste_docs_joints_vdl {
-    width: 98%;
-    margin: 0 auto;
-    
-    
-
-    padding: em(10px) em(5px);
-    list-style: none;
-    div{
-        margin: em(5px) 0;
-    }
-
-    span{
-        margin: em(2px) 0;
-    }
-
-    a{
-        font-weight: bold;
-        text-decoration: none;
-        padding:em(3px);
-        color:  $gris-anthracite;
-        background: white;
-        @include arrondis(5px);
-        &:hover{
-            text-decoration: none;
-            background: $gris-clair;
-
-        }
-    }
-
-    .filefield-icon {
-        display: none;
-    }
-}
-
 /*------ LISTE VUE ACTU LYCEE CAUCADIS ACTU (Colonne G3) ---------*/
 #caucadis-actu{
     margin: 0 em(5px);

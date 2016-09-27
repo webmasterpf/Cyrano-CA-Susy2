@@ -4583,49 +4583,13 @@ h1.titre-lycee, h1.title-classes {
   border: 0;
 }
 
-/* line 195, ../sass/content-type-style/_page-lycee.scss */
-.liste_docs_joints_vdl {
-  width: 98%;
-  margin: 0 auto;
-  padding: 0.625em 0.3125em;
-  list-style: none;
-}
-/* line 203, ../sass/content-type-style/_page-lycee.scss */
-.liste_docs_joints_vdl div {
-  margin: 0.3125em 0;
-}
-/* line 207, ../sass/content-type-style/_page-lycee.scss */
-.liste_docs_joints_vdl span {
-  margin: 0.125em 0;
-}
-/* line 211, ../sass/content-type-style/_page-lycee.scss */
-.liste_docs_joints_vdl a {
-  font-weight: bold;
-  text-decoration: none;
-  padding: 0.1875em;
-  color: #606070;
-  background: white;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
-/* line 218, ../sass/content-type-style/_page-lycee.scss */
-.liste_docs_joints_vdl a:hover {
-  text-decoration: none;
-  background: #ECECED;
-}
-/* line 225, ../sass/content-type-style/_page-lycee.scss */
-.liste_docs_joints_vdl .filefield-icon {
-  display: none;
-}
-
 /*------ LISTE VUE ACTU LYCEE CAUCADIS ACTU (Colonne G3) ---------*/
-/* line 231, ../sass/content-type-style/_page-lycee.scss */
+/* line 194, ../sass/content-type-style/_page-lycee.scss */
 #caucadis-actu {
   margin: 0 0.3125em;
   width: 93%;
 }
-/* line 234, ../sass/content-type-style/_page-lycee.scss */
+/* line 197, ../sass/content-type-style/_page-lycee.scss */
 #caucadis-actu ul {
   margin: 0 auto;
   background: transparent url(../images/bg_caucadis_actu.jpg) no-repeat top left;
@@ -4636,16 +4600,16 @@ h1.titre-lycee, h1.title-classes {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 242, ../sass/content-type-style/_page-lycee.scss */
+/* line 205, ../sass/content-type-style/_page-lycee.scss */
 #caucadis-actu li {
   padding: 0.1875em 0;
   margin: 0;
 }
-/* line 246, ../sass/content-type-style/_page-lycee.scss */
+/* line 209, ../sass/content-type-style/_page-lycee.scss */
 #caucadis-actu h3 {
   color: #911381;
 }
-/* line 249, ../sass/content-type-style/_page-lycee.scss */
+/* line 212, ../sass/content-type-style/_page-lycee.scss */
 #caucadis-actu a {
   color: #606070;
   background: #ECECED;
@@ -4658,18 +4622,18 @@ h1.titre-lycee, h1.title-classes {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 258, ../sass/content-type-style/_page-lycee.scss */
+/* line 221, ../sass/content-type-style/_page-lycee.scss */
 #caucadis-actu a:hover {
   background: #606070;
   color: white;
 }
 
-/* line 266, ../sass/content-type-style/_page-lycee.scss */
+/* line 229, ../sass/content-type-style/_page-lycee.scss */
 .caucadis-actu-item {
   width: 95%;
   margin: 0.125em 0;
 }
-/* line 270, ../sass/content-type-style/_page-lycee.scss */
+/* line 233, ../sass/content-type-style/_page-lycee.scss */
 .caucadis-actu-item a {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -5483,7 +5447,7 @@ h1.titre_actualites_content {
   margin: 0 auto;
 }
 
-/* line 66, ../sass/content-type-style/_contenu-actualite.scss */
+/* line 67, ../sass/content-type-style/_contenu-actualite.scss */
 #bloc-video-actualites {
   width: 89%;
   display: block;
@@ -5492,56 +5456,56 @@ h1.titre_actualites_content {
   padding: 0.125em;
 }
 
-/* line 75, ../sass/content-type-style/_contenu-actualite.scss */
+/* line 76, ../sass/content-type-style/_contenu-actualite.scss */
 #table-docs-actualites tbody {
   border: 0;
 }
-/* line 78, ../sass/content-type-style/_contenu-actualite.scss */
+/* line 79, ../sass/content-type-style/_contenu-actualite.scss */
 #table-docs-actualites tr {
   border: 0 none;
 }
-/* line 81, ../sass/content-type-style/_contenu-actualite.scss */
+/* line 82, ../sass/content-type-style/_contenu-actualite.scss */
 #table-docs-actualites td {
   display: inline-block;
   margin: 0 3.125em;
 }
 
-/* line 92, ../sass/content-type-style/_contenu-actualite.scss */
+/* line 93, ../sass/content-type-style/_contenu-actualite.scss */
 #colonne-2.contenu-actu a {
   color: #DE603A;
   text-decoration: none;
 }
-/* line 94, ../sass/content-type-style/_contenu-actualite.scss */
+/* line 95, ../sass/content-type-style/_contenu-actualite.scss */
 #colonne-2.contenu-actu a:hover {
   background: #DE603A;
   color: #ECECED;
 }
 
 /*Blocs docs joints actualité*/
-/* line 100, ../sass/content-type-style/_contenu-actualite.scss */
+/* line 101, ../sass/content-type-style/_contenu-actualite.scss */
 h3.docs-actualites {
   color: #ADC91F;
   text-align: center;
 }
 
-/* line 104, ../sass/content-type-style/_contenu-actualite.scss */
+/* line 105, ../sass/content-type-style/_contenu-actualite.scss */
 #bloc-docs-actualites {
   width: auto;
   background: #ECECED;
   padding: 0.625em;
 }
-/* line 108, ../sass/content-type-style/_contenu-actualite.scss */
+/* line 109, ../sass/content-type-style/_contenu-actualite.scss */
 #bloc-docs-actualites a {
   text-decoration: none;
   color: #01ABCF;
   padding: 0.25em;
 }
-/* line 112, ../sass/content-type-style/_contenu-actualite.scss */
+/* line 113, ../sass/content-type-style/_contenu-actualite.scss */
 #bloc-docs-actualites a:hover {
   background: #01ABCF;
   color: white;
 }
-/* line 117, ../sass/content-type-style/_contenu-actualite.scss */
+/* line 118, ../sass/content-type-style/_contenu-actualite.scss */
 #bloc-docs-actualites span {
   width: 100%;
   display: block;
@@ -5556,7 +5520,7 @@ h3.docs-actualites {
   word-wrap: break-word;
 }
 
-/* line 126, ../sass/content-type-style/_contenu-actualite.scss */
+/* line 127, ../sass/content-type-style/_contenu-actualite.scss */
 #table-docs-actualites td {
   display: inline-block;
   margin: 0 0.625em;
@@ -5604,16 +5568,29 @@ h1.titre-vdl {
   text-decoration: underline;
 }
 
+/* ILLUSTRATION DANS CONTENU */
+/* line 49, ../sass/content-type-style/_contenu-vdl.scss */
+#bloc_illustration_vdl {
+  margin: 0.3125em;
+}
+/* line 51, ../sass/content-type-style/_contenu-vdl.scss */
+#bloc_illustration_vdl img {
+  border: 0.3em solid white;
+  -moz-box-shadow: #606070 0px 0px 0.5em;
+  -webkit-box-shadow: #606070 0px 0px 0.5em;
+  box-shadow: #606070 0px 0px 0.5em;
+}
+
 /*---- AUTRES EVENEMENTS VDL ------*/
-/* line 52, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 58, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements h3 {
   text-align: center;
   color: #ADC91F;
   font-family: "Arista", Trebuchet MS, sans-serif;
-  font-size: auto;
+  font-size: larger;
   margin: 0.3125em;
 }
-/* line 59, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 65, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements ul {
   width: auto;
   margin: 0 auto;
@@ -5625,12 +5602,12 @@ h1.titre-vdl {
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
 }
-/* line 68, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 74, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements li {
   padding: 0.1875em 0;
   margin: 0;
 }
-/* line 72, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 78, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements a {
   color: #606070;
   background: #ECECED;
@@ -5639,17 +5616,17 @@ h1.titre-vdl {
   text-decoration: none;
   padding: 0.125em;
 }
-/* line 79, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 85, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements a:hover {
   background: #9898a6;
   color: white;
 }
 
-/* line 88, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 94, ../sass/content-type-style/_contenu-vdl.scss */
 .liste-autre-evenement li {
   display: block;
 }
-/* line 90, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 96, ../sass/content-type-style/_contenu-vdl.scss */
 .liste-autre-evenement li a {
   font-weight: bold;
   text-decoration: none;
@@ -5662,22 +5639,89 @@ h1.titre-vdl {
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
 }
-/* line 100, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 106, ../sass/content-type-style/_contenu-vdl.scss */
 .liste-autre-evenement li a:hover {
   background: #01ABCF;
   color: white;
 }
 
-/* line 109, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 115, ../sass/content-type-style/_contenu-vdl.scss */
 .bloc_vdl_autres_evenements-item {
-  width: 185px;
+  width: auto;
   margin: 2px 0;
 }
 
-/* line 116, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 122, ../sass/content-type-style/_contenu-vdl.scss */
 li.bloc_vdl_autres_evenements-item a {
   -moz-border-radius: 5px;
   border-radius: 5px;
+}
+
+/* line 127, ../sass/content-type-style/_contenu-vdl.scss */
+#bloc_docs_utiles_vdl {
+  margin: 0 auto;
+}
+/* line 130, ../sass/content-type-style/_contenu-vdl.scss */
+#bloc_docs_utiles_vdl table {
+  width: auto;
+}
+/* line 133, ../sass/content-type-style/_contenu-vdl.scss */
+#bloc_docs_utiles_vdl thead {
+  display: none;
+}
+/* line 136, ../sass/content-type-style/_contenu-vdl.scss */
+#bloc_docs_utiles_vdl tbody {
+  border: 0;
+}
+/* line 139, ../sass/content-type-style/_contenu-vdl.scss */
+#bloc_docs_utiles_vdl tr {
+  background: none;
+}
+/* line 142, ../sass/content-type-style/_contenu-vdl.scss */
+#bloc_docs_utiles_vdl h3 {
+  text-align: center;
+  color: #01ABCF;
+  font-family: "Arista", Trebuchet MS, sans-serif;
+  font-size: larger;
+  margin: 0.3125em;
+}
+
+/* line 152, ../sass/content-type-style/_contenu-vdl.scss */
+.liste_docs_joints_vdl {
+  width: 98%;
+  margin: 0 auto;
+  padding: 0.625em 0.3125em;
+  list-style: none;
+  background: transparent url(../images/bg_docs_utiles_lycee.jpg) no-repeat;
+  background-size: cover;
+}
+/* line 159, ../sass/content-type-style/_contenu-vdl.scss */
+.liste_docs_joints_vdl div {
+  margin: 0.3125em 0;
+}
+/* line 163, ../sass/content-type-style/_contenu-vdl.scss */
+.liste_docs_joints_vdl span {
+  margin: 0.125em 0;
+}
+/* line 167, ../sass/content-type-style/_contenu-vdl.scss */
+.liste_docs_joints_vdl a {
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.1875em;
+  color: #606070;
+  background: white;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 174, ../sass/content-type-style/_contenu-vdl.scss */
+.liste_docs_joints_vdl a:hover {
+  text-decoration: none;
+  background: #ECECED;
+}
+/* line 181, ../sass/content-type-style/_contenu-vdl.scss */
+.liste_docs_joints_vdl .filefield-icon {
+  display: none;
 }
 
 /*-------------------------------------|

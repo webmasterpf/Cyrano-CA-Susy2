@@ -87,6 +87,7 @@
         $('.chocolat-parent').Chocolat(
                 {
                     loop           : true,
+                    zoom           : true,
                     imageSize     : 'default',
                     overlayOpacity : 0.9
                 });
