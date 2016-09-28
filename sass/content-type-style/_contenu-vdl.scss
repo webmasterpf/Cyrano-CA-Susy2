@@ -56,11 +56,11 @@ h1.titre-vdl{
       img{
           @include cadre-ombre(0.003em,white,$gris-anthracite);
           @include breakpoint ($desktop){
+              float: right;
+              margin: 8em 1em;
               @include cadre-ombre(0.3em,white,$gris-anthracite);
               //habillage de texte avec shape-outisde (CSS)
               @include forme-habillage(inset(23% 0%));
-              float: right;
-              margin: 8em 1em;
           }
 
       }
@@ -78,40 +78,49 @@ h1.titre-vdl{
 /*---- AUTRES EVENEMENTS VDL ------*/
 #bloc_vdl_autres_evenements{
     h3{
-    text-align: center;
-    color: $vert;
-    font-family: $AristaFont;
-    font-size: larger;
-    margin: em(5px);
-}
- ul{
-      width: auto;
-    margin: 0 auto;
-     background: transparent url(../images/bg_caucadis_actu.jpg) no-repeat top right ;
-     background-size: cover;
-    padding: em(10px) em(5px);
-    list-style: none;
-    @include arrondis;
-}
-li{
-    padding: em(3px) 0;
-    margin: 0;
-}
-a{
-    color:  $gris-anthracite;
-    background: $gris-clair;
-    display: block;
-    font-weight: bold;
-    text-decoration: none;
-    padding: em(2px);
-    line-height: 1.5em;
-    &:hover{
-    background: $gris-clair-moyen;
-    color: white;
-}
+        text-align: center;
+        color: $vert;
+        font-family: $AristaFont;
+        font-size: larger;
+        margin: em(5px);
+    }
+    ul{
+        width: auto;
+        margin: 0 auto;
+        background: transparent url(../images/bg_caucadis_actu.jpg) no-repeat top right ;
+        background-size: cover;
+        padding: em(10px) em(5px);
+        list-style: none;
+        @include arrondis;
+    }
+    li{
+        padding: em(3px) 0;
+        margin: 0;
+    }
+    a{
+        color:  $gris-anthracite;
+        background: $gris-clair;
+        display: block;
+        font-weight: bold;
+        text-decoration: none;
+        padding: em(2px);
+        line-height: 1.5em;
+        &:hover{
+            background: $gris-clair-moyen;
+            color: white;
+        }
+    }
 }
 
+.bloc_vdl_autres_evenements-item{
+    width: auto;
+    margin: em(2px) 0;
+
+    a{
+        @include arrondis(em(5px));
+    }
 }
+
 
 .liste-autre-evenement{
     li{
@@ -135,17 +144,7 @@ a{
 
 }
 
-.bloc_vdl_autres_evenements-item{
-    width: auto;
-    margin: 2px 0;;
 
-
-
-}
-li.bloc_vdl_autres_evenements-item a{
-     -moz-border-radius: 5px;
-    border-radius: 5px;
-}
 
 #bloc_docs_utiles_vdl{
    

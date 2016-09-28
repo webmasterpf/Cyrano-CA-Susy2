@@ -5584,6 +5584,8 @@ h1.titre-vdl {
 @media (min-width: 990px) {
   /* line 56, ../sass/content-type-style/_contenu-vdl.scss */
   #bloc_illustration_vdl img {
+    float: right;
+    margin: 8em 1em;
     border: 0.3em solid white;
     -moz-box-shadow: #606070 0px 0px 0.5em;
     -webkit-box-shadow: #606070 0px 0px 0.5em;
@@ -5594,8 +5596,6 @@ h1.titre-vdl {
     shape-margin: 0;
     -webkit-shape-margin: 0;
     -moz-shape-margin: 0;
-    float: right;
-    margin: 8em 1em;
   }
 }
 
@@ -5666,11 +5666,23 @@ img.illustration-vdl {
   color: white;
 }
 
-/* line 117, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 115, ../sass/content-type-style/_contenu-vdl.scss */
+.bloc_vdl_autres_evenements-item {
+  width: auto;
+  margin: 0.125em 0;
+}
+/* line 119, ../sass/content-type-style/_contenu-vdl.scss */
+.bloc_vdl_autres_evenements-item a {
+  -moz-border-radius: 0.3125em;
+  -webkit-border-radius: 0.3125em;
+  border-radius: 0.3125em;
+}
+
+/* line 126, ../sass/content-type-style/_contenu-vdl.scss */
 .liste-autre-evenement li {
   display: block;
 }
-/* line 119, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 128, ../sass/content-type-style/_contenu-vdl.scss */
 .liste-autre-evenement li a {
   font-weight: bold;
   text-decoration: none;
@@ -5683,46 +5695,34 @@ img.illustration-vdl {
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
 }
-/* line 129, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 138, ../sass/content-type-style/_contenu-vdl.scss */
 .liste-autre-evenement li a:hover {
   background: #01ABCF;
   color: white;
 }
 
-/* line 138, ../sass/content-type-style/_contenu-vdl.scss */
-.bloc_vdl_autres_evenements-item {
-  width: auto;
-  margin: 2px 0;
-}
-
-/* line 145, ../sass/content-type-style/_contenu-vdl.scss */
-li.bloc_vdl_autres_evenements-item a {
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-
-/* line 152, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 151, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl table {
   width: auto;
   margin: 0 auto;
   background: transparent url(../images/bg_docs_utiles_lycee.jpg) no-repeat;
   background-size: cover;
 }
-/* line 158, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 157, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl thead {
   display: none;
 }
-/* line 161, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 160, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl tbody {
   border: 0;
 }
-/* line 164, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 163, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl tr {
   background: none;
   border: 0;
   padding: 0;
 }
-/* line 169, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 168, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl h3 {
   text-align: center;
   color: #01ABCF;
@@ -5731,22 +5731,22 @@ li.bloc_vdl_autres_evenements-item a {
   margin: 0.3125em;
 }
 
-/* line 179, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 178, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl {
   width: 98%;
   margin: 0 auto;
   padding: 0.625em 0.3125em;
   list-style: none;
 }
-/* line 185, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 184, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl div {
   margin: 0.3125em 0;
 }
-/* line 189, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 188, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl span {
   margin: 0.125em 0;
 }
-/* line 193, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 192, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl a {
   font-weight: bold;
   text-decoration: none;
@@ -5757,12 +5757,12 @@ li.bloc_vdl_autres_evenements-item a {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 200, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 199, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl a:hover {
   text-decoration: none;
   background: #ECECED;
 }
-/* line 207, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 206, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl .filefield-icon {
   display: none;
 }
