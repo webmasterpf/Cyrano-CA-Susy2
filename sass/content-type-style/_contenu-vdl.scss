@@ -65,15 +65,19 @@ h1.titre-vdl{
 
       }
   }
-  img.illustration-vdl{
-     @include cadre-ombre(0.003em,white,$gris-anthracite);
+  
+  /*Pour images insérées via l'editeur WYSIWYG*/
+  #colonne-1.contenu-vdl{
+      img,img.illustration-vdl{
+          @include cadre-ombre(0.003em,white,$gris-anthracite);
           @include breakpoint ($desktop){
               @include cadre-ombre(0.3em,white,$gris-anthracite);
               //habillage de texte avec shape-outisde (CSS)
-              @include forme-habillage(inset(23% 0%));
-              float: right;
-              margin: 8em 1em;
-  }
+              @include forme-habillage(inset(0%));
+              float: left;
+              margin: 1em;
+          }
+      }
   }
 /*---- AUTRES EVENEMENTS VDL ------*/
 #bloc_vdl_autres_evenements{
@@ -85,7 +89,7 @@ h1.titre-vdl{
         margin: em(5px);
     }
     ul{
-        width: auto;
+        width: 90%;
         margin: 0 auto;
         background: transparent url(../images/bg_caucadis_actu.jpg) no-repeat top right ;
         background-size: cover;
@@ -149,7 +153,7 @@ h1.titre-vdl{
 #bloc_docs_utiles_vdl{
    
     table{
-        width: 98%;
+        width: 90%;
          margin: 0 auto;
         background: transparent url(../images/bg_docs_utiles_lycee.jpg) no-repeat ;
         background-size: cover;

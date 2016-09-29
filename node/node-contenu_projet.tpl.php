@@ -8,16 +8,16 @@
      <h1 class="titre-vdl"><?php print $title; ?></h1>
      <?php endif; ?>
          <div class="content">
-                  <?php
-global $theme_path;
-include ($theme_path.'/includes/dedicates_inc/inc_vdl_illustration_vue.php');
-?>
+                
    <?php
    
      /*insertion du contenu du corps de la page*/
       print $node->content['body']['#value']
       ?>
-
+  <?php
+global $theme_path;
+include ($theme_path.'/includes/dedicates_inc/inc_vdl_illustration_vue.php');
+?>
          <?php if ($node->field_choix_galerie_vdl[0]['view']): ?>
         <div class="galerie-vdl">
            <?php  print $node->field_choix_galerie_vdl[0]['view'] /**/ ?>
