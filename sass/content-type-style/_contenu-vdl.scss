@@ -36,6 +36,28 @@ h1.titre-vdl{
     color: $violet;
   
 }
+#colonne-1.contenu-vdl{
+    a{
+        color: $violet;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    strong{
+        color: $bleu-turquoise;
+    }
+    @include breakpoint ($desktop){
+        clear:none;
+    }
+    a{
+     //   color: $violet;
+      //  text-decoration: none;
+        &:hover{
+           // text-decoration: underline;
+        }
+    }
+}
 #colonne-2.contenu-vdl{
     clear:both;
      @include breakpoint ($desktop){
