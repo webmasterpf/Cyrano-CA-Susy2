@@ -1,9 +1,9 @@
-<!--______________NODE TPL POUR TdC SORTIE-ACTION CUSTOM________________ -->
+<!--______________NODE TPL POUR TdC PROJET CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
   <div class="node-inner">
 <!--______________COLONNE GAUCHE 1________________ -->
   <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
-<div id="colonne-1" class="col1_layout_9_3 contenu-vdl contenu_sortie">
+<div id="colonne-1" class="col1_layout_9_3 contenu-vdl contenu_projet">
      <?php if ($title): /*insertion du titre de la page et style differencié*/?>
      <h1 class="titre-vdl"><?php print $title; ?></h1>
      <?php endif; ?>
@@ -40,7 +40,7 @@ include ($theme_path.'/includes/dedicates_inc/inc_vdl_medias.php');
         
 </div>
 <!--______________COLONNE GAUCHE 2________________ -->
-<div id="colonne-2" class="col2_layout_9_3 contenu-vdl contenu_sortie">
+<div id="colonne-2" class="col2_layout_9_3 contenu-vdl contenu_projet">
      <?php if ($submitted): ?>
       <span class="submitted"><?php print $submitted; ?></span>
     <?php endif; ?>
