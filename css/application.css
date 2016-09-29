@@ -5558,23 +5558,43 @@ h1.titre-vdl {
   color: #911381;
 }
 
-/* line 39, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 40, ../sass/content-type-style/_contenu-vdl.scss */
+#colonne-1.contenu-vdl a {
+  color: #911381;
+  text-decoration: none;
+}
+/* line 43, ../sass/content-type-style/_contenu-vdl.scss */
+#colonne-1.contenu-vdl a:hover {
+  text-decoration: underline;
+}
+/* line 47, ../sass/content-type-style/_contenu-vdl.scss */
+#colonne-1.contenu-vdl strong {
+  color: #01ABCF;
+}
+@media (min-width: 990px) {
+  /* line 39, ../sass/content-type-style/_contenu-vdl.scss */
+  #colonne-1.contenu-vdl {
+    clear: none;
+  }
+}
+
+/* line 61, ../sass/content-type-style/_contenu-vdl.scss */
 #colonne-2.contenu-vdl {
   clear: both;
 }
 @media (min-width: 990px) {
-  /* line 39, ../sass/content-type-style/_contenu-vdl.scss */
+  /* line 61, ../sass/content-type-style/_contenu-vdl.scss */
   #colonne-2.contenu-vdl {
     clear: none;
   }
 }
 
 /* ILLUSTRATION DANS CONTENU */
-/* line 53, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 75, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_illustration_vdl {
   margin: 0.3125em;
 }
-/* line 56, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 78, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_illustration_vdl img {
   border: 0.003em solid white;
   -moz-box-shadow: #606070 0px 0px 0.5em;
@@ -5582,7 +5602,7 @@ h1.titre-vdl {
   box-shadow: #606070 0px 0px 0.5em;
 }
 @media (min-width: 990px) {
-  /* line 56, ../sass/content-type-style/_contenu-vdl.scss */
+  /* line 78, ../sass/content-type-style/_contenu-vdl.scss */
   #bloc_illustration_vdl img {
     float: right;
     margin: 8em 1em;
@@ -5600,7 +5620,7 @@ h1.titre-vdl {
 }
 
 /*Pour images insérées via l'editeur WYSIWYG*/
-/* line 71, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 93, ../sass/content-type-style/_contenu-vdl.scss */
 #colonne-1.contenu-vdl img, #colonne-1.contenu-vdl img.illustration-vdl {
   border: 0.003em solid white;
   -moz-box-shadow: #606070 0px 0px 0.5em;
@@ -5608,7 +5628,7 @@ h1.titre-vdl {
   box-shadow: #606070 0px 0px 0.5em;
 }
 @media (min-width: 990px) {
-  /* line 71, ../sass/content-type-style/_contenu-vdl.scss */
+  /* line 93, ../sass/content-type-style/_contenu-vdl.scss */
   #colonne-1.contenu-vdl img, #colonne-1.contenu-vdl img.illustration-vdl {
     border: 0.3em solid white;
     -moz-box-shadow: #606070 0px 0px 0.5em;
@@ -5626,7 +5646,7 @@ h1.titre-vdl {
 }
 
 /*---- AUTRES EVENEMENTS VDL ------*/
-/* line 84, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 106, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements h3 {
   text-align: center;
   color: #ADC91F;
@@ -5634,7 +5654,7 @@ h1.titre-vdl {
   font-size: larger;
   margin: 0.3125em;
 }
-/* line 91, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 113, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements ul {
   width: 90%;
   margin: 0 auto;
@@ -5646,12 +5666,12 @@ h1.titre-vdl {
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
 }
-/* line 100, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 122, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements li {
   padding: 0.1875em 0;
   margin: 0;
 }
-/* line 104, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 126, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements a {
   color: #606070;
   background: #ECECED;
@@ -5661,29 +5681,29 @@ h1.titre-vdl {
   padding: 0.125em;
   line-height: 1.5em;
 }
-/* line 112, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 134, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements a:hover {
   background: #9898a6;
   color: white;
 }
 
-/* line 119, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 141, ../sass/content-type-style/_contenu-vdl.scss */
 .bloc_vdl_autres_evenements-item {
   width: auto;
   margin: 0.125em 0;
 }
-/* line 123, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 145, ../sass/content-type-style/_contenu-vdl.scss */
 .bloc_vdl_autres_evenements-item a {
   -moz-border-radius: 0.3125em;
   -webkit-border-radius: 0.3125em;
   border-radius: 0.3125em;
 }
 
-/* line 130, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 152, ../sass/content-type-style/_contenu-vdl.scss */
 .liste-autre-evenement li {
   display: block;
 }
-/* line 132, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 154, ../sass/content-type-style/_contenu-vdl.scss */
 .liste-autre-evenement li a {
   font-weight: bold;
   text-decoration: none;
@@ -5696,34 +5716,34 @@ h1.titre-vdl {
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
 }
-/* line 142, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 164, ../sass/content-type-style/_contenu-vdl.scss */
 .liste-autre-evenement li a:hover {
   background: #01ABCF;
   color: white;
 }
 
-/* line 155, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 177, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl table {
   width: 90%;
   margin: 0 auto;
   background: transparent url(../images/bg_docs_utiles_lycee.jpg) no-repeat;
   background-size: cover;
 }
-/* line 161, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 183, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl thead {
   display: none;
 }
-/* line 164, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 186, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl tbody {
   border: 0;
 }
-/* line 167, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 189, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl tr {
   background: none;
   border: 0;
   padding: 0;
 }
-/* line 172, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 194, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl h3 {
   text-align: center;
   color: #01ABCF;
@@ -5732,22 +5752,22 @@ h1.titre-vdl {
   margin: 0.3125em;
 }
 
-/* line 182, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 204, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl {
   width: 98%;
   margin: 0 auto;
   padding: 0.625em 0.3125em;
   list-style: none;
 }
-/* line 188, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 210, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl div {
   margin: 0.3125em 0;
 }
-/* line 192, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 214, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl span {
   margin: 0.125em 0;
 }
-/* line 196, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 218, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl a {
   font-weight: bold;
   text-decoration: none;
@@ -5758,12 +5778,12 @@ h1.titre-vdl {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 203, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 225, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl a:hover {
   text-decoration: none;
   background: #ECECED;
 }
-/* line 210, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 232, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl .filefield-icon {
   display: none;
 }
@@ -7657,21 +7677,27 @@ Indiquer les classes ou les IDs des enveloppes des galeries
   max-width: 65%;
   width: auto;
 }
+/* line 147, ../sass/galeries/_flexslider-cyrano.scss */
+#colonne-1 .galerie-vdl .flexslider-classic a,
+#colonne-2 .galerie-vdl .flexslider-classic a {
+  height: 25em;
+  display: block;
+}
 
 /*######-------- ||| POSITION NAV ||| --------######*/
-/* line 154, ../sass/galeries/_flexslider-cyrano.scss */
+/* line 159, ../sass/galeries/_flexslider-cyrano.scss */
 #colonne-1 .galerie-vdl #carousel,
 #colonne-2 .galerie-vdl #carousel {
   height: 9em;
   overflow: hidden;
 }
-/* line 160, ../sass/galeries/_flexslider-cyrano.scss */
+/* line 165, ../sass/galeries/_flexslider-cyrano.scss */
 #colonne-1 .galerie-vdl div#slider .flexslider:hover .flex-direction-nav .flex-prev,
 #colonne-2 .galerie-vdl div#slider .flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 0.7;
   left: 0;
 }
-/* line 165, ../sass/galeries/_flexslider-cyrano.scss */
+/* line 170, ../sass/galeries/_flexslider-cyrano.scss */
 #colonne-1 .galerie-vdl div#slider .flexslider:hover .flex-direction-nav .flex-next,
 #colonne-2 .galerie-vdl div#slider .flexslider:hover .flex-direction-nav .flex-next {
   opacity: 0.7;

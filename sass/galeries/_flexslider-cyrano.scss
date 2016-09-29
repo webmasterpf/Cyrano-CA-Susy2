@@ -144,6 +144,11 @@ Indiquer les classes ou les IDs des enveloppes des galeries
             max-width: 65%;
             width: auto;
         }
+        a{
+            //pour taille du cartouche pour les captions
+            height: em(400px);
+            display: block;
+        }
     }
 }
 
