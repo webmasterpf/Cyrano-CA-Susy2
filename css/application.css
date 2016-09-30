@@ -5794,22 +5794,22 @@ h1.titre-vdl {
 |       CONTENU CDI                       |
 |--------------------------------------*/
 /*######-------- ||| ORDRE FLEXBOX ||| --------######*/
-/* line 16, ../sass/content-type-style/_contenu-cdi.scss */
+/* line 16, ../sass/content-type-style/_contenu-admin.scss */
 body .conteneur .conteneur-flex #colonne-1.contenu-actu {
   order: 1;
 }
-/* line 17, ../sass/content-type-style/_contenu-cdi.scss */
+/* line 17, ../sass/content-type-style/_contenu-admin.scss */
 body .conteneur .conteneur-flex #colonne-2.contenu-actu {
   order: 2;
 }
-/* line 18, ../sass/content-type-style/_contenu-cdi.scss */
+/* line 18, ../sass/content-type-style/_contenu-admin.scss */
 body .conteneur .conteneur-flex #colonne-3.contenu-actu {
   order: 3;
 }
 
 /*######-------- ||| BORDURES ||| --------######*/
 @media (min-width: 990px) {
-  /* line 25, ../sass/content-type-style/_contenu-cdi.scss */
+  /* line 25, ../sass/content-type-style/_contenu-admin.scss */
   body .conteneur .conteneur-flex #colonne-2.contenu-actu {
     border-left: 0.0625em solid #ADC91F;
     border-right: 0.0625em solid #911381;
@@ -5817,77 +5817,48 @@ body .conteneur .conteneur-flex #colonne-3.contenu-actu {
 }
 
 /*######-------- ||| STYLE ||| --------######*/
-/*Table globale*/
-/* line 34, ../sass/content-type-style/_contenu-cdi.scss */
-#cdi-utile {
-  width: 95%;
-  display: block;
+/* line 34, ../sass/content-type-style/_contenu-admin.scss */
+#colonne-1.admin_content h2 {
+  color: #E30078;
+  font-family: "Arista", Trebuchet MS, sans-serif;
+  text-align: center;
+  margin: 0.5em;
+}
+/* line 40, ../sass/content-type-style/_contenu-admin.scss */
+#colonne-1.admin_content h3 {
+  color: #01ABCF;
+}
+
+/* line 44, ../sass/content-type-style/_contenu-admin.scss */
+.liste-doc-admin {
+  margin: 1em 0;
+}
+/* line 46, ../sass/content-type-style/_contenu-admin.scss */
+.liste-doc-admin table {
+  width: 90%;
   margin: 0 auto;
 }
-
-/* line 41, ../sass/content-type-style/_contenu-cdi.scss */
-#cdi-utile td {
-  vertical-align: top;
+/* line 47, ../sass/content-type-style/_contenu-admin.scss */
+.liste-doc-admin thead th {
+  border-bottom: 0.125em solid #ADC91F;
 }
-
-/*reset style commun table CDI*/
-/* line 46, ../sass/content-type-style/_contenu-cdi.scss */
-.table-cdi {
-  background: none;
-  border: 0;
-  margin: 5px;
+/* line 48, ../sass/content-type-style/_contenu-admin.scss */
+.liste-doc-admin tr {
+  background: transparent;
 }
-/* line 51, ../sass/content-type-style/_contenu-cdi.scss */
-.table-cdi tr {
-  background: none;
-  border-bottom: 1px solid #ADC91F;
+/* line 49, ../sass/content-type-style/_contenu-admin.scss */
+.liste-doc-admin td {
+  background: transparent;
+  border-bottom: 0.0625em solid #911381;
+  padding: 1em 0;
 }
-/* line 55, ../sass/content-type-style/_contenu-cdi.scss */
-.table-cdi td {
-  background: none;
+/* line 50, ../sass/content-type-style/_contenu-admin.scss */
+.liste-doc-admin a {
+  color: #E30078;
 }
-/* line 58, ../sass/content-type-style/_contenu-cdi.scss */
-.table-cdi a {
-  padding: 3px;
-}
-
-/*Table fichiers joints*/
-/* line 65, ../sass/content-type-style/_contenu-cdi.scss */
-#docs-utiles-cdi h3 {
-  color: #00ACD1;
-}
-
-/* line 68, ../sass/content-type-style/_contenu-cdi.scss */
-#docs-utiles-cdi a {
-  background: none;
-  color: black;
-}
-
-/* line 72, ../sass/content-type-style/_contenu-cdi.scss */
-#docs-utiles-cdi a:hover {
-  background: none;
-  color: black;
-}
-
-/* line 76, ../sass/content-type-style/_contenu-cdi.scss */
-#docs-utiles-cdi .filefield-icon {
-  display: none;
-}
-
-/*Table liens*/
-/* line 80, ../sass/content-type-style/_contenu-cdi.scss */
-#liens-utiles-cdi {
-  background: none repeat scroll 0 0 #EEEEE0;
-}
-/* line 83, ../sass/content-type-style/_contenu-cdi.scss */
-#liens-utiles-cdi a {
-  background: none;
-  color: black;
-}
-/* line 87, ../sass/content-type-style/_contenu-cdi.scss */
-#liens-utiles-cdi:hover {
-  background: none;
-  color: black;
+/* line 51, ../sass/content-type-style/_contenu-admin.scss */
+.liste-doc-admin a:hover {
+  color: #606070;
 }
 
 /*-------------------------------------|

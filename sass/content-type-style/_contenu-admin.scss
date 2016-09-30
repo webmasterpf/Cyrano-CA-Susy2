@@ -29,63 +29,25 @@ body .conteneur .conteneur-flex{
     
 }
 /*######-------- ||| STYLE ||| --------######*/
+#colonne-1.admin_content{
 
-/*Table globale*/
-#cdi-utile{
-    width: 95%;
-    display: block;
-    margin: 0 auto;
-}
-#cdi-utile tbody{}
-#cdi-utile tr{}
-#cdi-utile td{
-    vertical-align: top;
-}
-
-/*reset style commun table CDI*/
-.table-cdi{
-    background: none;
-    border: 0;
-    margin: 5px;
-    tbody{}
-    tr{
-        background: none;
-        border-bottom: 1px solid $vert;
+    h2{
+        color: $rose-fushia;
+        font-family: $AristaFont;
+        text-align: center;
+        margin: 0.5em;
     }
-    td{
-        background: none;
-    }
-    a{
-        padding: 3px;
+    h3{
+        color: $bleu-turquoise;
     }
 }
-
-/*Table fichiers joints*/
-#docs-utiles-cdi{}
-#docs-utiles-cdi h3{
-    color: #00ACD1;
-}
-#docs-utiles-cdi a{
-    background: none;
-    color: black;
-}
-#docs-utiles-cdi a:hover{
-    background: none;
-    color: black;
-}
-#docs-utiles-cdi .filefield-icon {
-    display: none;
-}
-/*Table liens*/
-#liens-utiles-cdi{
-    background: none repeat scroll 0 0 #EEEEE0;
-    h3{}
-    a{
-        background: none;
-        color: black;
-    }
-    &:hover{
-        background: none;
-        color: black;
+.liste-doc-admin {
+    margin: 1em 0;
+    table{width: 90%;margin: 0 auto;}
+    thead th{border-bottom:em(2px) solid $vert;}
+    tr{background: transparent;}
+    td{background: transparent;border-bottom: em(1px) solid $violet;padding: 1em 0;}
+    a{color: $rose-fushia;
+    &:hover{color: $gris-anthracite;}
     }
 }
