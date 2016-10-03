@@ -20,7 +20,10 @@
       print $node->content['body']['#value'];
 
       ?>
- 
+     <?php
+           global $theme_path;
+              include ($theme_path.'/includes/regions_inc/inc_region_col_1.php');
+              ?>
     </div>
         
    
@@ -36,9 +39,9 @@
            <?php endif;?>
 
 
-       <?php
-              $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
-              include ($theme_path.'/includes/inc_region_col_G2.php');
+    <?php
+           global $theme_path;
+              include ($theme_path.'/includes/regions_inc/inc_region_col_2.php');
               ?>
 
     <?php if ($terms): ?>
