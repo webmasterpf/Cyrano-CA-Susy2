@@ -6569,6 +6569,30 @@ h3.docs-entreprise {
   border: 0;
 }
 
+/* line 67, ../sass/content-type-style/_contenu-entreprise.scss */
+.bloc-video-entreprise {
+  width: auto;
+  margin: 0 auto;
+  border: 0.3em solid white;
+  -moz-box-shadow: #606070 0px 0px 0.5em;
+  -webkit-box-shadow: #606070 0px 0px 0.5em;
+  box-shadow: #606070 0px 0px 0.5em;
+}
+
+/*--- AJUSTEMENT GALERIE CHOCOLAT ---*/
+/* line 77, ../sass/content-type-style/_contenu-entreprise.scss */
+#colonne-1.contenu_entreprise .galerie-vdl .chocolat-parent > div {
+  padding: 0 0.5em;
+}
+/* line 80, ../sass/content-type-style/_contenu-entreprise.scss */
+#colonne-1.contenu_entreprise .galerie-vdl .chocolat-parent a {
+  margin: 0.5em;
+}
+/* line 83, ../sass/content-type-style/_contenu-entreprise.scss */
+#colonne-1.contenu_entreprise .galerie-vdl .chocolat-parent img {
+  margin: 0 0.5em;
+}
+
 /*
 Pour le dev, code visuel sur les blocs selon le breakpoint
 à commenter ou supprimer pour la production
@@ -8081,44 +8105,44 @@ Override du style de galerie vignettes Chocolat
   margin: 0 1.875em;
 }
 /* line 10, ../sass/galeries/_chocolat-vignette-zoom.scss */
-.galerie-vdl .chocolat-parent div {
+.galerie-vdl .chocolat-parent > div {
   width: 47.44898%;
   float: left;
 }
 /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-.galerie-vdl .chocolat-parent div:nth-child(2n + 1) {
+.galerie-vdl .chocolat-parent > div:nth-child(2n + 1) {
   margin-left: 0;
   margin-right: -100%;
   clear: both;
   margin-left: 0;
 }
 /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-.galerie-vdl .chocolat-parent div:nth-child(2n + 2) {
+.galerie-vdl .chocolat-parent > div:nth-child(2n + 2) {
   margin-left: 52.55102%;
   margin-right: -100%;
   clear: none;
 }
 @media (min-width: 990px) {
   /* line 10, ../sass/galeries/_chocolat-vignette-zoom.scss */
-  .galerie-vdl .chocolat-parent div {
+  .galerie-vdl .chocolat-parent > div {
     width: 32.23684%;
     float: left;
   }
   /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-  .galerie-vdl .chocolat-parent div:nth-child(3n + 1) {
+  .galerie-vdl .chocolat-parent > div:nth-child(3n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0;
   }
   /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-  .galerie-vdl .chocolat-parent div:nth-child(3n + 2) {
+  .galerie-vdl .chocolat-parent > div:nth-child(3n + 2) {
     margin-left: 33.88158%;
     margin-right: -100%;
     clear: none;
   }
   /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-  .galerie-vdl .chocolat-parent div:nth-child(3n + 3) {
+  .galerie-vdl .chocolat-parent > div:nth-child(3n + 3) {
     margin-left: 67.76316%;
     margin-right: -100%;
     clear: none;
