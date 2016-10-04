@@ -1,0 +1,57 @@
+// Regroupe le style pour le contenu des node.tpl custom
+// créer des fichiers _node-TYPE.scss et les importer dans application.scss
+
+/*-------------------------------------|
+|         CUSTOM NODE.TPL        |
+|       CONTENU ENTREPRISE       |
+|--------------------------------------*/
+
+//@include breakpoint ($mobile){}
+//@include breakpoint ($desktop){}
+//@include breakpoint ($tablet){}
+
+/*######-------- ||| ORDRE FLEXBOX ||| --------######*/
+body .conteneur .conteneur-flex{
+    #colonne-1.contenu-actu{order:1;}
+    #colonne-2.contenu-actu{order:2;}
+    #colonne-3.contenu-actu{order:3;}
+    @include breakpoint ($desktop){}
+}
+
+/*######-------- ||| BORDURES ||| --------######*/
+body .conteneur .conteneur-flex{
+    @include breakpoint ($desktop){
+        #colonne-2.contenu-actu{
+            @include border-vert-violet;
+        }
+        }
+    
+}
+/*######-------- ||| STYLE ||| --------######*/
+
+h1.titre_entreprise_content{
+    color: $orange-fonce;
+    font-family: $FontArvo;
+}
+h3.docs-entreprise{
+    color: $vert;
+    text-align: center;
+}
+.bloc-docs-entreprise{
+    width: 100%;
+    background: $gris-clair;
+    padding: em(10px);
+    a{
+    text-decoration: none;
+    color: $bleu-turquoise;
+    padding: em(4px);
+    &:hover{
+    background: $bleu-turquoise;
+    color: white;
+}
+}
+
+}
+
+
+.bloc-video-entreprise{}

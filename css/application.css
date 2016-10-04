@@ -6470,6 +6470,64 @@ body .conteneur .conteneur-flex #colonne-3.CLASS_NAME {
   padding: 0 0.125em;
 }
 
+/*-------------------------------------|
+|         CUSTOM NODE.TPL        |
+|       CONTENU ENTREPRISE       |
+|--------------------------------------*/
+/*######-------- ||| ORDRE FLEXBOX ||| --------######*/
+/* line 15, ../sass/content-type-style/_contenu-entreprise.scss */
+body .conteneur .conteneur-flex #colonne-1.contenu-actu {
+  order: 1;
+}
+/* line 16, ../sass/content-type-style/_contenu-entreprise.scss */
+body .conteneur .conteneur-flex #colonne-2.contenu-actu {
+  order: 2;
+}
+/* line 17, ../sass/content-type-style/_contenu-entreprise.scss */
+body .conteneur .conteneur-flex #colonne-3.contenu-actu {
+  order: 3;
+}
+
+/*######-------- ||| BORDURES ||| --------######*/
+@media (min-width: 990px) {
+  /* line 24, ../sass/content-type-style/_contenu-entreprise.scss */
+  body .conteneur .conteneur-flex #colonne-2.contenu-actu {
+    border-left: 0.0625em solid #ADC91F;
+    border-right: 0.0625em solid #911381;
+  }
+}
+
+/*######-------- ||| STYLE ||| --------######*/
+/* line 32, ../sass/content-type-style/_contenu-entreprise.scss */
+h1.titre_entreprise_content {
+  color: #DE603A;
+  font-family: "Arvo", Trebuchet MS, Verdana, sans-serif;
+}
+
+/* line 36, ../sass/content-type-style/_contenu-entreprise.scss */
+h3.docs-entreprise {
+  color: #ADC91F;
+  text-align: center;
+}
+
+/* line 40, ../sass/content-type-style/_contenu-entreprise.scss */
+.bloc-docs-entreprise {
+  width: 100%;
+  background: #ECECED;
+  padding: 0.625em;
+}
+/* line 44, ../sass/content-type-style/_contenu-entreprise.scss */
+.bloc-docs-entreprise a {
+  text-decoration: none;
+  color: #01ABCF;
+  padding: 0.25em;
+}
+/* line 48, ../sass/content-type-style/_contenu-entreprise.scss */
+.bloc-docs-entreprise a:hover {
+  background: #01ABCF;
+  color: white;
+}
+
 /*
 Pour le dev, code visuel sur les blocs selon le breakpoint
 à commenter ou supprimer pour la production

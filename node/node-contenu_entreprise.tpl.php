@@ -5,30 +5,18 @@
   <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
 <div id="colonne-1" class="col1_layout_max contenu_entreprise">
 
-         <?php if ($node->field_fichier_joint_entreprise[0]['view']): ?>
-        <div id="bloc-docs-entreprise">
-            <h3 class="docs-entreprise">Documents joints</h3>
-             <table id="table-docs-entreprise">
-                                <tbody>
-                              
-           <tr class="line1">
-               <td>  <?php  print $node->field_fichier_joint_entreprise[0]['view']  ?></td>
-               <td>  <?php  print $node->field_fichier_joint_entreprise[1]['view']  ?></td>
-               <td>  <?php  print $node->field_fichier_joint_entreprise[2]['view']  ?></td>
-                </tr>
-                 </tbody>
+        
 
-       </table>
-        </div>
-           <?php endif;?>
-
-      
+        <?php
+      global $theme_path;
+      include ($theme_path . '/includes/dedicates_inc/inc_entreprise_docs.php');
+      ?>
  
       
 </div>
-<br/>
+
 <!--______________COLONNE GAUCHE 2________________ -->
-<div id="colonne-2" class="col1_layout_6_6 contenu_entreprise">
+<div id="colonne-2" class="col1_layoutflex_6_6 contenu_entreprise">
          <?php if ($title): /*insertion du titre de la page et style differencié*/?>
      <h1 class="titre_entreprise_content"><?php print $title; ?></h1>
      <br clear="all"/>
@@ -53,7 +41,7 @@
 </div>
 <!--______________COLONNE GAUCHE 3________________ -->
    
-<div id="colonne-3" class="col2_layout_6_6 contenu_entreprise">
+<div id="colonne-3" class="col2_layoutflex_6_6 contenu_entreprise">
      <?php print $picture; ?>
 
    
