@@ -84,7 +84,15 @@
     -webkit-shape-margin:$marge-forme;
     -moz-shape-margin:$marge-forme;
 }
-    
+
+@mixin img-border-shadow ($margin : 0.3em, $bordersize:0.5em, $bordercolor : white,$shadowcolor : #AAAAAA) {
+    margin: $margin;
+    border: $bordersize solid $bordercolor;
+    -moz-box-shadow: $shadowcolor 0px 0px 5px ;
+    -webkit-box-shadow: $shadowcolor 0px 0px 5px;
+    box-shadow: $shadowcolor 0px 0px 5px;
+}
+
 @mixin cadre-ombre($epaisseur-cadre:0.5em,$couleur-cadre:#fff,$couleur-ombre:#AAAAAA){
      border: $epaisseur-cadre solid $couleur-cadre;
     -moz-box-shadow: $couleur-ombre 0px 0px 0.5em;
@@ -144,13 +152,7 @@ filter : alpha(opacity=$opacite); /* IE < 8 */
     -pie-background: rgba($color, $opacity);
     @include PIE;
 }
-@mixin img-border-shadow ($margin : 0.3em, $bordersize:0.5em, $bordercolor : white,$shadowcolor : #AAAAAA) {
-    margin: $margin;
-    border: $bordersize solid $bordercolor;
-    -moz-box-shadow: $shadowcolor 0px 0px 5px ;
-    -webkit-box-shadow: $shadowcolor 0px 0px 5px;
-    box-shadow: $shadowcolor 0px 0px 5px;
-}
+
 @mixin arrondis ($angle : 0.5em){
     -moz-border-radius: $angle;
     -webkit-border-radius: $angle;

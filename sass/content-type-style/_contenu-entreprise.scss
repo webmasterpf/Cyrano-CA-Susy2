@@ -64,4 +64,8 @@ table.table-docs-entreprise{
 }
 
 
-.bloc-video-entreprise{}
+.bloc-video-entreprise{
+    width: auto;
+    margin: 0 auto;
+    @include cadre-ombre(0.3em,white,$gris-anthracite);
+}
