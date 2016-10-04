@@ -81,7 +81,7 @@ table.table-docs-entreprise{
             margin: 0.5em;
         }
         img{
-            margin: 0 0.5em;
-        }
+            @include cadre-ombre(0.13em,white,$gris-anthracite);
+            }
     }
 }
