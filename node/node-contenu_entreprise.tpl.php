@@ -1,31 +1,23 @@
 <!--______________NODE TPL POUR TdC CONTENU ENTREPRISE CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
   <div class="node-inner">
-<!--______________ZONE 1________________ -->
-  <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
-<div id="colonne-1" class="col1_layout_max contenu_entreprise">
 
-        
+<!--______________ COLONNE 1 ________________ -->
 
-        <?php
-      global $theme_path;
-      include ($theme_path . '/includes/dedicates_inc/inc_entreprise_docs.php');
-      ?>
- 
-      
-</div>
-
-<!--______________COLONNE GAUCHE 2________________ -->
-<div id="colonne-2" class="col1_layoutflex_6_6 contenu_entreprise">
+<div id="colonne-1" class="col1_layout_6_6 contenu_entreprise">
          <?php if ($title): /*insertion du titre de la page et style differencié*/?>
      <h1 class="titre_entreprise_content"><?php print $title; ?></h1>
-     <br clear="all"/>
-    <?php endif; ?>
+         <?php endif; ?>
      
 
      <?php if ($submitted): ?>
       <span class="submitted"><?php print $submitted; ?></span>
     <?php endif; ?>
+      
+           <?php
+      global $theme_path;
+      include ($theme_path . '/includes/dedicates_inc/inc_entreprise_docs.php');
+      ?>
 
 
           <?php if ($node->field_choix_galerie_vdl[0]['view']): ?>
@@ -36,12 +28,12 @@
 
     <?php
       global $theme_path;
-      include ($theme_path . '/includes/regions_inc/inc_region_col_2.php');
+      include ($theme_path . '/includes/regions_inc/inc_region_col_1.php');
       ?>
 </div>
-<!--______________COLONNE GAUCHE 3________________ -->
+<!--______________COLONNE 2________________ -->
    
-<div id="colonne-3" class="col2_layoutflex_6_6 contenu_entreprise">
+<div id="colonne-2" class="col2_layout_6_6 contenu_entreprise">
      <?php print $picture; ?>
 
    
@@ -61,7 +53,7 @@
          
         <?php
         global $theme_path;
-        include ($theme_path . '/includes/regions_inc/inc_region_col_3.php');
+        include ($theme_path . '/includes/regions_inc/inc_region_col_2.php');
         ?>
 
 
@@ -76,7 +68,6 @@
     <?php endif; ?>
 
 </div>
-   
 
   </div> <!-- /node-inner -->
 </div> <!-- /node-->

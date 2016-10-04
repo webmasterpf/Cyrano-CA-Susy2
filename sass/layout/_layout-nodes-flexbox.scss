@@ -23,7 +23,13 @@ body .conteneur .conteneur-flexchild{
 /*//////////////// 1 COLONNE \\\\\\\\\\\\\\\\*/
 body .conteneur {
     .col1_layoutflex_12{
-        max-width: container();
+        //max-width: container();
+         @include span(12 of $desktopcol);
+         &:before,&:after{
+        content: " ";
+        display: block;
+        clear: both;
+    } 
     }
 }
 
@@ -363,19 +369,29 @@ body .conteneur {
         }
   }
   
-  .col1_layoutflex_6_6{}
-  .col2_layoutflex_6_6{}
+  .col1_layoutflex_6_6{
+      @include breakpoint ($tablet){}
+      @include breakpoint ($desktop){
+          @include flex(1 0 span(first 6 of $desktopcol));
+      }
+  }
+  .col2_layoutflex_6_6{
+      @include breakpoint ($tablet){}
+      @include breakpoint ($desktop){
+          @include flex(1 0 span(last 6 of $desktopcol));
+      }
+  }
   
   .col1_layoutflex_7_5{
       @include breakpoint ($tablet){}
       @include breakpoint ($desktop){
-           @include flex(first 7 of $desktopcol);
+           @include flex(1 0 span(first 7 of $desktopcol));
       }
   }
   .col2_layoutflex_7_5{
       @include breakpoint ($tablet){}
       @include breakpoint ($desktop){
-          @include flex(last 5 of $desktopcol);
+         @include flex(1 0 span(last 5 of $desktopcol));
       }
   }
   

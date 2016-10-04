@@ -430,7 +430,7 @@ body .conteneur{
   .col1_layout_5_7{}
   .col2_layout_5_7{}
   
-  .col1_layout_6_6{
+  .col1_layout_6_6,.col1_layoutflex_6_6{
       @include breakpoint ($tablet){
           background: tomato;
       }
@@ -438,7 +438,7 @@ body .conteneur{
           background: thistle;
       }
   }
-  .col2_layout_6_6{
+  .col2_layout_6_6,.col2_layoutflex_6_6{
       @include breakpoint ($tablet){
           background: #00CC99;
       }

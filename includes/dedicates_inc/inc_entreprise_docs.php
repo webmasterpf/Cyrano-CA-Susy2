@@ -1,6 +1,6 @@
        
   <?php if ($node->field_fichier_joint_entreprise[0]['view']): ?>
-        <div id="bloc-docs-actualites">
+        <div class="bloc-docs-entreprise">
              <h3 class="docs-entreprise">Documents joints</h3>
                          
             <?php

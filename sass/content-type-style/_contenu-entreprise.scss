@@ -11,18 +11,20 @@
 //@include breakpoint ($tablet){}
 
 /*######-------- ||| ORDRE FLEXBOX ||| --------######*/
-body .conteneur .conteneur-flex{
-    #colonne-1.contenu-actu{order:1;}
-    #colonne-2.contenu-actu{order:2;}
-    #colonne-3.contenu-actu{order:3;}
+body .conteneur .conteneur-flex,
+body .conteneur .conteneur-flexchild
+{
+    #colonne-1.contenu_entreprise{order:3;}
+    #colonne-2.contenu_entreprise{order:1;}
+    #colonne-3.contenu_entreprise{order:2;}
     @include breakpoint ($desktop){}
 }
 
 /*######-------- ||| BORDURES ||| --------######*/
-body .conteneur .conteneur-flex{
+body .conteneur {
     @include breakpoint ($desktop){
-        #colonne-2.contenu-actu{
-            @include border-vert-violet;
+        #colonne-2.contenu_entreprise{
+            @include border-L-bleu;
         }
         }
     
@@ -38,7 +40,7 @@ h3.docs-entreprise{
     text-align: center;
 }
 .bloc-docs-entreprise{
-    width: 100%;
+    width: auto;
     background: $gris-clair;
     padding: em(10px);
     a{
@@ -50,7 +52,15 @@ h3.docs-entreprise{
     color: white;
 }
 }
-
+table.table-docs-entreprise{
+    tbody{
+        border: 0;
+    }
+    tr{
+        border: 0;
+    }
+    td{}
+}
 }
 
 
