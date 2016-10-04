@@ -55,6 +55,7 @@ Active trail sur élément de la rubrique = OK
 .sf-menu.sf-style-blue.sf-navbar {
   background: #EFEFEF;/*Bg des li du menu*/
   width: auto;/*Largeur des li de 1er niveau */
+  z-index: 10;
 }
 .sf-menu.sf-style-blue li li {
   background: #EFEFEF;/*Bg des liens li li sous-rubrique*/
