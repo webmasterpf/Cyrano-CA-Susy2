@@ -1,9 +1,9 @@
 <!--______________NODE TPL POUR TdC CONTENU ENTREPRISE CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
   <div class="node-inner">
-<!--______________COLONNE GAUCHE 1________________ -->
+<!--______________ZONE 1________________ -->
   <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
-<div  class="entreprise_content_G1">
+<div id="colonne-1" class="col1_layout_max contenu_entreprise">
 
          <?php if ($node->field_fichier_joint_entreprise[0]['view']): ?>
         <div id="bloc-docs-entreprise">
@@ -28,7 +28,7 @@
 </div>
 <br/>
 <!--______________COLONNE GAUCHE 2________________ -->
-<div id="col_G2" class="entreprise_content_G2">
+<div id="colonne-2" class="col1_layout_6_6 contenu_entreprise">
          <?php if ($title): /*insertion du titre de la page et style differencié*/?>
      <h1 class="titre_entreprise_content"><?php print $title; ?></h1>
      <br clear="all"/>
@@ -41,7 +41,7 @@
 
 
           <?php if ($node->field_choix_galerie_vdl[0]['view']): ?>
-        <div id="bloc-galerie-vdl">
+      <div class="galerie-vdl">
            <?php  print $node->field_choix_galerie_vdl[0]['view'] /*galerie*/ ?>
         </div>
            <?php endif;?>
@@ -53,7 +53,7 @@
 </div>
 <!--______________COLONNE GAUCHE 3________________ -->
    
-<div id="col_G3" class="entreprise_content_G3">
+<div id="colonne-3" class="col2_layout_6_6 contenu_entreprise">
      <?php print $picture; ?>
 
    
@@ -66,8 +66,8 @@
       ?>
        
  <?php if ($node->field_video_entreprise[0]['view']): ?>
-        <div id="bloc-video-entreprise">
-                   <?php  print $node->field_video_entreprise[0]['view'] /*Vue actus du lycée*/ ?>
+        <div class="bloc-video-entreprise">
+                   <?php  print $node->field_video_entreprise[0]['view']  ?>
         </div>
            <?php endif;?>
          
