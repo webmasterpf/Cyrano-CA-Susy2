@@ -69,3 +69,12 @@ table.table-docs-entreprise{
     margin: 0 auto;
     @include cadre-ombre(0.3em,white,$gris-anthracite);
 }
+#colonne-1.contenu_entreprise{
+    .galerie-vdl{
+        .chocolat-parent{
+            a{
+                margin: 0.5em;
+            }
+        }
+    }
+}
