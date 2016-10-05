@@ -5,11 +5,13 @@ Override du style de galerie vignettes Chocolat
 //@include breakpoint ($mobile){}
 //@include breakpoint ($desktop){}
 //@include breakpoint ($tablet){}
+//@include breakpoint(($desktop,$tablet)){}
+
 .galerie-vdl .chocolat-parent{
     margin:0 em(30px);
     >div{
         @include gallery(2 of $mobilecol);
-        @include breakpoint ($desktop){
+        @include breakpoint ($desktop,$tablet){
             @include gallery(4 of 12);
         }
     }

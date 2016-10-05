@@ -6590,7 +6590,10 @@ h3.docs-entreprise {
 }
 /* line 83, ../sass/content-type-style/_contenu-entreprise.scss */
 #colonne-1.contenu_entreprise .galerie-vdl .chocolat-parent img {
-  margin: 0 0.5em;
+  border: 0.13em solid white;
+  -moz-box-shadow: #606070 0px 0px 0.5em;
+  -webkit-box-shadow: #606070 0px 0px 0.5em;
+  box-shadow: #606070 0px 0px 0.5em;
 }
 
 /*
