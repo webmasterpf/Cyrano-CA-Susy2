@@ -17,12 +17,15 @@ Indiquer les classes ou les IDs des enveloppes des galeries
         background : transparent;
         border: 0;
         .flex-control-nav{
-            // bottom: -1.1em;//position de la navigation
+            @include breakpoint(($desktop,$tablet)){
+                   // bottom: -1.1em;//position de la navigation
             bottom: -50.1em;
             position: inherit;
             display: block;
             //left: 4em;
             width: 35%;
+            }
+         
         }
         .flex-control-paging {
             li a{
@@ -81,16 +84,20 @@ Indiquer les classes ou les IDs des enveloppes des galeries
     //Pour le style des galeries quelques soit le type de nav
     
     .flexslider , .flexslider-thumbs, .flexslider-classic{
-        width: 85%;
+        @include breakpoint(($desktop,$tablet)){
+            width: 85%;
         display:inherit;
         margin: 0 auto;
-        padding:1em;    
+        padding:1em; 
+        }
+           
         ul.slides{
             padding: 0;
             margin:0;
             width: auto;//pas ajouté par js, mais nécessaire pour afficher correctement la galerie
         }
         li, ul.slides li{
+            @include breakpoint(($desktop,$tablet)){}
             padding: 0;
             margin:0;
         }
@@ -101,7 +108,8 @@ Indiquer les classes ou les IDs des enveloppes des galeries
 
         }
         *.flex-caption {
-            position: relative;
+            @include breakpoint(($desktop,$tablet)){
+                   position: relative;
             z-index: 3;
             padding: 2%;
             width: 94%;
@@ -112,6 +120,8 @@ Indiquer les classes ou les IDs des enveloppes des galeries
             text-shadow: 0 -1px 0 rgba(0,0,0,.3);
             font-size: x-small;
             line-height: 1.15em;
+            }
+         
 
         }
         @include breakpoint ($desktop){
