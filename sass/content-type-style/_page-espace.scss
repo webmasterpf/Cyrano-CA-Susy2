@@ -35,6 +35,14 @@ h1.titre-espace{
 .video-espace{width: 39em;margin: 0 auto;}
 }
 #colonne-2.page-espace{
+    table{
+        width:98%;
+        margin:0 auto;
+         tbody,tr{
+            background: none;
+            border: 0;
+        }
+    }
     h3.block-title{text-align: center;color: $rose-fushia;width: auto;}
     a{color: $violet;
       &:hover{color: $gris-clair-moyen;background: $violet;text-decoration: none;}
@@ -45,14 +53,27 @@ h1.titre-espace{
         width: 98%;
     }
 
-    .table_bloc_form_pole td{
+    .table_bloc_form_pole{
+        tbody,tr{
+            background: none;
+            border: 0;
+        }
+         td{
         margin: em(2px) 0;
         padding: em(4px) 0;
         border-bottom: 1px solid $violet;
     }
-    .liste-formation h3{
-        color: $bleu-turquoise;font-family:$AristaFont;text-align: center;
-        font-size: larger;
+    }
+    .liste-formation {
+        a{
+            color: $vert;
+            text-decoration: none;
+            padding: em(2px);
+        }
+        h3{
+            color: $bleu-turquoise;font-family:$AristaFont;text-align: center;
+            font-size: larger;
+        }
     }
     .table-part-tpl tbody{}
 .table-part-tpl a{}
@@ -66,7 +87,7 @@ h1.titre-espace{
         -ms-filter: grayscale(0.9);
 behavior: url(/sites/all/libraries/PIE/PIE.htc);
 }
-.table-part-tpl {}
+
 #contact-tpl{}
 #contact-tpl tbody{text-align: center}
 #contact-tpl img{}

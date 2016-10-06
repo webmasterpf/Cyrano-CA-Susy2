@@ -6629,48 +6629,69 @@ h1.titre-espace {
 }
 
 /* line 38, ../sass/content-type-style/_page-espace.scss */
+#colonne-2.page-espace table {
+  width: 98%;
+  margin: 0 auto;
+}
+/* line 41, ../sass/content-type-style/_page-espace.scss */
+#colonne-2.page-espace table tbody, #colonne-2.page-espace table tr {
+  background: none;
+  border: 0;
+}
+/* line 46, ../sass/content-type-style/_page-espace.scss */
 #colonne-2.page-espace h3.block-title {
   text-align: center;
   color: #E30078;
   width: auto;
 }
-/* line 39, ../sass/content-type-style/_page-espace.scss */
+/* line 47, ../sass/content-type-style/_page-espace.scss */
 #colonne-2.page-espace a {
   color: #911381;
 }
-/* line 40, ../sass/content-type-style/_page-espace.scss */
+/* line 48, ../sass/content-type-style/_page-espace.scss */
 #colonne-2.page-espace a:hover {
   color: #9898a6;
   background: #911381;
   text-decoration: none;
 }
-/* line 43, ../sass/content-type-style/_page-espace.scss */
+/* line 51, ../sass/content-type-style/_page-espace.scss */
 #colonne-2.page-espace h3 {
   color: #E3001C;
   margin: 0.3125em;
 }
-/* line 44, ../sass/content-type-style/_page-espace.scss */
+/* line 52, ../sass/content-type-style/_page-espace.scss */
 #colonne-2.page-espace .table_bloc_form_pole {
   width: 98%;
 }
-/* line 48, ../sass/content-type-style/_page-espace.scss */
+/* line 57, ../sass/content-type-style/_page-espace.scss */
+#colonne-2.page-espace .table_bloc_form_pole tbody, #colonne-2.page-espace .table_bloc_form_pole tr {
+  background: none;
+  border: 0;
+}
+/* line 61, ../sass/content-type-style/_page-espace.scss */
 #colonne-2.page-espace .table_bloc_form_pole td {
   margin: 0.125em 0;
   padding: 0.25em 0;
   border-bottom: 1px solid #911381;
 }
-/* line 53, ../sass/content-type-style/_page-espace.scss */
+/* line 68, ../sass/content-type-style/_page-espace.scss */
+#colonne-2.page-espace .liste-formation a {
+  color: #ADC91F;
+  text-decoration: none;
+  padding: 0.125em;
+}
+/* line 73, ../sass/content-type-style/_page-espace.scss */
 #colonne-2.page-espace .liste-formation h3 {
   color: #01ABCF;
   font-family: "Arista", Trebuchet MS, sans-serif;
   text-align: center;
   font-size: larger;
 }
-/* line 59, ../sass/content-type-style/_page-espace.scss */
+/* line 80, ../sass/content-type-style/_page-espace.scss */
 #colonne-2.page-espace .table-part-tpl a:hover {
   background: transparent;
 }
-/* line 61, ../sass/content-type-style/_page-espace.scss */
+/* line 82, ../sass/content-type-style/_page-espace.scss */
 #colonne-2.page-espace .table-part-tpl img:hover {
   filter: grayscale(0.9);
   -webkit-filter: grayscale(0.9);
@@ -6679,11 +6700,11 @@ h1.titre-espace {
   -ms-filter: grayscale(0.9);
   behavior: url(/sites/all/libraries/PIE/PIE.htc);
 }
-/* line 71, ../sass/content-type-style/_page-espace.scss */
+/* line 92, ../sass/content-type-style/_page-espace.scss */
 #colonne-2.page-espace #contact-tpl tbody {
   text-align: center;
 }
-/* line 74, ../sass/content-type-style/_page-espace.scss */
+/* line 95, ../sass/content-type-style/_page-espace.scss */
 #colonne-2.page-espace #contact-tpl td {
   width: 100px;
 }
