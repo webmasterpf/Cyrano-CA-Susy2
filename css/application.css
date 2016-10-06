@@ -6596,6 +6596,98 @@ h3.docs-entreprise {
   box-shadow: #606070 0px 0px 0.5em;
 }
 
+/*-------------------------------------|
+|       CONTENU CUSTOM               |
+|               NODE.TPL                    |
+|              PAGE ESPACE                |
+|--------------------------------------*/
+/*######-------- ||| ORDRE FLEXBOX ||| --------######*/
+/* line 17, ../sass/content-type-style/_page-espace.scss */
+body .conteneur .conteneur-flex #colonne-1.CLASS_NAME {
+  order: 1;
+}
+/* line 18, ../sass/content-type-style/_page-espace.scss */
+body .conteneur .conteneur-flex #colonne-2.CLASS_NAME {
+  order: 2;
+}
+/* line 19, ../sass/content-type-style/_page-espace.scss */
+body .conteneur .conteneur-flex #colonne-3.CLASS_NAME {
+  order: 3;
+}
+
+/*######-------- ||| BORDURES ||| --------######*/
+/*######-------- ||| STYLE ||| --------######*/
+/* line 30, ../sass/content-type-style/_page-espace.scss */
+h1.titre-espace {
+  color: #911381;
+}
+
+/* line 35, ../sass/content-type-style/_page-espace.scss */
+#colonne-1.page-espace .video-espace {
+  width: 39em;
+  margin: 0 auto;
+}
+
+/* line 38, ../sass/content-type-style/_page-espace.scss */
+#colonne-2.page-espace h3.block-title {
+  text-align: center;
+  color: #E30078;
+  width: auto;
+}
+/* line 39, ../sass/content-type-style/_page-espace.scss */
+#colonne-2.page-espace a {
+  color: #911381;
+}
+/* line 40, ../sass/content-type-style/_page-espace.scss */
+#colonne-2.page-espace a:hover {
+  color: #9898a6;
+  background: #911381;
+  text-decoration: none;
+}
+/* line 43, ../sass/content-type-style/_page-espace.scss */
+#colonne-2.page-espace h3 {
+  color: #E3001C;
+  margin: 0.3125em;
+}
+/* line 44, ../sass/content-type-style/_page-espace.scss */
+#colonne-2.page-espace .table_bloc_form_pole {
+  width: 98%;
+}
+/* line 48, ../sass/content-type-style/_page-espace.scss */
+#colonne-2.page-espace .table_bloc_form_pole td {
+  margin: 0.125em 0;
+  padding: 0.25em 0;
+  border-bottom: 1px solid #911381;
+}
+/* line 53, ../sass/content-type-style/_page-espace.scss */
+#colonne-2.page-espace .liste-formation h3 {
+  color: #01ABCF;
+  font-family: "Arista", Trebuchet MS, sans-serif;
+  text-align: center;
+  font-size: larger;
+}
+/* line 59, ../sass/content-type-style/_page-espace.scss */
+#colonne-2.page-espace .table-part-tpl a:hover {
+  background: transparent;
+}
+/* line 61, ../sass/content-type-style/_page-espace.scss */
+#colonne-2.page-espace .table-part-tpl img:hover {
+  filter: grayscale(0.9);
+  -webkit-filter: grayscale(0.9);
+  -moz-filter: grayscale(0.9);
+  -o-filter: grayscale(0.9);
+  -ms-filter: grayscale(0.9);
+  behavior: url(/sites/all/libraries/PIE/PIE.htc);
+}
+/* line 71, ../sass/content-type-style/_page-espace.scss */
+#colonne-2.page-espace #contact-tpl tbody {
+  text-align: center;
+}
+/* line 74, ../sass/content-type-style/_page-espace.scss */
+#colonne-2.page-espace #contact-tpl td {
+  width: 100px;
+}
+
 /*
 Pour le dev, code visuel sur les blocs selon le breakpoint
 à commenter ou supprimer pour la production

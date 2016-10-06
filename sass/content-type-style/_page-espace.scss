@@ -1,0 +1,76 @@
+// Regroupe le style pour le contenu des node.tpl custom
+// créer des fichiers _CONTENT-TYPE.scss et les importer dans application.scss
+
+/*-------------------------------------|
+|       CONTENU CUSTOM               |
+|               NODE.TPL                    |
+|              PAGE ESPACE                |
+|--------------------------------------*/
+
+//@include breakpoint ($mobile){}
+//@include breakpoint ($desktop){}
+//@include breakpoint ($tablet){}
+//@include breakpoint(($desktop,$tablet)){}
+
+/*######-------- ||| ORDRE FLEXBOX ||| --------######*/
+body .conteneur .conteneur-flex{
+    #colonne-1.CLASS_NAME{order:1;}
+    #colonne-2.CLASS_NAME{order:2;}
+    #colonne-3.CLASS_NAME{order:3;}
+    @include breakpoint ($desktop){}
+}
+
+/*######-------- ||| BORDURES ||| --------######*/
+body .conteneur .conteneur-flex{
+   @include breakpoint(($desktop,$tablet)){
+        }
+    
+}
+/*######-------- ||| STYLE ||| --------######*/
+h1.titre-espace{
+    color: $violet;
+}
+#colonne-1.page-espace{
+    
+.video-espace{width: 39em;margin: 0 auto;}
+}
+#colonne-2.page-espace{
+    h3.block-title{text-align: center;color: $rose-fushia;width: auto;}
+    a{color: $violet;
+      &:hover{color: $gris-clair-moyen;background: $violet;text-decoration: none;}
+    }
+
+    h3{color: $rouge;margin: em(5px);}
+    .table_bloc_form_pole{
+        width: 98%;
+    }
+
+    .table_bloc_form_pole td{
+        margin: em(2px) 0;
+        padding: em(4px) 0;
+        border-bottom: 1px solid $violet;
+    }
+    .liste-formation h3{
+        color: $bleu-turquoise;font-family:$AristaFont;text-align: center;
+        font-size: larger;
+    }
+    .table-part-tpl tbody{}
+.table-part-tpl a{}
+.table-part-tpl a:hover{background: transparent;}
+.table-part-tpl td{}
+.table-part-tpl img:hover{
+     filter: grayscale(0.9);
+        -webkit-filter: grayscale(0.9);
+        -moz-filter: grayscale(0.9);
+        -o-filter: grayscale(0.9);
+        -ms-filter: grayscale(0.9);
+behavior: url(/sites/all/libraries/PIE/PIE.htc);
+}
+.table-part-tpl {}
+#contact-tpl{}
+#contact-tpl tbody{text-align: center}
+#contact-tpl img{}
+#contact-tpl p{}
+#contact-tpl td{width: 100px;}
+#contact-tpl tr{}
+}

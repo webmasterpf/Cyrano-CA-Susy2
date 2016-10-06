@@ -36,8 +36,6 @@
 <div id="colonne-2" class="col2_layout_6_6 contenu_entreprise">
      <?php print $picture; ?>
 
-   
-
     <div class="content">
  <?php
      /*insertion du contenu du corps de la page*/
