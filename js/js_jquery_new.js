@@ -98,7 +98,8 @@
         console.log('Chargement des paramètres de Stacktable.js');
         //Ajouter l'ID de la table à rendre RWD
         //Cible toutes les tables contenues dans la div.content (colonne-2)
-        $('div.content').children('table').stacktable();
+        //Exclure les zones non affectées par stacktable
+        $('div.content').not('#colonne-2.page-espace').children('table').stacktable();
     });
 
 //Slick Basic, nav par points, transition fade

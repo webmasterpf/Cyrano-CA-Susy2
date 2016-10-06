@@ -29,6 +29,8 @@
      <?php if ($submitted): ?>
       <span class="submitted"><?php print $submitted; ?></span>
     <?php endif; ?>
+      
+      <div class="content">
     <?php
      /*insertion du contenu du corps de la page*/
       print $node->content['body']['#value']
@@ -45,7 +47,7 @@
            global $theme_path;
               include ($theme_path.'/includes/regions_inc/inc_region_col_2.php');
               ?>
-      
+      </div><!-- /content -->
      
           <?php if ($terms): ?>
       <div class="taxonomy"><?php //print $terms; ?></div>
@@ -54,7 +56,7 @@
     <?php if ($links): ?>
       <div class="links"> <?php //print $links; ?></div>
     <?php endif; ?>
-</div>
+</div><!-- /colonne-2 -->
   
 
   </div> <!-- /node-inner -->
