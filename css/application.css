@@ -6819,18 +6819,18 @@ hr.separation-actu-globale {
 /* BLOC SORTIE-ACTION */
 /* line 62, ../sass/content-type-style/_page-actualites-globales.scss */
 .bloc_sortie_action {
-  background: transparent url(../images/bg_actu_globale_rouge.jpg) no-repeat scroll 13em 0.4em;
+  background: transparent url(../images/bg_actu_globale_rouge.jpg) no-repeat scroll 10em 0.4em;
 }
 /* line 64, ../sass/content-type-style/_page-actualites-globales.scss */
 .bloc_sortie_action h3 {
   color: #E3001C;
 }
 /* line 67, ../sass/content-type-style/_page-actualites-globales.scss */
-.bloc_sortie_action #actu_globale_sortie a {
+.bloc_sortie_action a {
   color: #E3001C;
 }
 /* line 69, ../sass/content-type-style/_page-actualites-globales.scss */
-.bloc_sortie_action #actu_globale_sortie a:hover {
+.bloc_sortie_action a:hover {
   text-decoration: underline;
 }
 /* line 73, ../sass/content-type-style/_page-actualites-globales.scss */
@@ -6863,10 +6863,10 @@ hr.separation-actu-globale {
 /* BLOC INNOVATIONS */
 /* line 99, ../sass/content-type-style/_page-actualites-globales.scss */
 .bloc_innovation {
-  background: transparent url(../images/bg_actu_globale_violet.jpg) no-repeat scroll 11em 0.4em;
+  background: transparent url(../images/bg_actu_globale_violet.jpg) no-repeat scroll 10em 0.4em;
 }
 /* line 101, ../sass/content-type-style/_page-actualites-globales.scss */
-.bloc_innovation .bloc_innovation h3 {
+.bloc_innovation h3 {
   color: #911381;
 }
 /* line 104, ../sass/content-type-style/_page-actualites-globales.scss */
@@ -6885,18 +6885,18 @@ hr.separation-actu-globale {
 /* BLOC INTERVENANT */
 /* line 118, ../sass/content-type-style/_page-actualites-globales.scss */
 .bloc_intervenant {
-  background: transparent url(../images/bg_actu_globale_vert.jpg) no-repeat scroll 12em 0.4em;
+  background: transparent url(../images/bg_actu_globale_vert.jpg) no-repeat scroll 10em 0.4em;
 }
 /* line 120, ../sass/content-type-style/_page-actualites-globales.scss */
-.bloc_intervenant .bloc_intervenant h3 {
+.bloc_intervenant h3 {
   color: #ADC91F;
 }
 /* line 123, ../sass/content-type-style/_page-actualites-globales.scss */
-.bloc_intervenant #actu_globale_intervenant a {
+.bloc_intervenant a {
   color: #ADC91F;
 }
 /* line 125, ../sass/content-type-style/_page-actualites-globales.scss */
-.bloc_intervenant #actu_globale_intervenant a:hover {
+.bloc_intervenant a:hover {
   text-decoration: underline;
 }
 /* line 130, ../sass/content-type-style/_page-actualites-globales.scss */
@@ -6907,18 +6907,18 @@ hr.separation-actu-globale {
 /* BLOC MINI-STAGE */
 /* line 138, ../sass/content-type-style/_page-actualites-globales.scss */
 .bloc_mini_stage {
-  background: transparent url(../images/bg_actu_globale_gris.jpg) no-repeat scroll 11em 0.4em;
+  background: transparent url(../images/bg_actu_globale_gris.jpg) no-repeat scroll 10em 0.4em;
 }
 /* line 140, ../sass/content-type-style/_page-actualites-globales.scss */
-.bloc_mini_stage .bloc_mini_stage h3 {
+.bloc_mini_stage h3 {
   color: #9898a6;
 }
 /* line 143, ../sass/content-type-style/_page-actualites-globales.scss */
-.bloc_mini_stage #actu_globale_mini_stage a {
+.bloc_mini_stage a {
   color: #9898a6;
 }
 /* line 145, ../sass/content-type-style/_page-actualites-globales.scss */
-.bloc_mini_stage #actu_globale_mini_stage a:hover {
+.bloc_mini_stage a:hover {
   text-decoration: underline;
 }
 /* line 150, ../sass/content-type-style/_page-actualites-globales.scss */
@@ -6929,18 +6929,18 @@ hr.separation-actu-globale {
 /* BLOC RP */
 /* line 158, ../sass/content-type-style/_page-actualites-globales.scss */
 .bloc_rp {
-  background: transparent url(../images/bg_actu_globale_orange.jpg) no-repeat scroll 15em 0.4em;
+  background: transparent url(../images/bg_actu_globale_orange.jpg) no-repeat scroll 10em 0.4em;
 }
 /* line 160, ../sass/content-type-style/_page-actualites-globales.scss */
-.bloc_rp .bloc_rp h3 {
+.bloc_rp h3 {
   color: #F29400;
 }
 /* line 163, ../sass/content-type-style/_page-actualites-globales.scss */
-.bloc_rp #actu_globale_rp a {
+.bloc_rp a {
   color: #F29400;
 }
 /* line 165, ../sass/content-type-style/_page-actualites-globales.scss */
-.bloc_rp #actu_globale_rp a:hover {
+.bloc_rp a:hover {
   text-decoration: underline;
 }
 /* line 171, ../sass/content-type-style/_page-actualites-globales.scss */
@@ -6954,15 +6954,15 @@ hr.separation-actu-globale {
   background: transparent url(../images/bg_actu_globale_rose.jpg) no-repeat scroll 13em 0.4em;
 }
 /* line 180, ../sass/content-type-style/_page-actualites-globales.scss */
-.bloc_annonce .bloc_annonce h3 {
+.bloc_annonce h3 {
   color: #E30078;
 }
 /* line 181, ../sass/content-type-style/_page-actualites-globales.scss */
-.bloc_annonce #actu_globale_annonce a {
+.bloc_annonce a {
   color: #E30078;
 }
 /* line 183, ../sass/content-type-style/_page-actualites-globales.scss */
-.bloc_annonce #actu_globale_annonce a:hover {
+.bloc_annonce a:hover {
   text-decoration: underline;
 }
 /* line 187, ../sass/content-type-style/_page-actualites-globales.scss */

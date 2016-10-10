@@ -60,11 +60,11 @@ hr.separation-actu-globale{border: em(2px);height: em(1px);margin: 0 auto;width:
 
 
 .bloc_sortie_action {
-    background: transparent url(../images/bg_actu_globale_rouge.jpg) no-repeat scroll 13em 0.4em;
+    background: transparent url(../images/bg_actu_globale_rouge.jpg) no-repeat scroll 10em 0.4em;
     h3{
         color: $rouge;
     }
-    #actu_globale_sortie a{
+     a{
         color: $rouge;
         &:hover{
             text-decoration: underline;
@@ -97,8 +97,8 @@ hr.separation-actu-globale{border: em(2px);height: em(1px);margin: 0 auto;width:
 
 
 .bloc_innovation {
-    background: transparent url(../images/bg_actu_globale_violet.jpg) no-repeat scroll 11em 0.4em;
-    .bloc_innovation h3{
+    background: transparent url(../images/bg_actu_globale_violet.jpg) no-repeat scroll 10em 0.4em;
+    h3{
         color: $violet;
     }
     a{
@@ -116,11 +116,11 @@ hr.separation-actu-globale{border: em(2px);height: em(1px);margin: 0 auto;width:
 
 
 .bloc_intervenant {
-    background: transparent url(../images/bg_actu_globale_vert.jpg) no-repeat scroll 12em 0.4em;
-    .bloc_intervenant h3{
+    background: transparent url(../images/bg_actu_globale_vert.jpg) no-repeat scroll 10em 0.4em;
+   h3{
         color: $vert;
     }
-    #actu_globale_intervenant a{
+    a{
         color: $vert;
         &:hover{
             text-decoration: underline;
@@ -136,11 +136,11 @@ hr.separation-actu-globale{border: em(2px);height: em(1px);margin: 0 auto;width:
 
 
 .bloc_mini_stage {
-    background: transparent url(../images/bg_actu_globale_gris.jpg) no-repeat scroll 11em 0.4em;
-    .bloc_mini_stage h3{
+    background: transparent url(../images/bg_actu_globale_gris.jpg) no-repeat scroll 10em 0.4em;
+    h3{
         color: $gris-clair-moyen;
     }
-    #actu_globale_mini_stage a{
+    a{
         color: $gris-clair-moyen;
         &:hover{
             text-decoration: underline;
@@ -156,11 +156,11 @@ hr.separation-actu-globale{border: em(2px);height: em(1px);margin: 0 auto;width:
 
 
 .bloc_rp {
-    background: transparent url(../images/bg_actu_globale_orange.jpg) no-repeat scroll 15em 0.4em;
-    .bloc_rp h3{
+    background: transparent url(../images/bg_actu_globale_orange.jpg) no-repeat scroll 10em 0.4em;
+     h3{
         color: $orange;
     }
-    #actu_globale_rp a{
+     a{
         color: $orange;
         &:hover{
             text-decoration: underline;
@@ -177,8 +177,8 @@ hr.separation-actu-globale{border: em(2px);height: em(1px);margin: 0 auto;width:
 
 .bloc_annonce {
     background: transparent url(../images/bg_actu_globale_rose.jpg) no-repeat scroll 13em 0.4em;
-    .bloc_annonce h3{color: $rose-fushia;}
-    #actu_globale_annonce a{
+     h3{color: $rose-fushia;}
+   a{
         color: $rose-fushia;
         &:hover{
             text-decoration: underline;
