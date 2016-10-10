@@ -4635,12 +4635,18 @@ h1.titre-lycee, h1.title-classes {
 #caucadis-actu li {
   padding: 0.1875em 0;
   margin: 0;
+  list-style: none;
 }
-/* line 209, ../sass/content-type-style/_page-lycee.scss */
+/* line 210, ../sass/content-type-style/_page-lycee.scss */
 #caucadis-actu h3 {
   color: #911381;
+  font-family: "Arista", Trebuchet MS, sans-serif;
+  font-size: large;
+  margin: 0.3125em;
+  display: block;
+  text-align: center;
 }
-/* line 212, ../sass/content-type-style/_page-lycee.scss */
+/* line 218, ../sass/content-type-style/_page-lycee.scss */
 #caucadis-actu a {
   color: #606070;
   background: #ECECED;
@@ -4653,18 +4659,18 @@ h1.titre-lycee, h1.title-classes {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 221, ../sass/content-type-style/_page-lycee.scss */
+/* line 227, ../sass/content-type-style/_page-lycee.scss */
 #caucadis-actu a:hover {
   background: #606070;
   color: white;
 }
 
-/* line 229, ../sass/content-type-style/_page-lycee.scss */
+/* line 235, ../sass/content-type-style/_page-lycee.scss */
 .caucadis-actu-item {
   width: 95%;
   margin: 0.125em 0;
 }
-/* line 233, ../sass/content-type-style/_page-lycee.scss */
+/* line 239, ../sass/content-type-style/_page-lycee.scss */
 .caucadis-actu-item a {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -4838,204 +4844,6 @@ h3.block-title {
   margin: 0.125em 0;
   padding: 0.25em 0;
   border-bottom: 0.0625em solid #94127F;
-}
-
-/*----------------------------------------
-*****~~~~~~ PAGE VDL  ~~~~~~~~~~~~*********
------LISTE DES VDL - TEMPLATE VUES -----
-------------------------------------------*/
-/*######-------- ||| ORDRE FLEXBOX ||| --------######*/
-/* line 15, ../sass/content-type-style/_page-vdl-liste.scss */
-body .conteneur #colonne-1.vdl-liste {
-  order: 1;
-}
-/* line 16, ../sass/content-type-style/_page-vdl-liste.scss */
-body .conteneur #colonne-2.vdl-liste {
-  order: 2;
-}
-/* line 17, ../sass/content-type-style/_page-vdl-liste.scss */
-body .conteneur #colonne-3.vdl-liste {
-  order: 3;
-}
-
-/*######-------- ||| BORDURES ||| --------######*/
-@media (min-width: 990px) {
-  /* line 26, ../sass/content-type-style/_page-vdl-liste.scss */
-  body .conteneur #colonne-2.vie-lycee {
-    border-left: 0.0625em solid #911381;
-  }
-}
-
-/*######-------- ||| STYLE ||| --------######*/
-/* line 33, ../sass/content-type-style/_page-vdl-liste.scss */
-h1.titre_page_vdl {
-  color: #911381;
-  font-size: x-large;
-  line-height: 1.0em;
-}
-
-/* line 39, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee h2, #colonne-2.vie-lycee h3, #colonne-2.vie-lycee h4, #colonne-2.vie-lycee p, #colonne-2.vie-lycee ul, #colonne-2.vie-lycee ol, #colonne-2.vie-lycee img {
-  margin: 0;
-}
-/* line 42, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee h2 {
-  color: #911381;
-  padding: 0.3125em;
-}
-/* line 46, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee h3 {
-  color: #911381;
-  padding: 0.3125em;
-}
-/* line 50, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee h4 {
-  padding: 0.3125em;
-  color: #911381;
-}
-/* line 54, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee p {
-  padding: 0.3125em;
-  line-height: 1.5em;
-}
-/* line 58, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee ul {
-  padding: 0.3125em;
-}
-/* line 64, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee a {
-  color: #911381;
-  text-decoration: none;
-  padding: 0.125em;
-}
-/* line 68, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee a:hover {
-  color: white;
-  background: #911381;
-}
-/* line 73, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee form {
-  margin: 0.5em auto;
-}
-/* line 76, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee table {
-  margin: 0 auto;
-  display: table;
-}
-/* line 79, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee table tbody {
-  max-width: 100%;
-}
-/* line 82, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee table tbody tr {
-  border: 0;
-}
-/* line 85, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee table tbody tr.even {
-  background: #ECECED;
-}
-/* line 88, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee table tbody tr.odd {
-  background: #9898a6;
-  color: #ECECED;
-}
-/* line 97, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee table#archives-info-admin h3, #colonne-2.vie-lycee .item-list-activites h3 {
-  color: #911381;
-  padding: 5px;
-  text-align: center;
-}
-/* line 102, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee table#archives-info-admin a, #colonne-2.vie-lycee .item-list-activites a {
-  color: black;
-  text-decoration: none;
-  display: block;
-}
-/* line 106, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee table#archives-info-admin a:hover, #colonne-2.vie-lycee .item-list-activites a:hover {
-  color: black;
-  text-decoration: underline;
-  background: 0;
-}
-/* line 113, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee table#archives-info-admin ul, #colonne-2.vie-lycee .item-list-activites ul {
-  list-style: none;
-}
-/* line 116, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee table#archives-info-admin li, #colonne-2.vie-lycee .item-list-activites li {
-  list-style: none;
-  background: #ECECED;
-  padding: 3px;
-  margin: 0 3px 3px;
-}
-/* line 122, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee table#archives-info-admin .views-field-title a, #colonne-2.vie-lycee .item-list-activites .views-field-title a {
-  font-weight: bold;
-  text-transform: capitalize;
-  color: #ADC91F;
-}
-/* line 127, ../sass/content-type-style/_page-vdl-liste.scss */
-#colonne-2.vie-lycee table#archives-info-admin .view-liste-activites-lycee a.field-content, #colonne-2.vie-lycee .item-list-activites .view-liste-activites-lycee a.field-content {
-  color: red;
-}
-
-/*--------------------------------------------
-**********************************************
-        VUE BLOC VDL ARCHIVES FILTRE EXPOSE
----------------------------------------------*/
-/* line 138, ../sass/content-type-style/_page-vdl-liste.scss */
-#vue-bloc-vdl-archives {
-  width: 99%;
-  margin: 0 auto;
-}
-
-/* line 146, ../sass/content-type-style/_page-vdl-liste.scss */
-#vue-bloc-vdl-archives tr {
-  margin: 5px 3px;
-  display: block;
-  background: #EFEFEF;
-}
-
-/* line 151, ../sass/content-type-style/_page-vdl-liste.scss */
-#vue-bloc-vdl-archives td {
-  padding: 3px;
-}
-
-/* line 154, ../sass/content-type-style/_page-vdl-liste.scss */
-#vue-bloc-vdl-archives td a {
-  font-weight: bold;
-  text-transform: capitalize;
-  color: #AEC81F;
-  text-decoration: none;
-}
-
-/* line 160, ../sass/content-type-style/_page-vdl-liste.scss */
-#vue-bloc-vdl-archives td a:hover {
-  color: black;
-}
-
-/*________ FOYER (liste) - FORMULAIRE EXPOSE ________*/
-/* line 165, ../sass/content-type-style/_page-vdl-liste.scss */
-#views-exposed-form-liste-actu-foyer-page-1, #views-exposed-form-liste-activites-lycee-block-2, #views-exposed-form-liste-activites-lycee-block-3 {
-  width: 65%;
-  margin: 0 auto;
-  padding: 5px;
-  background: #911381;
-  position: relative;
-  background: #911381;
-  background: rgba(145, 19, 129, 0.35);
-  -pie-background: rgba(145, 19, 129, 0.35);
-  behavior: url(/sites/all/libraries/PIE/PIE.htc);
-}
-/* line 171, ../sass/content-type-style/_page-vdl-liste.scss */
-#views-exposed-form-liste-actu-foyer-page-1 label, #views-exposed-form-liste-activites-lycee-block-2 label, #views-exposed-form-liste-activites-lycee-block-3 label {
-  color: #606070;
-  text-align: center;
-  font-size: small;
-}
-/* line 176, ../sass/content-type-style/_page-vdl-liste.scss */
-#views-exposed-form-liste-actu-foyer-page-1 select, #views-exposed-form-liste-activites-lycee-block-2 select, #views-exposed-form-liste-activites-lycee-block-3 select {
-  font-size: small;
 }
 
 /*-------------------------------------|
@@ -7104,6 +6912,110 @@ hr.separation-actu-globale {
 /* line 263, ../sass/content-type-style/_page-actualites-globales.scss */
 #items_annonce li {
   list-style: circle;
+}
+
+/*----------------------------------------
+*****~~~~~~ PAGE ARCHIVES~~~~~~~*********
+-----LISTE DES VDL - TEMPLATE VUES -----
+------------------------------------------*/
+/*######-------- ||| ORDRE FLEXBOX ||| --------######*/
+/* line 15, ../sass/content-type-style/_page-archives-listes.scss */
+body .conteneur #colonne-1.vdl-liste {
+  order: 1;
+}
+/* line 16, ../sass/content-type-style/_page-archives-listes.scss */
+body .conteneur #colonne-2.vdl-liste {
+  order: 2;
+}
+/* line 17, ../sass/content-type-style/_page-archives-listes.scss */
+body .conteneur #colonne-3.vdl-liste {
+  order: 3;
+}
+
+/*######-------- ||| BORDURES ||| --------######*/
+@media (min-width: 990px) {
+  /* line 26, ../sass/content-type-style/_page-archives-listes.scss */
+  body .conteneur #colonne-2.archives-vdl {
+    border-left: 0.0625em solid #01ABCF;
+    border-right: 0.0625em solid #911381;
+  }
+}
+
+/*######-------- ||| STYLE ||| --------######*/
+/* line 33, ../sass/content-type-style/_page-archives-listes.scss */
+h1.titre-archives {
+  color: #911381;
+  font-size: x-large;
+  line-height: 1.0em;
+}
+
+/* line 39, ../sass/content-type-style/_page-archives-listes.scss */
+#colonne-2.archives-vdl .views-exposed-form {
+  width: 65%;
+  margin: 0 auto;
+  padding: 5px;
+  background: #911381;
+  position: relative;
+  background: #911381;
+  background: rgba(145, 19, 129, 0.35);
+  -pie-background: rgba(145, 19, 129, 0.35);
+  behavior: url(/sites/all/libraries/PIE/PIE.htc);
+}
+/* line 44, ../sass/content-type-style/_page-archives-listes.scss */
+#colonne-2.archives-vdl .views-exposed-form label {
+  color: #606070;
+  text-align: center;
+  font-size: small;
+}
+/* line 49, ../sass/content-type-style/_page-archives-listes.scss */
+#colonne-2.archives-vdl .views-exposed-form select {
+  font-size: small;
+}
+/* line 52, ../sass/content-type-style/_page-archives-listes.scss */
+#colonne-2.archives-vdl .views-exposed-form .views-widget-filter-field_date_evenement_value {
+  width: 60%;
+}
+
+/* line 58, ../sass/content-type-style/_page-archives-listes.scss */
+table#table_archives_vdl thead th {
+  border: 0;
+  background: none;
+}
+/* line 62, ../sass/content-type-style/_page-archives-listes.scss */
+table#table_archives_vdl tbody {
+  width: 95%;
+  margin: 0 auto;
+  display: block;
+}
+/* line 67, ../sass/content-type-style/_page-archives-listes.scss */
+table#table_archives_vdl tr {
+  margin: 0.1875em 0;
+  display: block;
+  background: none;
+  border: none;
+  padding: 0;
+}
+/* line 74, ../sass/content-type-style/_page-archives-listes.scss */
+table#table_archives_vdl td {
+  background: white;
+  border: 0.1875em solid #9898a6;
+  padding: 0.3125em;
+}
+/* line 79, ../sass/content-type-style/_page-archives-listes.scss */
+table#table_archives_vdl td a {
+  color: #01ABCF;
+  font-size: small;
+  text-decoration: none;
+  padding: 0.125em;
+}
+/* line 84, ../sass/content-type-style/_page-archives-listes.scss */
+table#table_archives_vdl td a:hover {
+  background: #01ABCF;
+  color: white;
+}
+/* line 89, ../sass/content-type-style/_page-archives-listes.scss */
+table#table_archives_vdl span.date-display-single {
+  display: block;
 }
 
 /*

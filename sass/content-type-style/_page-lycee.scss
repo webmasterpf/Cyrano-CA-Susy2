@@ -205,9 +205,15 @@ h4 a:hover{}
 li{
     padding: em(3px) 0;
     margin: 0;
+    list-style: none;
 }
 h3{
     color: $violet;
+    font-family:$AristaFont;
+    font-size: large;
+    margin:em(5px);
+    display: block;
+    text-align: center;
  }
  a{
     color:  $gris-anthracite;

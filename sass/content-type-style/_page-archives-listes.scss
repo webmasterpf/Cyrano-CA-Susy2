@@ -1,0 +1,92 @@
+// Regroupe le style pour le contenu des node.tpl custom
+// créer des fichiers _node-TYPE.scss et les importer dans application.scss
+
+//@include breakpoint ($mobile){}
+//@include breakpoint ($desktop){}
+//@include breakpoint ($tablet){}
+
+/*----------------------------------------
+*****~~~~~~ PAGE ARCHIVES~~~~~~~*********
+-----LISTE DES VDL - TEMPLATE VUES -----
+------------------------------------------*/
+/*######-------- ||| ORDRE FLEXBOX ||| --------######*/
+body .conteneur {
+
+    #colonne-1.vdl-liste{order:1;}
+    #colonne-2.vdl-liste{order:2;}
+    #colonne-3.vdl-liste{order:3;}
+    @include breakpoint ($desktop){
+   
+    }
+}
+
+/*######-------- ||| BORDURES ||| --------######*/
+body .conteneur {
+    @include breakpoint ($desktop){
+        #colonne-2.archives-vdl{
+            @include border-bleu-violet;
+        }
+        }
+    
+}
+/*######-------- ||| STYLE ||| --------######*/
+h1.titre-archives{
+    color: $violet;
+     font-size: x-large;
+     line-height: 1.0em;
+}
+#colonne-2.archives-vdl{
+    .views-exposed-form
+    {
+        width: 65%;margin: 0 auto;padding: 5px;
+        background:$violet;
+        @include rgba-background($violet,0.35);
+        label
+        {
+            color: $gris-anthracite;text-align: center;
+            font-size: small;
+        }
+        select{
+            font-size: small;
+        }
+        .views-widget-filter-field_date_evenement_value{
+            width: 60%;
+        }        
+    }
+}
+table#table_archives_vdl {
+    thead th{
+    border: 0;
+    background: none;
+}
+ tbody{
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+}
+ tr{
+    margin: em(3px) 0;
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+}
+ td{
+    background: white;
+    border: em(3px) solid $gris-clair-moyen;
+    padding: em(5px);
+}
+ td a{
+    color: $bleu-turquoise;
+    font-size: small;
+    text-decoration: none;
+    padding: em(2px);
+  &:hover{
+    background: $bleu-turquoise;
+    color: white;
+}
+}
+span.date-display-single{
+    display: block;
+}
+}
