@@ -4,7 +4,7 @@ Indiquer les classes ou les IDs des enveloppes des galeries
 */
 
 //@include breakpoint ($mobile){}
-//@include breakpoint ($desktop){}
+//@include breakpoint ($desktop,$tablet){}
 //@include breakpoint ($tablet){}
 
 /*http://w3bits.com/css-masonry/*/
@@ -12,22 +12,27 @@ Indiquer les classes ou les IDs des enveloppes des galeries
 /*-------------------------
 |  LAYOUT FULL CSS  |
 --------------------------*/
-.vdl-global .view-content { /* Masonry container */
+.contenu-actu-globale { /* Masonry container */
     @include colonnes(1);
     column-gap: gutter();
     @include breakpoint ($desktop){
-    @include colonnes(4);
+    @include colonnes(3);
     }
     @include breakpoint ($tablet){
         @include colonnes(3);
     }
 }
 
-.item { /* Masonry bricks or child elements - classe ajoutée dans la vue */
-    background-color: #eee;
+.item,.bloc_actu_globale { /* Masonry bricks or child elements - classe ajoutée dans la vue */
+    background-color: transparent;
     display: inline-block;
-    margin: 0 0 em(10px);
-    width: 100%;
+    max-width: 100%;
+    width: 95%;
+    @include breakpoint ($desktop,$tablet){
+        margin: 0 0 em(10px) em(8px);
+        width: 90%;
+        max-width: 90%;
+    }
 }
 
 /*--------------------
@@ -37,7 +42,7 @@ Indiquer les classes ou les IDs des enveloppes des galeries
 ---------------------*/
 /*Changer l'ID selon les besoins, en général la #colonne-2 doit convenir*/
 #colonne-1,#colonne-2{
-    .vdl-global{
+    .vdl-global,.contenu-actu-globale{
         .view-filters{
             .views-exposed-form{
                 font-size: small;
@@ -112,6 +117,7 @@ div.img-vdl{
         margin: 0 auto;
         display: block;
         object-fit: cover;//ne déforme pas l'image mais la coupe à la différence de contain
+        max-height: 30em;//limite la hauteur si image trop grosse
         &:hover{
              @include opacity(0.3);
         }

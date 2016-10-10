@@ -1,0 +1,263 @@
+// Regroupe le style pour le contenu des node.tpl custom
+// créer des fichiers _node-TYPE.scss et les importer dans application.scss
+
+/*-------------------------------------|
+|       CONTENU CUSTOM NODE.TPL        |
+|       PAGE ACTUALITE GLOBALE      |
+|--------------------------------------*/
+
+//@include breakpoint ($mobile){}
+//@include breakpoint ($desktop){}
+//@include breakpoint ($tablet){}
+
+/*######-------- ||| ORDRE FLEXBOX ||| --------######*/
+body .conteneur .conteneur-flex{
+    #colonne-1.page-actualites{order:2;}
+    #colonne-2.page-actualites{order:1;}
+    #colonne-3.page-actualites{order:3;}
+    @include breakpoint ($desktop){
+    #colonne-1.page-actualites{order:1;}
+    #colonne-2.page-actualites{order:2;}
+    #colonne-3.page-actualites{order:3;}
+    }
+}
+
+/*######-------- ||| BORDURES ||| --------######*/
+body .conteneur {
+    @include breakpoint ($desktop){
+        #colonne-2.page-actualites{@include border-orange-violet;}
+    }
+    
+}
+/*######-------- ||| STYLE ||| --------######*/
+.contenu-actu-globale{}
+/*PARAM COMMUNS*/
+.bloc_actu_globale{
+    border: 2px solid #9C9DA1;
+    margin: 10px;
+    @include ombrage (em(1px),em(2px),em(2px),$gris-clair-moyen);
+    h3{
+        font-size: larger;
+        background: transparent;
+        font-family: $AristaFont;
+        margin:em(5px) em(5px) em(10px);
+    }
+
+    img{
+        float: left;
+        border: 1px solid $gris-clair-moyen;
+        margin: em(9px);
+    }
+    a{
+        font-size: small;
+        text-decoration: none;
+    }
+}
+
+
+hr.separation-actu-globale{border: em(2px);height: em(1px);margin: 0 auto;width: 95%;clear: left;}
+/* BLOC SORTIE-ACTION */
+
+
+.bloc_sortie_action {
+    background: transparent url(../images/bg_actu_globale_rouge.jpg) no-repeat scroll 13em 0.4em;
+    h3{
+        color: $rouge;
+    }
+    #actu_globale_sortie a{
+        color: $rouge;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    hr.sep_sortie_action {
+        background: $rouge;
+    }
+}
+
+/* BLOC PROJET */
+
+.bloc_projet {
+    background: transparent url(../images/bg_actu_globale_bleu.jpg) no-repeat scroll 7em 0.4em;
+    h3{
+        color: $bleu-turquoise;
+    }
+    a{
+        color: $bleu-turquoise;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    hr.sep_projet {
+        background: $bleu-turquoise;
+    }
+}
+
+/* BLOC INNOVATIONS */
+
+
+.bloc_innovation {
+    background: transparent url(../images/bg_actu_globale_violet.jpg) no-repeat scroll 11em 0.4em;
+    .bloc_innovation h3{
+        color: $violet;
+    }
+    a{
+        color: $violet;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    hr.sep_innovation {
+        background: $violet;
+    }
+}
+
+/* BLOC INTERVENANT */
+
+
+.bloc_intervenant {
+    background: transparent url(../images/bg_actu_globale_vert.jpg) no-repeat scroll 12em 0.4em;
+    .bloc_intervenant h3{
+        color: $vert;
+    }
+    #actu_globale_intervenant a{
+        color: $vert;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    hr.sep_intervenant {
+        background: $vert;
+    }
+}
+
+/* BLOC MINI-STAGE */
+
+
+.bloc_mini_stage {
+    background: transparent url(../images/bg_actu_globale_gris.jpg) no-repeat scroll 11em 0.4em;
+    .bloc_mini_stage h3{
+        color: $gris-clair-moyen;
+    }
+    #actu_globale_mini_stage a{
+        color: $gris-clair-moyen;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    hr.sep_mini_stage {
+        background: $gris-clair-moyen;
+    }
+}
+
+/* BLOC RP */
+
+
+.bloc_rp {
+    background: transparent url(../images/bg_actu_globale_orange.jpg) no-repeat scroll 15em 0.4em;
+    .bloc_rp h3{
+        color: $orange;
+    }
+    #actu_globale_rp a{
+        color: $orange;
+        &:hover{
+            text-decoration: underline;
+
+        }
+    }
+
+    hr.sep_rp {
+        background: $orange;
+    }
+}
+
+/* BLOC ANNONCE */
+
+.bloc_annonce {
+    background: transparent url(../images/bg_actu_globale_rose.jpg) no-repeat scroll 13em 0.4em;
+    .bloc_annonce h3{color: $rose-fushia;}
+    #actu_globale_annonce a{
+        color: $rose-fushia;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    hr.sep_annonce {
+        background: $rose-fushia;
+    }
+}
+
+/***************************/
+/*Partie Vue liste simple*/
+/*PARAM COMMUNS*/
+.bloc_actu_globale_items_sortie{
+
+}
+.bloc_actu_globale_items ul{
+    list-style: circle;
+}
+.bloc_actu_globale_items li{
+    list-style: circle;
+}
+.bloc_actu_globale_items a{
+     font-size: small;
+    
+     text-decoration: none;
+}
+.bloc_actu_globale_items a:hover{
+     text-decoration: underline;
+}
+/*LISTE SORTIE*/
+#items_sortie li{
+      list-style: circle;
+}
+#items_sortie a{
+     color: $rouge;
+}
+#items_sortie a:hover{color: $gris-clair-moyen;}
+/*LISTE PROJET*/
+#items_projet a{
+     color: $bleu-turquoise;
+}
+#items_projet a:hover{color: $gris-clair-moyen;}
+#items_projet li{
+     list-style: circle;
+}
+/*LISTE INNOVATIONS*/
+#items_innovation a{
+     color: $violet;
+}
+#items_innovation a:hover{color: $gris-clair-moyen;}
+#items_innovation li{
+     list-style: circle;
+}
+/*LISTE INTERVENANTS*/
+#items_intervenant a{
+     color: $vert;
+}
+#items_intervenant a:hover{color: $gris-clair-moyen;}
+#items_intervenant li{
+     list-style: circle;
+}
+/*LISTE MINI-STAGE*/
+#items_mini_stage a{
+     color: $gris-clair-moyen;
+}
+#items_mini_stage a:hover{color: $gris-clair-moyen;}
+#items_mini_stage li{
+     list-style: circle;
+}
+/*LISTE RP*/
+#items_rp a{
+     color: $orange;
+}
+#items_rp a:hover{color: $gris-clair-moyen;}
+#items_rp li{
+     list-style: circle;
+}
+/*LISTE ANNONCES*/
+#items_annonce a{color: $rose-fushia;}
+#items_annonce a:hover{color: $gris-clair-moyen;}
+#items_annonce li{list-style: circle;}
