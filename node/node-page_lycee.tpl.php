@@ -1,7 +1,7 @@
 <!--______________NODE TPL POUR PAGE LYCEE.TPL CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
     <div class="node-inner">
-<!--______________COLONNE GAUCHE 1________________ -->
+<!--______________COLONNE  1________________ -->
   <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
 <div id="colonne-1" class="col1_layout_3_6_3 page-lycee">
      <?php if ($title): /*insertion du titre de la page et style differencié*/?>
@@ -17,7 +17,7 @@
               include ($theme_path.'/includes/regions_inc/inc_region_col_1.php');
               ?>
 </div>
-<!--______________COLONNE GAUCHE 2________________ -->
+<!--______________COLONNE  2________________ -->
 <div id="colonne-2" class="col2_layout_3_6_3 page-lycee">
      <?php if ($submitted): ?>
       <span class="submitted"><?php print $submitted; ?></span>
@@ -30,10 +30,9 @@
            global $theme_path;
               include ($theme_path.'/includes/regions_inc/inc_region_col_2.php');
               ?>
-     <!-- retour haut selon resolution de l'ecran -->
-          <!--<a href="#general" id="retour_haut">Haut de page</a>-->
+    
 </div>
-<!--______________COLONNE GAUCHE 3________________ -->
+<!--______________COLONNE  3________________ -->
    
 <div id="colonne-3" class="col3_layout_3_6_3 page-lycee">
      <?php print $picture; ?>
