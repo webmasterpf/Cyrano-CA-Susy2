@@ -55,7 +55,8 @@ h1.titre-archives{
     }
 }
 table#table_archives_vdl {
-    thead th{
+    border:0;
+    thead,thead th{
     border: 0;
     background: none;
 }
@@ -63,6 +64,7 @@ table#table_archives_vdl {
     width: 95%;
     margin: 0 auto;
     display: block;
+    border:0;
 }
  tr{
     margin: em(3px) 0;
@@ -72,9 +74,10 @@ table#table_archives_vdl {
     padding: 0;
 }
  td{
-    background: white;
-    border: em(3px) solid $gris-clair-moyen;
+    background: $gris-clair;
+    border: em(4px) solid $gris-clair-moyen;
     padding: em(5px);
+    display: block;
 }
  td a{
     color: $bleu-turquoise;

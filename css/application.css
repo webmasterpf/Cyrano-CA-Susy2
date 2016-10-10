@@ -4641,7 +4641,7 @@ h1.titre-lycee, h1.title-classes {
 #caucadis-actu h3 {
   color: #911381;
   font-family: "Arista", Trebuchet MS, sans-serif;
-  font-size: large;
+  font-size: x-large;
   margin: 0.3125em;
   display: block;
   text-align: center;
@@ -6976,18 +6976,23 @@ h1.titre-archives {
   width: 60%;
 }
 
-/* line 58, ../sass/content-type-style/_page-archives-listes.scss */
-table#table_archives_vdl thead th {
+/* line 57, ../sass/content-type-style/_page-archives-listes.scss */
+table#table_archives_vdl {
+  border: 0;
+}
+/* line 59, ../sass/content-type-style/_page-archives-listes.scss */
+table#table_archives_vdl thead, table#table_archives_vdl thead th {
   border: 0;
   background: none;
 }
-/* line 62, ../sass/content-type-style/_page-archives-listes.scss */
+/* line 63, ../sass/content-type-style/_page-archives-listes.scss */
 table#table_archives_vdl tbody {
   width: 95%;
   margin: 0 auto;
   display: block;
+  border: 0;
 }
-/* line 67, ../sass/content-type-style/_page-archives-listes.scss */
+/* line 69, ../sass/content-type-style/_page-archives-listes.scss */
 table#table_archives_vdl tr {
   margin: 0.1875em 0;
   display: block;
@@ -6995,25 +7000,26 @@ table#table_archives_vdl tr {
   border: none;
   padding: 0;
 }
-/* line 74, ../sass/content-type-style/_page-archives-listes.scss */
+/* line 76, ../sass/content-type-style/_page-archives-listes.scss */
 table#table_archives_vdl td {
-  background: white;
-  border: 0.1875em solid #9898a6;
+  background: #ECECED;
+  border: 0.25em solid #9898a6;
   padding: 0.3125em;
+  display: block;
 }
-/* line 79, ../sass/content-type-style/_page-archives-listes.scss */
+/* line 82, ../sass/content-type-style/_page-archives-listes.scss */
 table#table_archives_vdl td a {
   color: #01ABCF;
   font-size: small;
   text-decoration: none;
   padding: 0.125em;
 }
-/* line 84, ../sass/content-type-style/_page-archives-listes.scss */
+/* line 87, ../sass/content-type-style/_page-archives-listes.scss */
 table#table_archives_vdl td a:hover {
   background: #01ABCF;
   color: white;
 }
-/* line 89, ../sass/content-type-style/_page-archives-listes.scss */
+/* line 92, ../sass/content-type-style/_page-archives-listes.scss */
 table#table_archives_vdl span.date-display-single {
   display: block;
 }
