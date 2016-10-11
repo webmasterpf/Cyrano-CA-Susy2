@@ -38,3 +38,30 @@ body .conteneur {
       }
     
 }
+/*----------------------------------------
+£££££ FORMULAIRE DOSSIERS INSCRIPTIONS 2015.02.25 £££
+------------------------------------------*/
+.bloc-dossier-prepas{}
+.bloc-dossier-prepas h3.block-title, .bloc-dossier-initial h3.block-title
+{width: auto;}
+#pageLycee_col_G2 .bloc-dossier-prepas h3.block-title{color:#E3007C;}
+#pageLycee_col_G2 .bloc-dossier-initial h3.block-title{color:#02A7D5;}
+
+.dossier-prepas{}
+.dossier-prepas table, .dossier-initial table{margin: 1.5em;}
+.dossier-initial{}
+
+/*----------------------------------------
+£££££ WEBFORM NODE 2015.07.09 £££
+------------------------------------------*/
+#colonne-2.webform {
+    img, iframe{
+        border: 0.15em solid;padding: 0.2em;
+    }
+    img{border-color: $bleu-turquoise;}
+    iframe{border-color: $violet;}
+    a{text-decoration: none;color: $violet;
+      &:hover{text-decoration: underline;}
+    }
+
+}

@@ -5,32 +5,32 @@
  */
 
 ?>
-<!-- NODE-WEBFORM.TPL GENERIK -->
+
+<!-- NODE-WEBFORM.TPL Formulaire general Id 5 -->
 <div class="node<?php if ($sticky) { print " sticky"; } ?><?php if (!$status) { print " node-unpublished"; } ?>">
    
-      <!--______________COLONNE 1________________ -->
-        
-<div id="colonne-1" class="col1_layout_3_6_3 webform">
+     <!--______________COLONNE 1________________ -->
+  
+<div id="colonne-1" class="col1_layout_3_9 webform contact">
      <?php if ($title): /*insertion du titre de la page et style differencié*/?>
      <h1 class="titre-webform"><?php print $title; ?></h1>
-
+ 
     <?php endif; ?>
-     <!-- Deco page-->
+     
+       <!-- Deco page-->
        
     <?php  print $node->field_image_deco_lycee[0]['view'] /*Image deco page lycee*/ ?>
-        <?php
+                <?php
            global $theme_path;
               include ($theme_path.'/includes/regions_inc/inc_region_col_1.php');
               ?>
 </div>
 <!--______________COLONNE 2________________ -->
-         
-        <div id="colonne-2" class="col2_layout_3_6_3 webform">
-
+        <div id="colonne-2" class="col2_layout_3_9 webform contact">
      <?php if ($submitted) { ?>
     <span class="submitted"><?php print $submitted?></span>
   <?php }; ?>
-
+<?php $node->content['body']['#value']=false; ?>
  
 
   <div class="content">
@@ -47,9 +47,9 @@
               include ($theme_path.'/includes/regions_inc/inc_region_col_2.php');
               ?>
   </div>
-
+     
     <?php if ($links): ?>
-    <div class="links">&raquo; <?php print $links; ?></div>
+    <div class="links"> <?php print $links; ?></div>
   <?php endif; ?>
 
      <?php if ($terms) { ?>
@@ -57,42 +57,7 @@
   <?php }; ?>
 
 </div>
-<!--______________COLONNE 3________________ -->
-        <div id="colonne-3" class="col3_layout_3_6_3 webform">
-     <?php print $picture; ?>
 
-    <div class="content">
-
-        <br clear="all"/>
-           <?php if ($node->field_vue_actus_lycee[0]['view']): ?>
-        <div id="bloc-actu-lycee">
-           <?php  print $node->field_vue_actus_lycee[0]['view'] /*Vue actus du lycée*/ ?>
-        </div>
-           <?php endif;?>
-            <?php
-           global $theme_path;
-              include ($theme_path.'/includes/regions_inc/inc_region_col_3.php');
-              ?>
-    </div>
-
-    <?php if ($terms): ?>
-      <div class="taxonomy"><?php //print $terms; ?></div>
-    <?php endif;?>
-
-   
-
-</div>
-
-
-   
-  <?php if ($picture) { print $picture; }?>
-
-  <?php if ($page == 0) { ?>
-    <?php if ($title) { ?>
-      <h2 class="title"><a href="<?php print $node_url?>"><?php print $title?></a></h2>
-    <?php }; ?>
-  <?php }; ?>
-
-<div class="clear-block clear"></div>
 
 </div><!-- /node -->
+<?php print dpm($node);?>
