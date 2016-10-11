@@ -132,6 +132,10 @@
     box-shadow: 2px 2px 5px #555;
     }
     
+    @mixin ombrage-texte($angle:0.5em,$distance:0.2em,$flou:0.6em,$couleur:#1a181a){
+        text-shadow: $angle $distance $flou $couleur;
+filter: dropshadow(color=$couleur, offx=$angle, offy=$distance);
+    }    
 @mixin ombrage-bas-table-actu{
     -moz-box-shadow: 2px 2px 5px #aaa;
     -webkit-box-shadow: 2px 2px 5px #aaa;
