@@ -107,3 +107,28 @@ form.webform-client-form{
     }
     .form-item{margin-bottom: 0.5em;margin-top: 0.5em;}
 }
+
+/*----------------------------------------
+£££££ FORMULAIRE DOSSIERS INSCRIPTIONS 2015.02.25 £££
+------------------------------------------*/
+.bloc-dossier-prepas{}
+.bloc-dossier-prepas h3.block-title, .bloc-dossier-initial h3.block-title
+{width: auto;}
+#colonne-2 .bloc-dossier-prepas h3.block-title{color:#E3007C;}
+#colonne-2 .bloc-dossier-initial h3.block-title{color:#02A7D5;}
+
+.dossier-prepas{}
+.dossier-prepas table, .dossier-initial table{margin: 1.5em;}
+.dossier-initial{}
+//Pour overrider les réglages issus d'autres modèles
+#colonne-2{
+    #block-webform-client-block-144,#block-webform-client-block-145{
+    margin: 0;
+    form{
+        margin: 0;
+    }
+    label{
+        margin: 0 0 0 1em;
+    }
+}
+}
