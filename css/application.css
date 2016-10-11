@@ -5746,6 +5746,32 @@ body .conteneur .conteneur-flex #colonne-3.CLASS_NAME {
   border: 0;
 }
 
+/*----------------------------------------
+£££££ WEBFORM NODE 2015.07.09 £££
+------------------------------------------*/
+/* line 47, ../sass/content-type-style/_webform-contact.scss */
+#colonne-2.webform img, #colonne-2.webform iframe {
+  border: 0.15em solid;
+  padding: 0.2em;
+}
+/* line 50, ../sass/content-type-style/_webform-contact.scss */
+#colonne-2.webform img {
+  border-color: #01ABCF;
+}
+/* line 51, ../sass/content-type-style/_webform-contact.scss */
+#colonne-2.webform iframe {
+  border-color: #911381;
+}
+/* line 52, ../sass/content-type-style/_webform-contact.scss */
+#colonne-2.webform a {
+  text-decoration: none;
+  color: #911381;
+}
+/* line 53, ../sass/content-type-style/_webform-contact.scss */
+#colonne-2.webform a:hover {
+  text-decoration: underline;
+}
+
 /*-------------------------------------|
 |       CONTENU CUSTOM               |
 |               NODE.TPL                      |
@@ -6279,6 +6305,42 @@ form.webform-client-form input[type="submit"] {
 form.webform-client-form .form-item {
   margin-bottom: 0.5em;
   margin-top: 0.5em;
+}
+
+/*----------------------------------------
+£££££ FORMULAIRE DOSSIERS INSCRIPTIONS 2015.02.25 £££
+------------------------------------------*/
+/* line 115, ../sass/content-type-style/_webform.scss */
+.bloc-dossier-prepas h3.block-title, .bloc-dossier-initial h3.block-title {
+  width: auto;
+}
+
+/* line 117, ../sass/content-type-style/_webform.scss */
+#colonne-2 .bloc-dossier-prepas h3.block-title {
+  color: #E3007C;
+}
+
+/* line 118, ../sass/content-type-style/_webform.scss */
+#colonne-2 .bloc-dossier-initial h3.block-title {
+  color: #02A7D5;
+}
+
+/* line 121, ../sass/content-type-style/_webform.scss */
+.dossier-prepas table, .dossier-initial table {
+  margin: 1.5em;
+}
+
+/* line 125, ../sass/content-type-style/_webform.scss */
+#colonne-2 #block-webform-client-block-144, #colonne-2 #block-webform-client-block-143 {
+  margin: 0;
+}
+/* line 127, ../sass/content-type-style/_webform.scss */
+#colonne-2 #block-webform-client-block-144 form, #colonne-2 #block-webform-client-block-143 form {
+  margin: 0;
+}
+/* line 130, ../sass/content-type-style/_webform.scss */
+#colonne-2 #block-webform-client-block-144 label, #colonne-2 #block-webform-client-block-143 label {
+  margin: 0 0 0 1em;
 }
 
 /*-------------------------------------|
