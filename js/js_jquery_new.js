@@ -82,25 +82,13 @@
    captions: true;
 });
 
-//Pour Chocolat.js (vignettes zoom)
-    $(document).ready(function () {
-        $('.chocolat-parent').Chocolat(
-                {
-                    loop           : true,
-                    zoom           : true,
-                    imageSize     : 'default',
-                    overlayOpacity : 0.9
-                });
-    });
-    
-    //Pour stacktable (tableaux RWD)
-    jQuery(window).load(function () {
+  //Pour stacktable (tableaux RWD)
+    jQuery(window).load(function (){
         console.log('Chargement des paramètres de Stacktable.js');
         //Ajouter l'ID de la table à rendre RWD
-        //Cible toutes les tables contenues dans la div.content (colonne-2)
-        //Exclure les zones non affectées par stacktable
-        $('div.content').not('#colonne-2.page-espace').children('table').stacktable();
-    });
+  //Cible toutes les tables contenues dans la div.content (colonne-2)
+  $('div.content').children('table') .stacktable();
+});
 
 //Slick Basic, nav par points, transition fade
 jQuery(document).ready(function ()
@@ -187,7 +175,7 @@ jQuery(window).on('load', function()
 $('table tr:odd').addClass('odd');
 $('table tr:even') .addClass('even');
 //Ajout d'attributs pour mur image JS
-$('#liste-vdl ul').attr("id", "wookmark-id");
+$('#liste-vdl ul.wookmark').attr("id", "wookmark-id");
 $('#liste-vdl div.view-content').attr("id","grid");
 $('#liste-vdl div.view-content').attr("data-columns","");
 
@@ -209,7 +197,6 @@ $('#liste-vdl div.view-content').attr("data-columns","");
 
 //Changer la casse des titres H1 qui sont en Majuscules
 $('h1').css('text-transform','lowercase');
-$('h1.titre_page_pole').css('text-transform','uppercase');
 $('.titre-vdl a').css('text-transform','lowercase');
 $('#liste-vdl span.titre-vdl > a').css('text-transform','lowercase');
 
@@ -220,4 +207,12 @@ $('#liste-vdl span.titre-vdl > a').css('text-transform','lowercase');
         $(".masonry-brick").removeAttr("style");//pas d'effet
         
     });
+
+// Pour MixItUp plugin: voir le fichier ajout.classes.mixitup.js
+// Calling the MixItUp plugin for this View.
+    jQuery(window).load(function () {
+        console.log('Chargement de Mixitup');
+        $('.mixitup').mixItUp();
+    });
+
 })(jQuery);
