@@ -6250,17 +6250,17 @@ body .conteneur .conteneur-flex #colonne-3.CLASS_NAME {
 |       CONTENU ENTREPRISE       |
 |--------------------------------------*/
 /*######-------- ||| ORDRE FLEXBOX ||| --------######*/
-/* line 17, ../sass/content-type-style/_contenu-entreprise.scss */
+/* line 18, ../sass/content-type-style/_contenu-entreprise.scss */
 body .conteneur .conteneur-flex #colonne-1.contenu_entreprise,
 body .conteneur .conteneur-flexchild #colonne-1.contenu_entreprise {
   order: 3;
 }
-/* line 18, ../sass/content-type-style/_contenu-entreprise.scss */
+/* line 19, ../sass/content-type-style/_contenu-entreprise.scss */
 body .conteneur .conteneur-flex #colonne-2.contenu_entreprise,
 body .conteneur .conteneur-flexchild #colonne-2.contenu_entreprise {
   order: 1;
 }
-/* line 19, ../sass/content-type-style/_contenu-entreprise.scss */
+/* line 20, ../sass/content-type-style/_contenu-entreprise.scss */
 body .conteneur .conteneur-flex #colonne-3.contenu_entreprise,
 body .conteneur .conteneur-flexchild #colonne-3.contenu_entreprise {
   order: 2;
@@ -6268,52 +6268,66 @@ body .conteneur .conteneur-flexchild #colonne-3.contenu_entreprise {
 
 /*######-------- ||| BORDURES ||| --------######*/
 @media (min-width: 990px) {
-  /* line 26, ../sass/content-type-style/_contenu-entreprise.scss */
+  /* line 27, ../sass/content-type-style/_contenu-entreprise.scss */
   body .conteneur #colonne-2.contenu_entreprise {
     border-left: 0.0625em solid #01ABCF;
   }
 }
 
+@media (min-width: 990px) {
+  /* line 35, ../sass/content-type-style/_contenu-entreprise.scss */
+  body .conteneur #colonne-2.page-entreprise {
+    border-left: 0.0625em solid #01ABCF;
+    border-right: 0.0625em solid #606070;
+  }
+}
+
 /*######-------- ||| STYLE ||| --------######*/
-/* line 34, ../sass/content-type-style/_contenu-entreprise.scss */
+/* line 43, ../sass/content-type-style/_contenu-entreprise.scss */
+h1.titre_entreprise {
+  color: #E30078;
+  font-family: "Arvo", Trebuchet MS, Verdana, sans-serif;
+}
+
+/* line 47, ../sass/content-type-style/_contenu-entreprise.scss */
 h1.titre_entreprise_content {
   color: #DE603A;
   font-family: "Arvo", Trebuchet MS, Verdana, sans-serif;
 }
 
-/* line 38, ../sass/content-type-style/_contenu-entreprise.scss */
+/* line 51, ../sass/content-type-style/_contenu-entreprise.scss */
 h3.docs-entreprise {
   color: #ADC91F;
   text-align: center;
 }
 
-/* line 42, ../sass/content-type-style/_contenu-entreprise.scss */
+/* line 55, ../sass/content-type-style/_contenu-entreprise.scss */
 .bloc-docs-entreprise {
   width: auto;
   background: #ECECED;
   padding: 0.625em;
 }
-/* line 46, ../sass/content-type-style/_contenu-entreprise.scss */
+/* line 59, ../sass/content-type-style/_contenu-entreprise.scss */
 .bloc-docs-entreprise a {
   text-decoration: none;
   color: #01ABCF;
   padding: 0.25em;
 }
-/* line 50, ../sass/content-type-style/_contenu-entreprise.scss */
+/* line 63, ../sass/content-type-style/_contenu-entreprise.scss */
 .bloc-docs-entreprise a:hover {
   background: #01ABCF;
   color: white;
 }
-/* line 56, ../sass/content-type-style/_contenu-entreprise.scss */
+/* line 69, ../sass/content-type-style/_contenu-entreprise.scss */
 .bloc-docs-entreprise table.table-docs-entreprise tbody {
   border: 0;
 }
-/* line 59, ../sass/content-type-style/_contenu-entreprise.scss */
+/* line 72, ../sass/content-type-style/_contenu-entreprise.scss */
 .bloc-docs-entreprise table.table-docs-entreprise tr {
   border: 0;
 }
 
-/* line 67, ../sass/content-type-style/_contenu-entreprise.scss */
+/* line 80, ../sass/content-type-style/_contenu-entreprise.scss */
 .bloc-video-entreprise {
   width: auto;
   margin: 0 auto;
@@ -6324,15 +6338,15 @@ h3.docs-entreprise {
 }
 
 /*--- AJUSTEMENT GALERIE CHOCOLAT ---*/
-/* line 77, ../sass/content-type-style/_contenu-entreprise.scss */
+/* line 90, ../sass/content-type-style/_contenu-entreprise.scss */
 #colonne-1.contenu_entreprise .galerie-vdl .chocolat-parent > div {
   padding: 0 0.5em;
 }
-/* line 80, ../sass/content-type-style/_contenu-entreprise.scss */
+/* line 93, ../sass/content-type-style/_contenu-entreprise.scss */
 #colonne-1.contenu_entreprise .galerie-vdl .chocolat-parent a {
   margin: 0.5em;
 }
-/* line 83, ../sass/content-type-style/_contenu-entreprise.scss */
+/* line 96, ../sass/content-type-style/_contenu-entreprise.scss */
 #colonne-1.contenu_entreprise .galerie-vdl .chocolat-parent img {
   border: 0.13em solid white;
   -moz-box-shadow: #606070 0px 0px 0.5em;

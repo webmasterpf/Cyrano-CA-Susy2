@@ -30,8 +30,20 @@ body .conteneur {
         }
     
 }
+body .conteneur {
+    @include breakpoint ($desktop){
+        #colonne-2.page-entreprise{
+            @include border-bleu-gris;
+        }
+        }
+    
+}
 /*######-------- ||| STYLE ||| --------######*/
 
+h1.titre_entreprise{
+    color: $rose-fushia;
+    font-family: $FontArvo;
+}
 h1.titre_entreprise_content{
     color: $orange-fonce;
     font-family: $FontArvo;
