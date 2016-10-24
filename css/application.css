@@ -2841,7 +2841,7 @@ body .conteneur #header .headBas .headSearch {
   }
   /* line 41, ../sass/layout/_layout-header.scss */
   body .conteneur #header .headHaut .logoHead {
-    width: 23.76645%;
+    width: 15.29605%;
     float: left;
     margin-left: 0;
     margin-right: -100%;
@@ -2849,9 +2849,9 @@ body .conteneur #header .headBas .headSearch {
   }
   /* line 45, ../sass/layout/_layout-header.scss */
   body .conteneur #header .headHaut .menuImg {
-    width: 74.58882%;
+    width: 83.05921%;
     float: left;
-    margin-left: 25.41118%;
+    margin-left: 16.94079%;
     margin-right: -100%;
   }
   /* line 50, ../sass/layout/_layout-header.scss */
@@ -3339,7 +3339,7 @@ body .conteneur .menu-toggle, body .conteneur .transformer.is-open > .menu-toggl
     -moz-border-radius: 0.5em;
     -webkit-border-radius: 0.5em;
     border-radius: 0.5em;
-    background: #911381;
+    background: #ECECED;
   }
   /* line 77, ../sass/layout/_layout-off-canvas-susy.scss */
   body .conteneur .menu-toggle, body .conteneur .transformer.is-open > .menu-toggle {
@@ -4091,7 +4091,7 @@ body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP img {
   /* line 162, ../sass/layout/_layout-diapo-frontpage.scss */
   body .conteneur-flex .HPDiapoVerticalDroite #contenu-diapo p {
     margin-top: 0.2em;
-    font-size: larger;
+    font-size: large;
   }
 }
 

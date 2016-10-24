@@ -39,11 +39,11 @@
          .headHaut {
              @include span(full);
              .logoHead { 
-                @include span(first 3 of $desktopcol);
+                @include span(first 2 of $desktopcol);
                 padding: 0;
              }
              .menuImg {
-                @include span(last 9 of $desktopcol); 
+                @include span(last 10 of $desktopcol); 
                                  
              }
          }
