@@ -2841,7 +2841,7 @@ body .conteneur #header .headBas .headSearch {
   }
   /* line 41, ../sass/layout/_layout-header.scss */
   body .conteneur #header .headHaut .logoHead {
-    width: 32.23684%;
+    width: 23.76645%;
     float: left;
     margin-left: 0;
     margin-right: -100%;
@@ -2849,9 +2849,9 @@ body .conteneur #header .headBas .headSearch {
   }
   /* line 45, ../sass/layout/_layout-header.scss */
   body .conteneur #header .headHaut .menuImg {
-    width: 66.11842%;
+    width: 74.58882%;
     float: left;
-    margin-left: 33.88158%;
+    margin-left: 25.41118%;
     margin-right: -100%;
   }
   /* line 50, ../sass/layout/_layout-header.scss */
@@ -3293,7 +3293,7 @@ body .conteneur .off-canvas {
 }
 /* line 30, ../sass/layout/_layout-off-canvas-susy.scss */
 body .conteneur .close {
-  background: #911381;
+  background: #ECECED;
 }
 /* line 33, ../sass/layout/_layout-off-canvas-susy.scss */
 body .conteneur img.close-btn {
@@ -4844,140 +4844,6 @@ h3.block-title {
   margin: 0.125em 0;
   padding: 0.25em 0;
   border-bottom: 0.0625em solid #94127F;
-}
-
-/*-------------------------------------|
-|       CONTENU CUSTOM               |
-|       PAGE VDL MUR IMAGE         |
-|--------------------------------------*/
-/*== PAGE GLOBALE POUR VDL ou ACTU ===*/
-/*######-------- ||| ORDRE FLEXBOX ||| --------######*/
-/*######-------- ||| LAYOUT SUSY GALLERY ||| --------######*/
-/* line 17, ../sass/content-type-style/_node-vdl-global.scss */
-.table-vdl-global .mur-image .liste-image-ul .liste-image-item {
-  width: 47.44898%;
-  float: left;
-}
-/* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-.table-vdl-global .mur-image .liste-image-ul .liste-image-item:nth-child(2n + 1) {
-  margin-left: 0;
-  margin-right: -100%;
-  clear: both;
-  margin-left: 0;
-}
-/* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-.table-vdl-global .mur-image .liste-image-ul .liste-image-item:nth-child(2n + 2) {
-  margin-left: 52.55102%;
-  margin-right: -100%;
-  clear: none;
-}
-@media (min-width: 990px) {
-  /* line 17, ../sass/content-type-style/_node-vdl-global.scss */
-  .table-vdl-global .mur-image .liste-image-ul .liste-image-item {
-    width: 15.29605%;
-    float: left;
-  }
-  /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-  .table-vdl-global .mur-image .liste-image-ul .liste-image-item:nth-child(6n + 1) {
-    margin-left: 0;
-    margin-right: -100%;
-    clear: both;
-    margin-left: 0;
-  }
-  /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-  .table-vdl-global .mur-image .liste-image-ul .liste-image-item:nth-child(6n + 2) {
-    margin-left: 16.94079%;
-    margin-right: -100%;
-    clear: none;
-  }
-  /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-  .table-vdl-global .mur-image .liste-image-ul .liste-image-item:nth-child(6n + 3) {
-    margin-left: 33.88158%;
-    margin-right: -100%;
-    clear: none;
-  }
-  /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-  .table-vdl-global .mur-image .liste-image-ul .liste-image-item:nth-child(6n + 4) {
-    margin-left: 50.82237%;
-    margin-right: -100%;
-    clear: none;
-  }
-  /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-  .table-vdl-global .mur-image .liste-image-ul .liste-image-item:nth-child(6n + 5) {
-    margin-left: 67.76316%;
-    margin-right: -100%;
-    clear: none;
-  }
-  /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-  .table-vdl-global .mur-image .liste-image-ul .liste-image-item:nth-child(6n + 6) {
-    margin-left: 84.70395%;
-    margin-right: -100%;
-    clear: none;
-  }
-}
-
-/* line 25, ../sass/content-type-style/_node-vdl-global.scss */
-.table-vdl-global .liste-image-item {
-  width: 47.44898%;
-  float: left;
-  padding: 0.3em;
-}
-/* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-.table-vdl-global .liste-image-item:nth-child(2n + 1) {
-  margin-left: 0;
-  margin-right: -100%;
-  clear: both;
-  margin-left: 0;
-}
-/* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-.table-vdl-global .liste-image-item:nth-child(2n + 2) {
-  margin-left: 52.55102%;
-  margin-right: -100%;
-  clear: none;
-}
-@media (min-width: 990px) {
-  /* line 25, ../sass/content-type-style/_node-vdl-global.scss */
-  .table-vdl-global .liste-image-item {
-    width: 15.29605%;
-    float: left;
-  }
-  /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-  .table-vdl-global .liste-image-item:nth-child(6n + 1) {
-    margin-left: 0;
-    margin-right: -100%;
-    clear: both;
-    margin-left: 0;
-  }
-  /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-  .table-vdl-global .liste-image-item:nth-child(6n + 2) {
-    margin-left: 16.94079%;
-    margin-right: -100%;
-    clear: none;
-  }
-  /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-  .table-vdl-global .liste-image-item:nth-child(6n + 3) {
-    margin-left: 33.88158%;
-    margin-right: -100%;
-    clear: none;
-  }
-  /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-  .table-vdl-global .liste-image-item:nth-child(6n + 4) {
-    margin-left: 50.82237%;
-    margin-right: -100%;
-    clear: none;
-  }
-  /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-  .table-vdl-global .liste-image-item:nth-child(6n + 5) {
-    margin-left: 67.76316%;
-    margin-right: -100%;
-    clear: none;
-  }
-  /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
-  .table-vdl-global .liste-image-item:nth-child(6n + 6) {
-    margin-left: 84.70395%;
-    margin-right: -100%;
-    clear: none;
-  }
 }
 
 /*-------------------------------------|
@@ -7086,720 +6952,221 @@ table#table_archives_vdl span.date-display-single {
   display: block;
 }
 
-/*
-Pour le dev, code visuel sur les blocs selon le breakpoint
-à commenter ou supprimer pour la production
-
-*/
-/* line 15, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .content-inner {
-  background-color: #F29400;
+/*-------------------------------------|
+|       CONTENU CUSTOM               |
+|               NODE.TPL                    |
+|         MUR IMAGE VDL                 |
+|--------------------------------------*/
+/*######-------- ||| ORDRE FLEXBOX ||| --------######*/
+/* line 17, ../sass/content-type-style/_page-vdl-globale.scss */
+body .conteneur .conteneur-flex #colonne-1.CLASS_NAME {
+  order: 1;
 }
-/* line 18, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .content-inner .content-top {
-  background-color: chocolate;
+/* line 18, ../sass/content-type-style/_page-vdl-globale.scss */
+body .conteneur .conteneur-flex #colonne-2.CLASS_NAME {
+  order: 2;
 }
-/* line 22, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .middle-content {
-  background-color: deeppink;
-}
-/* line 24, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur #footer {
-  background-color: firebrick;
-}
-/* line 25, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur #footer aside {
-  background-color: teal;
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 33, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur #header {
-    background-color: sienna;
-  }
-  /* line 38, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .content-top {
-    background-color: mistyrose;
-  }
-  /* line 40, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .middle-content {
-    background-color: #C8D215;
-  }
-  /* line 46, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur #footer {
-    background-color: peachpuff;
-  }
-  /* line 47, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur #footer aside {
-    background: sandybrown;
-  }
-}
-@media (min-width: 990px) {
-  /* line 57, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur #header {
-    background: seashell;
-  }
-  /* line 64, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .content-inner {
-    background-color: palevioletred;
-  }
-  /* line 67, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .middle-content {
-    background-color: yellow;
-  }
-  /* line 71, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .content-top {
-    background-color: yellowgreen;
-  }
-  /* line 74, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur #left-content {
-    background: tomato;
-  }
-  /* line 75, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur #right-content {
-    background: violet;
-  }
-  /* line 76, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur #footer {
-    background-color: palegreen;
-  }
-  /* line 77, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur #footer aside {
-    background: yellowgreen;
-  }
-}
-@media (min-height: 767px) and (max-width: 1024px) and (orientation: landscape) {
-  /* line 85, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur #header {
-    background: palevioletred;
-  }
-  /* line 92, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .content-inner {
-    background-color: yellow;
-  }
-  /* line 95, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .middle-content {
-    background-color: sandybrown;
-  }
-  /* line 99, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .content-top {
-    background-color: yellowgreen;
-  }
-  /* line 102, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur #left-content {
-    background: tomato;
-  }
-  /* line 103, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur #right-content {
-    background: violet;
-  }
-  /* line 104, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur #footer {
-    background-color: palegreen;
-  }
+/* line 19, ../sass/content-type-style/_page-vdl-globale.scss */
+body .conteneur .conteneur-flex #colonne-3.CLASS_NAME {
+  order: 3;
 }
 
-/* line 112, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .annonceImg {
-  background: greenyellow;
+/*######-------- ||| BORDURES ||| --------######*/
+/*######-------- ||| LAYOUT SUSY GALLERY ||| --------######*/
+/*.table-vdl-global .mur-image .liste-image-ul .liste-image-item{
+    @include gallery(2 of $mobilecol);
+    @include breakpoint ($desktop){
+        @include gallery(2 of $desktopcol);//nombre de colonnes susy par item
+    }
+    
 }
-/* line 113, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .blocLycee {
-  background: pink;
-}
-/* line 114, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .contentAnim {
-  background: #C8D215;
-}
-/* line 115, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .textAnim {
-  background: salmon;
-}
-@media (min-width: 990px) {
-  /* line 111, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur {
-    /*    //Dimensions pour les pc*/
-  }
-  /* line 119, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .annonceImg {
-    background: blueviolet;
-  }
-  /* line 120, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .blocLycee {
-    background: royalblue;
-  }
-  /* line 121, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .contentAnim {
-    background: gold;
-  }
-  /* line 122, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .textAnim {
-    background: bisque;
-  }
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 111, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur {
-    /*     //Dimensions pour les tablettes*/
-  }
-  /* line 127, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .annonceImg {
-    background: greenyellow;
-  }
-  /* line 128, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .blocLycee {
-    background: pink;
-  }
-  /* line 129, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .contentAnim {
-    background: #C8D215;
-  }
-  /* line 130, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .textAnim {
-    background: red;
-  }
+//avec views style non mis en forme (div)
+.table-vdl-global .liste-image-item{
+    @include gallery(2 of $mobilecol);
+    padding: 0.3em;
+    @include breakpoint ($desktop){
+        @include gallery(2 of $desktopcol);//nombre de colonnes susy par item
+    }
+    
+}*/
+/*######-------- ||| STYLE ||| --------######*/
+/* line 51, ../sass/content-type-style/_page-vdl-globale.scss */
+.colonne-sortie-action, .colonne-projet, .colonne-intervenants, .colonne-innovations, .colonne-mini-stage {
+  padding: 0;
+  margin: 0;
+  -moz-border-radius: 0.3125em;
+  -webkit-border-radius: 0.3125em;
+  border-radius: 0.3125em;
 }
 
-/* line 138, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .HPDiapoVerticalGauche, body .conteneur .HPDiapoVerticalDroite {
-  background: orangered;
+/* line 56, ../sass/content-type-style/_page-vdl-globale.scss */
+.colonne-sortie-action {
+  background: #9898a6;
 }
-/* line 140, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .HPDroite1, body .conteneur .HPGauche1 {
-  background: sienna;
+
+/* line 57, ../sass/content-type-style/_page-vdl-globale.scss */
+.colonne-projet {
+  background: #01ABCF;
 }
-/* line 141, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .HPDroite2, body .conteneur .HPGauche2 {
-  background: thistle;
+
+/* line 58, ../sass/content-type-style/_page-vdl-globale.scss */
+.colonne-intervenants {
+  background: #FAEB0C;
 }
-/* line 142, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .HPDroite3, body .conteneur .HPGauche3 {
-  background: #00c9fe;
+
+/* line 59, ../sass/content-type-style/_page-vdl-globale.scss */
+.colonne-innovations {
+  background: #F29400;
 }
-@media (min-width: 990px) {
-  /* line 136, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur {
-    /*    //Dimensions pour les pc*/
-  }
-  /* line 145, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .HPDiapoVerticalGauche {
-    background: rosybrown;
-  }
-  /* line 147, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .HPDroite1, body .conteneur .HPGauche1 {
-    background: gold;
-  }
-  /* line 148, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .HPDroite2, body .conteneur .HPGauche2 {
-    background: bisque;
-  }
-  /* line 149, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .HPDroite3, body .conteneur .HPGauche3 {
-    background: #00CC99;
-  }
+
+/* line 60, ../sass/content-type-style/_page-vdl-globale.scss */
+.colonne-mini-stage {
+  background: #ADC91F;
 }
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 136, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur {
-    /*     //Dimensions pour les tablettes*/
-  }
-  /* line 154, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .HPDroite, body .conteneur .HPGauche {
-    background: #C8D215;
-  }
-  /* line 155, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .HPDroite1, body .conteneur .HPGauche1 {
-    background: royalblue;
-  }
-  /* line 156, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .HPDroite2, body .conteneur .HPGauche2 {
-    background: #00CC99;
-  }
-  /* line 157, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .HPDroite3, body .conteneur .HPGauche3 {
-    background: yellow;
+
+/*Bloc image pour affichage en colonne (sortie table)*/
+/* line 63, ../sass/content-type-style/_page-vdl-globale.scss */
+#bloc_vdl h3 {
+  font-family: "Arista", Trebuchet MS, sans-serif;
+  font-size: x-large;
+  color: #911381;
+  text-align: center;
+  padding: 0.3125em 0;
+  height: 3.125em;
+}
+
+/* line 86, ../sass/content-type-style/_page-vdl-globale.scss */
+.image_vdl {
+  border: 0px solid #606070;
+}
+
+/*Bloc image pour affichage en colonne (sortie liste html)*/
+/* line 91, ../sass/content-type-style/_page-vdl-globale.scss */
+.item-liste-vdl ul {
+  margin: 0 auto;
+  width: auto;
+}
+/* line 95, ../sass/content-type-style/_page-vdl-globale.scss */
+.item-liste-vdl li {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-height: 15em;
+}
+/* line 102, ../sass/content-type-style/_page-vdl-globale.scss */
+.item-liste-vdl a:hover {
+  color: #ECECED;
+}
+/* line 105, ../sass/content-type-style/_page-vdl-globale.scss */
+.item-liste-vdl li:hover {
+  opacity: 0.7;
+  /*0.6*/
+  -moz-opacity: 0.7;
+  -ms-filter: "alpha(opacity=$opacite)";
+  /* IE 8 */
+  filter: alpha(opacity=0.7);
+  /* IE < 8 */
+  -khtml-opacity: 0.7;
+}
+/* line 108, ../sass/content-type-style/_page-vdl-globale.scss */
+.item-liste-vdl .img-gs-hover {
+  opacity: 100;
+}
+/* line 111, ../sass/content-type-style/_page-vdl-globale.scss */
+.item-liste-vdl img {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
+
+/*Lien voir archives selon colonne*/
+/* line 122, ../sass/content-type-style/_page-vdl-globale.scss */
+.colonne-sortie-action a.archives_vdl, .colonne-projet a.archives_vdl,
+.colonne-intervenants a.archives_vdl, .colonne-innovations a.archives_vdl,
+.colonne-mini-stage a.archives_vdl {
+  color: #606070;
+}
+/* line 124, ../sass/content-type-style/_page-vdl-globale.scss */
+.colonne-sortie-action a.archives_vdl:hover.archives_vdl, .colonne-projet a.archives_vdl:hover.archives_vdl,
+.colonne-intervenants a.archives_vdl:hover.archives_vdl, .colonne-innovations a.archives_vdl:hover.archives_vdl,
+.colonne-mini-stage a.archives_vdl:hover.archives_vdl {
+  background: #606070;
+  color: white;
+}
+
+/* CSS commune pour un bloc*/
+/* line 135, ../sass/content-type-style/_page-vdl-globale.scss */
+a.archives_vdl {
+  text-align: right;
+  color: red;
+  text-decoration: none;
+  padding: 0.125em;
+}
+/* line 140, ../sass/content-type-style/_page-vdl-globale.scss */
+a.archives_vdl:hover.archives_vdl {
+  background: red;
+  color: white;
+}
+
+/* line 147, ../sass/content-type-style/_page-vdl-globale.scss */
+.transparency_vdl {
+  background: none repeat scroll 0 0 #9898a6;
+  top: -4.25em;
+  height: 3.75em;
+  left: 0px;
+  position: relative;
+  z-index: 15;
+  opacity: 0.6;
+  /*0.6*/
+  -moz-opacity: 0.6;
+  -ms-filter: "alpha(opacity=$opacite)";
+  /* IE 8 */
+  filter: alpha(opacity=0.6);
+  /* IE < 8 */
+  -khtml-opacity: 0.6;
+  max-width: 58%;
+  margin: 0 auto;
+}
+@media (min-width: 990px), (min-width: 800px) and (max-width: 989px) {
+  /* line 147, ../sass/content-type-style/_page-vdl-globale.scss */
+  .transparency_vdl {
+    margin: 0;
+    max-width: 100%;
   }
 }
 
-/* line 164, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .HPDiapo {
-  background: gold;
-}
-/* line 165, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .HPBasGauche {
-  background: #C8D215;
-}
-/* line 166, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .HPBasDroit {
-  background: salmon;
-}
-@media (min-width: 990px) {
-  /* line 162, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur {
-    /*    //Dimensions pour les pc*/
-  }
-  /* line 170, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .HPDiapo {
-    background: #E30078;
-  }
-  /* line 171, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .HPBasGauche {
-    background: gold;
-  }
-  /* line 172, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .HPBasDroit {
-    background: bisque;
-  }
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 162, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur {
-    /*     //Dimensions pour les tablettes*/
-  }
-  /* line 176, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .HPDiapo {
-    background: #ADC91F;
-  }
-  /* line 177, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .HPBasGauche {
-    background: gold;
-  }
-  /* line 178, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .HPBasDroit {
-    background: red;
-  }
-}
-
-/*//////////////////////\\\\\\\\\\\
-********** COULEUR LAYOUT NODE.TPL OVERRIDE **********
-\\\\\\\\\\\\//////////////////////*/
-/* line 185, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .col1_layout_max {
-  background: #f5bdac;
-}
-@media (min-width: 990px) {
-  /* line 185, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_max {
-    background: peachpuff;
-  }
-}
-
-/*//////////////// 3 COLONNES \\\\\\\\*/
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 200, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_3_6_3 {
-    background: #00CC99;
-  }
-}
-@media (min-width: 990px) {
-  /* line 200, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_3_6_3 {
-    background: #cccccc;
-  }
-}
-@media (min-height: 767px) and (max-width: 1024px) and (orientation: landscape) {
-  /* line 200, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_3_6_3 {
-    background: violet;
-  }
-}
-/* line 216, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .col2_layout_3_6_3 {
-  background: khaki;
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 216, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_3_6_3 {
-    background: tomato;
-  }
-}
-@media (min-width: 990px) {
-  /* line 216, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_3_6_3 {
-    background: hotpink;
-  }
-}
-@media (min-height: 767px) and (max-width: 1024px) and (orientation: landscape) {
-  /* line 216, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_3_6_3 {
-    background: royalblue;
-  }
-}
-/* line 236, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .col3_layout_3_6_3 {
-  background: #00c9fe;
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 236, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col3_layout_3_6_3 {
-    background: purple;
-  }
-}
-@media (min-width: 990px) {
-  /* line 236, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col3_layout_3_6_3 {
-    background: teal;
-  }
-}
-@media (min-height: 767px) and (max-width: 1024px) and (orientation: landscape) {
-  /* line 236, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col3_layout_3_6_3 {
-    background: violet;
-  }
-}
-
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 257, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_2_7_3 {
-    background: #00CC99;
-  }
-}
-@media (min-width: 990px) {
-  /* line 257, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_2_7_3 {
-    background: blanchedalmond;
-  }
-}
-@media (min-height: 767px) and (max-width: 1024px) and (orientation: landscape) {
-  /* line 257, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_2_7_3 {
-    background: violet;
-  }
-}
-/* line 270, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .col2_layout_2_7_3 {
-  background: khaki;
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 270, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_2_7_3 {
-    background: tomato;
-  }
-}
-@media (min-width: 990px) {
-  /* line 270, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_2_7_3 {
-    background: hotpink;
-  }
-}
-@media (min-height: 767px) and (max-width: 1024px) and (orientation: landscape) {
-  /* line 270, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_2_7_3 {
-    background: royalblue;
-  }
-}
-/* line 283, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .col3_layout_2_7_3 {
-  background: #00c9fe;
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 283, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col3_layout_2_7_3 {
-    background: purple;
-  }
-}
-@media (min-width: 990px) {
-  /* line 283, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col3_layout_2_7_3 {
-    background: teal;
-  }
-}
-@media (min-height: 767px) and (max-width: 1024px) and (orientation: landscape) {
-  /* line 283, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col3_layout_2_7_3 {
-    background: violet;
-  }
-}
-
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 300, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_2_6_4 {
-    background: #00CC99;
-  }
-}
-@media (min-width: 990px) {
-  /* line 300, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_2_6_4 {
-    background: #cccccc;
-  }
-}
-@media (min-height: 767px) and (max-width: 1024px) and (orientation: landscape) {
-  /* line 300, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_2_6_4 {
-    background: violet;
-  }
-}
-/* line 318, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .col2_layout_2_6_4 {
-  background: khaki;
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 318, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_2_6_4 {
-    background: tomato;
-  }
-}
-@media (min-width: 990px) {
-  /* line 318, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_2_6_4 {
-    background: hotpink;
-  }
-}
-@media (min-height: 767px) and (max-width: 1024px) and (orientation: landscape) {
-  /* line 318, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_2_6_4 {
-    background: royalblue;
-  }
-}
-/* line 338, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .col3_layout_2_6_4 {
-  background: #00c9fe;
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 338, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col3_layout_2_6_4 {
-    background: purple;
-  }
-}
-@media (min-width: 990px) {
-  /* line 338, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col3_layout_2_6_4 {
-    background: teal;
-  }
-}
-@media (min-height: 767px) and (max-width: 1024px) and (orientation: landscape) {
-  /* line 338, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col3_layout_2_6_4 {
-    background: violet;
-  }
-}
-
-/* line 361, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .layout_3col_all4 {
-  background: indianred;
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 361, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .layout_3col_all4 {
-    background: tomato;
-  }
-}
-@media (min-width: 990px) {
-  /* line 361, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .layout_3col_all4 {
-    background: khaki;
-  }
-}
-/* line 371, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .layout_3col_all4last {
-  background: khaki;
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 371, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .layout_3col_all4last {
-    background: tomato;
-  }
-}
-@media (min-width: 990px) {
-  /* line 371, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .layout_3col_all4last {
-    background: indianred;
-  }
-}
-
-/*//////////////// 2 COLONNES ASYMETRIQUES \\\\\\\\*/
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 385, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_4_8 {
-    background: #00CC99;
-  }
-}
-@media (min-width: 990px) {
-  /* line 385, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_4_8 {
-    background: #cccccc;
-  }
-}
-/* line 395, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .col2_layout_4_8 {
-  background: khaki;
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 395, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_4_8 {
-    background: tomato;
-  }
-}
-@media (min-width: 990px) {
-  /* line 395, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_4_8 {
-    background: thistle;
-  }
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 409, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_3_9 {
-    background: #00CC99;
-  }
-}
-@media (min-width: 990px) {
-  /* line 409, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_3_9 {
-    background: #cccccc;
-  }
-}
-/* line 417, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .col2_layout_3_9 {
-  background: khaki;
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 417, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_3_9 {
-    background: tomato;
-  }
-}
-@media (min-width: 990px) {
-  /* line 417, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_3_9 {
-    background: thistle;
-  }
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 433, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_6_6, body .conteneur .col1_layoutflex_6_6 {
-    background: tomato;
-  }
-}
-@media (min-width: 990px) {
-  /* line 433, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_6_6, body .conteneur .col1_layoutflex_6_6 {
-    background: thistle;
-  }
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 441, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_6_6, body .conteneur .col2_layoutflex_6_6 {
-    background: #00CC99;
-  }
-}
-@media (min-width: 990px) {
-  /* line 441, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_6_6, body .conteneur .col2_layoutflex_6_6 {
-    background: #cccccc;
-  }
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 450, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_7_5 {
-    background: tomato;
-  }
-}
-@media (min-width: 990px) {
-  /* line 450, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_7_5 {
-    background: thistle;
-  }
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 458, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_7_5 {
-    background: #00CC99;
-  }
-}
-@media (min-width: 990px) {
-  /* line 458, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_7_5 {
-    background: #cccccc;
-  }
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 467, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_8_4 {
-    background: tomato;
-  }
-}
-@media (min-width: 990px) {
-  /* line 467, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_8_4 {
-    background: thistle;
-  }
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 475, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_8_4 {
-    background: #00CC99;
-  }
-}
-@media (min-width: 990px) {
-  /* line 475, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_8_4 {
-    background: #cccccc;
-  }
-}
-/* line 484, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .col1_layout_9_3 {
-  background: #764479;
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 484, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_9_3 {
-    background: #00CC99;
-  }
-}
-@media (min-width: 990px) {
-  /* line 484, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col1_layout_9_3 {
-    background: #cccccc;
-  }
-}
-/* line 493, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .col2_layout_9_3 {
-  background: tan;
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 493, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_9_3 {
-    background: tomato;
-  }
-}
-@media (min-width: 990px) {
-  /* line 493, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .col2_layout_9_3 {
-    background: thistle;
-  }
-}
-
-/*//////////////// 4 COLONNES \\\\\\\\*/
-/* line 509, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .layout_4col_all3 {
-  background: khaki;
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 509, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .layout_4col_all3 {
-    background: tomato;
-  }
-}
-@media (min-width: 990px) {
-  /* line 509, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .layout_4col_all3 {
-    background: indianred;
-  }
-}
-/* line 522, ../sass/layout/_layout-debug-colour.scss */
-body .conteneur .layout_4col_all3last {
-  background: khaki;
-}
-@media (min-width: 800px) and (max-width: 989px) {
-  /* line 522, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .layout_4col_all3last {
-    background: tomato;
-  }
-}
-@media (min-width: 990px) {
-  /* line 522, ../sass/layout/_layout-debug-colour.scss */
-  body .conteneur .layout_4col_all3last {
-    background: indianred;
-  }
+/* line 162, ../sass/content-type-style/_page-vdl-globale.scss */
+.bloc_image_vdl {
+  position: relative;
+  bottom: 10%;
+  left: 0.625em;
+  color: white;
+  z-index: 20;
+  max-width: 58%;
+  margin: 0 auto;
+}
+@media (min-width: 990px), (min-width: 800px) and (max-width: 989px) {
+  /* line 162, ../sass/content-type-style/_page-vdl-globale.scss */
+  .bloc_image_vdl {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+/* line 174, ../sass/content-type-style/_page-vdl-globale.scss */
+.bloc_image_vdl h2 {
+  color: white;
+  padding: 0.3125em;
+  font-family: "Arimo", Trebuchet MS, Verdana, sans-serif;
+  position: relative;
+  right: 0.75em;
+  top: -7.9375em;
+  text-shadow: 0.125em 0.125em 0.1875em #606070;
+  filter: dropshadow(color=#606070, offx=0.125em, offy=0.125em);
+}
+/* line 184, ../sass/content-type-style/_page-vdl-globale.scss */
+.bloc_image_vdl a {
+  color: white;
+  text-decoration: none;
 }
 
 /*
