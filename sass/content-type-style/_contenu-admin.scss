@@ -20,10 +20,10 @@ body .conteneur .conteneur-flex{
 }
 
 /*######-------- ||| BORDURES ||| --------######*/
-body .conteneur .conteneur-flex{
+body .conteneur{
     @include breakpoint ($desktop){
-        #colonne-2.contenu-actu{
-            @include border-vert-violet;
+        #colonne-1.admin_content{
+            @include border-R-bleu;
         }
         }
     

@@ -5503,8 +5503,8 @@ h1.titre-vdl {
 
 /*-------------------------------------|
 |       CONTENU CUSTOM               |
-|               NODE.TPL                      |
-|       CONTENU CDI                       |
+|               NODE.TPL                     |
+|       CONTENU ADMIN                  |
 |--------------------------------------*/
 /*######-------- ||| ORDRE FLEXBOX ||| --------######*/
 /* line 16, ../sass/content-type-style/_contenu-admin.scss */
@@ -5523,9 +5523,8 @@ body .conteneur .conteneur-flex #colonne-3.contenu-actu {
 /*######-------- ||| BORDURES ||| --------######*/
 @media (min-width: 990px) {
   /* line 25, ../sass/content-type-style/_contenu-admin.scss */
-  body .conteneur .conteneur-flex #colonne-2.contenu-actu {
-    border-left: 0.0625em solid #ADC91F;
-    border-right: 0.0625em solid #911381;
+  body .conteneur #colonne-1.admin_content {
+    border-right: 0.0625em solid #01ABCF;
   }
 }
 
