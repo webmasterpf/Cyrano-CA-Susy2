@@ -3059,6 +3059,7 @@ aside.annonce-container .views_slideshow_cycle_main, aside.annonce-container div
 
 /* line 39, ../sass/layout/_layout-defilant.scss */
 aside.annonce-container .annonce,
+aside.annonce-container,
 aside .annonce-container .annonce {
   color: #E30078;
   font-weight: bold;
@@ -3067,34 +3068,41 @@ aside .annonce-container .annonce {
   font-size: 1em;
   line-height: 1.5em;
 }
-/* line 49, ../sass/layout/_layout-defilant.scss */
+/* line 50, ../sass/layout/_layout-defilant.scss */
 aside.annonce-container .annonce a,
+aside.annonce-container a,
 aside .annonce-container .annonce a {
   color: #911381;
   text-decoration: none;
   font-weight: bold;
   text-transform: capitalize;
 }
-/* line 54, ../sass/layout/_layout-defilant.scss */
+/* line 55, ../sass/layout/_layout-defilant.scss */
 aside.annonce-container .annonce a:hover,
+aside.annonce-container a:hover,
 aside .annonce-container .annonce a:hover {
   text-decoration: underline;
 }
-/* line 58, ../sass/layout/_layout-defilant.scss */
+/* line 59, ../sass/layout/_layout-defilant.scss */
 aside.annonce-container .annonce p, aside.annonce-container .annonce h2, aside.annonce-container .annonce h2 a,
+aside.annonce-container p,
+aside.annonce-container h2,
+aside.annonce-container h2 a,
 aside .annonce-container .annonce p,
 aside .annonce-container .annonce h2,
 aside .annonce-container .annonce h2 a {
   margin: 0;
   padding: 0;
 }
-/* line 62, ../sass/layout/_layout-defilant.scss */
+/* line 63, ../sass/layout/_layout-defilant.scss */
 aside.annonce-container .annonce p,
+aside.annonce-container p,
 aside .annonce-container .annonce p {
   font-size: large;
 }
-/* line 65, ../sass/layout/_layout-defilant.scss */
+/* line 66, ../sass/layout/_layout-defilant.scss */
 aside.annonce-container .annonce img,
+aside.annonce-container img,
 aside .annonce-container .annonce img {
   max-width: 100%;
   height: auto;
@@ -3102,6 +3110,7 @@ aside .annonce-container .annonce img {
 @-moz-document url-prefix() {
   /* line 31, ../sass/global/_mixins_custom.scss */
   aside.annonce-container .annonce img img,
+  aside.annonce-container img img,
   aside .annonce-container .annonce img img {
     width: 100%;
     max-width: 100%;
@@ -3110,6 +3119,7 @@ aside .annonce-container .annonce img {
 @media (min-width: 800px) and (max-width: 989px) {
   /* line 39, ../sass/layout/_layout-defilant.scss */
   aside.annonce-container .annonce,
+  aside.annonce-container,
   aside .annonce-container .annonce {
     max-width: 40.2em;
   }
@@ -3117,12 +3127,17 @@ aside .annonce-container .annonce img {
 @media (min-width: 990px) {
   /* line 39, ../sass/layout/_layout-defilant.scss */
   aside.annonce-container .annonce,
+  aside.annonce-container,
   aside .annonce-container .annonce {
     max-width: 60.8em;
   }
-  /* line 73, ../sass/layout/_layout-defilant.scss */
+  /* line 74, ../sass/layout/_layout-defilant.scss */
   aside.annonce-container .annonce .views_slideshow_cycle_teaser_section, aside.annonce-container .annonce .views_slideshow_cycle_teaser_section,
   aside.annonce-container .annonce .views_slideshow_cycle_slide, aside.annonce-container .annonce .views_slideshow_slide,
+  aside.annonce-container .views_slideshow_cycle_teaser_section,
+  aside.annonce-container .views_slideshow_cycle_teaser_section,
+  aside.annonce-container .views_slideshow_cycle_slide,
+  aside.annonce-container .views_slideshow_slide,
   aside .annonce-container .annonce .views_slideshow_cycle_teaser_section,
   aside .annonce-container .annonce .views_slideshow_cycle_teaser_section,
   aside .annonce-container .annonce .views_slideshow_cycle_slide,
