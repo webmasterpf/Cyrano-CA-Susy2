@@ -82,6 +82,12 @@
    captions: true;
 });
 
+//Pour Galerie Chocolat.js
+    jQuery(document).ready(function(){
+        console.log('Appel du script Chocolat.js');
+    $('.chocolat-parent').Chocolat();
+});
+
   //Pour stacktable (tableaux RWD)
     jQuery(window).load(function (){
         console.log('Chargement des paramètres de Stacktable.js');
@@ -210,9 +216,9 @@ $('#liste-vdl span.titre-vdl > a').css('text-transform','lowercase');
 
 // Pour MixItUp plugin: voir le fichier ajout.classes.mixitup.js
 // Calling the MixItUp plugin for this View.
-    jQuery(window).load(function () {
-        console.log('Chargement de Mixitup');
-        $('.mixitup').mixItUp();
-    });
+//    jQuery(window).load(function () {
+//        console.log('Chargement de Mixitup');
+//        $('.mixitup').mixItUp();
+//    });
 
 })(jQuery);
