@@ -88,6 +88,16 @@
     $('.chocolat-parent').Chocolat();
 });
 
+//Pour Galerie BaguetteBox.js
+    jQuery(document).ready(function () {
+        console.log('Appel du script BaguetteBox.js');
+        baguetteBox.run('.galerieBaguetteBox', {
+            // Custom options
+        });
+
+    });
+
+
   //Pour stacktable (tableaux RWD)
     jQuery(window).load(function (){
         console.log('Chargement des paramètres de Stacktable.js');

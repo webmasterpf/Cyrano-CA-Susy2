@@ -18,6 +18,16 @@ body .conteneur {
     
     .HPGauche{
         /*Table pour la vue filtre dyn sur tid - ajouter classe sur le bloc via blockclass*/
+        iframe{
+            border: 0.2em solid $bleu-turquoise;
+            padding: 0.3em;
+            display: block;
+            margin: 0 auto;
+            @include breakpoint ($mobile){
+                @include adaptable-img;
+            }
+            
+        }
         .table-bloc-vdl-liste-hp,.table-bloc-vdl-actu-hp{
            table{
                max-width: 100%;

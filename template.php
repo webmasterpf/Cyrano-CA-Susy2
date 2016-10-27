@@ -126,12 +126,14 @@ function cyranod6_ca_susy2_preprocess_page(&$vars){
     //drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery_plugin/ninja-slider/thumbnail-slider.js', 'theme');
     //drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery_plugin/slick/slick.min.js', 'theme');
     drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery_plugin/chocolat/jquery.chocolat.min.js', 'theme');
+    drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery_plugin/baguettebox/baguetteBox.min.js', 'theme');
     //drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery_plugin/salvattore.min.js', 'theme');
     //drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery_plugin/salvattore.js', 'theme');
     //drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/3rdparty/buttons/js/buttons.js', 'theme');
+    
+    //Toujours terminé avec ce JS
     drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/js_jquery_new.js', 'theme');
-    
-    
+        
     //  mise à disposition des 2 versions de jQuery
     drupal_add_js(drupal_get_path('theme', 'cyranod6_ca_susy2') . '/js/jquery_exit.js', 'theme');
    

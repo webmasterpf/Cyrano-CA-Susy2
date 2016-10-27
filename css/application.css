@@ -4287,18 +4287,39 @@ body .conteneur {
 body .conteneur .HPGauche {
   /*Table pour la vue filtre dyn sur tid - ajouter classe sur le bloc via blockclass*/
 }
-/* line 22, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 21, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+body .conteneur .HPGauche iframe {
+  border: 0.2em solid #01ABCF;
+  padding: 0.3em;
+  display: block;
+  margin: 0 auto;
+}
+@media (max-width: 799px) {
+  /* line 21, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+  body .conteneur .HPGauche iframe {
+    max-width: 100%;
+    height: auto;
+  }
+  @-moz-document url-prefix() {
+    /* line 31, ../sass/global/_mixins_custom.scss */
+    body .conteneur .HPGauche iframe img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
+/* line 32, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche .table-bloc-vdl-liste-hp table, body .conteneur .HPGauche .table-bloc-vdl-actu-hp table {
   max-width: 100%;
   margin: 0 auto;
   border: 0;
   width: 98%;
 }
-/* line 29, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 39, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche .table-bloc-vdl-liste-hp tr, body .conteneur .HPGauche .table-bloc-vdl-actu-hp tr {
   margin: 0.1875em;
 }
-/* line 30, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 40, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche .table-bloc-vdl-liste-hp td, body .conteneur .HPGauche .table-bloc-vdl-actu-hp td {
   background: white;
   border: 0;
@@ -4307,23 +4328,23 @@ body .conteneur .HPGauche .table-bloc-vdl-liste-hp td, body .conteneur .HPGauche
   display: block;
   border-bottom: 0.0625em solid #01ABCF;
 }
-/* line 37, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 47, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche .table-bloc-vdl-liste-hp td:hover, body .conteneur .HPGauche .table-bloc-vdl-actu-hp td:hover {
   background: #9898a6;
 }
-/* line 39, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 49, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche .table-bloc-vdl-liste-hp a, body .conteneur .HPGauche .table-bloc-vdl-actu-hp a {
   color: #911381;
   text-decoration: none;
   font-weight: bold;
   font-size: small;
 }
-/* line 44, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 54, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche .table-bloc-vdl-liste-hp a:hover, body .conteneur .HPGauche .table-bloc-vdl-actu-hp a:hover {
   text-decoration: underline;
   color: white;
 }
-/* line 50, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 60, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche .table-bloc-vdl-liste-hp h3, body .conteneur .HPGauche .table-bloc-vdl-actu-hp h3 {
   color: #01ABCF;
   display: block;
@@ -4333,25 +4354,25 @@ body .conteneur .HPGauche .table-bloc-vdl-liste-hp h3, body .conteneur .HPGauche
   padding: 0.625em;
   text-align: center;
 }
-/* line 63, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 73, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche .table-bloc-vdl-liste-hp thead th {
   border-bottom: 0.1875em solid #DE603A;
 }
-/* line 67, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 77, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche .table-bloc-vdl-liste-hp span.date-display-single {
   text-align: right;
   float: right;
   font-style: italic;
 }
-/* line 75, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 85, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche .table-bloc-vdl-actu-hp thead th {
   border-bottom: 0.1875em solid #911381;
 }
-/* line 77, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 87, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPGauche #block-views-vdl_global-block_7 h3 {
   color: #E30078;
 }
-/* line 84, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 94, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 body .conteneur .HPDiapoVerticalDroite aside.DiapoDroiteHP img {
   max-width: 100%;
   height: auto;
@@ -4379,20 +4400,20 @@ body .conteneur .HPDiapoVerticalDroite aside.DiapoDroiteHP img {
   /*     //Dimensions pour les tablettes*/
 }
 /****************/
-/* line 119, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 129, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 .HPGauche1, .HPGauche2, .HPGauche3 {
   background: none;
   color: black;
 }
-/* line 123, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 133, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 .HPGauche1 ul li, .HPGauche2 ul li, .HPGauche3 ul li {
   list-style: square;
 }
-/* line 126, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 136, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 .HPGauche1 a, .HPGauche2 a, .HPGauche3 a {
   text-decoration: none;
 }
-/* line 128, ../sass/content-type-style/_frontpage-verticalDroite.scss */
+/* line 138, ../sass/content-type-style/_frontpage-verticalDroite.scss */
 .HPGauche1 a:hover, .HPGauche2 a:hover, .HPGauche3 a:hover {
   text-decoration: underline;
 }
