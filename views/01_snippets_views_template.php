@@ -41,11 +41,13 @@ return TRUE;
 }
 
 //Texte notice pour champ choix de la galerie
-Choisir ici le type de galerie désiré pour afficher les images précédemment envoyées sur le serveur.
-Choix 1 : galerie d'image slider avec zoom (périmé)
-Choix 2 : vignettes d'images avec zoom (périmé)
-Choix 3 : galerie d'images FlexSlider Classic
-Choix 5 : galerie d'images FlexSlider Caroussel
-Choix 6 : galerie d'images BxSlider Basic
-Choix 4  : galerie d'images BxSlider Caroussel
-Choix 9: galerie Zoom Chocolat
+
+//Choisir ici le type de galerie désiré pour afficher les images précédemment envoyées sur le serveur.
+//Choix 1 : galerie d'image slider avec zoom (périmé)
+//Choix 2 : vignettes d'images avec zoom (périmé)
+//Choix 3 : galerie d'images FlexSlider Classic
+//Choix 5 : galerie d'images FlexSlider Caroussel
+//Choix 6 : galerie d'images BxSlider Basic
+//Choix 4  : galerie d'images BxSlider Caroussel
+//Choix 9: galerie Zoom Chocolat
+//Choix 10: galerie Zoom BaguetteBox

@@ -5271,79 +5271,71 @@ h3.docs-actualites {
 |       CONTENU CUSTOM NODE.TPL        |
 |           CONTENU VDL                |
 |--------------------------------------*/
-/*Choisir ici le type de galerie désiré pour afficher les images précédemment envoyées sur le serveur.
-Choix 1 : galerie d'image slider avec zoom (périmé)
-Choix 2 : vignettes d'images avec zoom (périmé)
-Choix 3 : galerie d'images FlexSlider Classic
-Choix 5 : galerie d'images FlexSlider Caroussel
-Choix 6 : galerie d'images BxSlider Basic
-Choix 4  : galerie d'images BxSlider Caroussel
-Choix 9: galerie Zoom Chocolat*/
 /*######-------- ||| ORDRE FLEXBOX ||| --------######*/
-/* line 26, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 17, ../sass/content-type-style/_contenu-vdl.scss */
 body .conteneur #colonne-1.contenu-vdl {
   order: 1;
 }
-/* line 27, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 18, ../sass/content-type-style/_contenu-vdl.scss */
 body .conteneur #colonne-2.contenu-vdl {
   order: 2;
 }
-/* line 28, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 19, ../sass/content-type-style/_contenu-vdl.scss */
 body .conteneur #colonne-3.contenu-vdl {
   order: 3;
 }
 
 /*######-------- ||| BORDURES ||| --------######*/
 @media (min-width: 990px) {
-  /* line 37, ../sass/content-type-style/_contenu-vdl.scss */
+  /* line 28, ../sass/content-type-style/_contenu-vdl.scss */
   body .conteneur #colonne-1.contenu-vdl {
     border-right: 0.0625em solid #ADC91F;
   }
 }
 
 /*######-------- ||| STYLE ||| --------######*/
-/* line 44, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 35, ../sass/content-type-style/_contenu-vdl.scss */
 h1.titre-vdl {
   color: #911381;
 }
 
-/* line 49, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 40, ../sass/content-type-style/_contenu-vdl.scss */
 #colonne-1.contenu-vdl a {
   color: #911381;
   text-decoration: none;
 }
-/* line 52, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 43, ../sass/content-type-style/_contenu-vdl.scss */
 #colonne-1.contenu-vdl a:hover {
   text-decoration: underline;
 }
-/* line 56, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 47, ../sass/content-type-style/_contenu-vdl.scss */
 #colonne-1.contenu-vdl strong {
   color: #01ABCF;
 }
 @media (min-width: 990px) {
-  /* line 48, ../sass/content-type-style/_contenu-vdl.scss */
+  /* line 39, ../sass/content-type-style/_contenu-vdl.scss */
   #colonne-1.contenu-vdl {
     clear: none;
   }
 }
 
-/* line 70, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 61, ../sass/content-type-style/_contenu-vdl.scss */
 #colonne-2.contenu-vdl {
   clear: both;
 }
 @media (min-width: 990px) {
-  /* line 70, ../sass/content-type-style/_contenu-vdl.scss */
+  /* line 61, ../sass/content-type-style/_contenu-vdl.scss */
   #colonne-2.contenu-vdl {
     clear: none;
   }
 }
 
 /* ILLUSTRATION DANS CONTENU */
-/* line 84, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 75, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_illustration_vdl {
   margin: 0.3125em;
 }
-/* line 87, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 78, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_illustration_vdl img {
   border: 0.003em solid white;
   -moz-box-shadow: #606070 0px 0px 0.5em;
@@ -5351,7 +5343,7 @@ h1.titre-vdl {
   box-shadow: #606070 0px 0px 0.5em;
 }
 @media (min-width: 990px) {
-  /* line 87, ../sass/content-type-style/_contenu-vdl.scss */
+  /* line 78, ../sass/content-type-style/_contenu-vdl.scss */
   #bloc_illustration_vdl img {
     float: right;
     margin: 8em 1em;
@@ -5369,7 +5361,7 @@ h1.titre-vdl {
 }
 
 /*Pour images insérées via l'editeur WYSIWYG*/
-/* line 102, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 93, ../sass/content-type-style/_contenu-vdl.scss */
 #colonne-1.contenu-vdl img, #colonne-1.contenu-vdl img.illustration-vdl {
   border: 0.003em solid white;
   -moz-box-shadow: #606070 0px 0px 0.5em;
@@ -5377,7 +5369,7 @@ h1.titre-vdl {
   box-shadow: #606070 0px 0px 0.5em;
 }
 @media (min-width: 990px) {
-  /* line 102, ../sass/content-type-style/_contenu-vdl.scss */
+  /* line 93, ../sass/content-type-style/_contenu-vdl.scss */
   #colonne-1.contenu-vdl img, #colonne-1.contenu-vdl img.illustration-vdl {
     border: 0.3em solid white;
     -moz-box-shadow: #606070 0px 0px 0.5em;
@@ -5395,7 +5387,7 @@ h1.titre-vdl {
 }
 
 /*---- AUTRES EVENEMENTS VDL ------*/
-/* line 115, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 106, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements h3 {
   text-align: center;
   color: #ADC91F;
@@ -5403,7 +5395,7 @@ h1.titre-vdl {
   font-size: larger;
   margin: 0.3125em;
 }
-/* line 122, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 113, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements ul {
   width: 90%;
   margin: 0 auto;
@@ -5415,12 +5407,12 @@ h1.titre-vdl {
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
 }
-/* line 131, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 122, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements li {
   padding: 0.1875em 0;
   margin: 0;
 }
-/* line 135, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 126, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements a {
   color: #606070;
   background: #ECECED;
@@ -5430,29 +5422,29 @@ h1.titre-vdl {
   padding: 0.125em;
   line-height: 1.5em;
 }
-/* line 143, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 134, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_vdl_autres_evenements a:hover {
   background: #9898a6;
   color: white;
 }
 
-/* line 150, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 141, ../sass/content-type-style/_contenu-vdl.scss */
 .bloc_vdl_autres_evenements-item {
   width: auto;
   margin: 0.125em 0;
 }
-/* line 154, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 145, ../sass/content-type-style/_contenu-vdl.scss */
 .bloc_vdl_autres_evenements-item a {
   -moz-border-radius: 0.3125em;
   -webkit-border-radius: 0.3125em;
   border-radius: 0.3125em;
 }
 
-/* line 161, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 152, ../sass/content-type-style/_contenu-vdl.scss */
 .liste-autre-evenement li {
   display: block;
 }
-/* line 163, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 154, ../sass/content-type-style/_contenu-vdl.scss */
 .liste-autre-evenement li a {
   font-weight: bold;
   text-decoration: none;
@@ -5465,34 +5457,34 @@ h1.titre-vdl {
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
 }
-/* line 173, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 164, ../sass/content-type-style/_contenu-vdl.scss */
 .liste-autre-evenement li a:hover {
   background: #01ABCF;
   color: white;
 }
 
-/* line 186, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 177, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl table {
   width: 90%;
   margin: 0 auto;
   background: transparent url(../images/bg_docs_utiles_lycee.jpg) no-repeat;
   background-size: cover;
 }
-/* line 192, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 183, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl thead {
   display: none;
 }
-/* line 195, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 186, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl tbody {
   border: 0;
 }
-/* line 198, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 189, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl tr {
   background: none;
   border: 0;
   padding: 0;
 }
-/* line 203, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 194, ../sass/content-type-style/_contenu-vdl.scss */
 #bloc_docs_utiles_vdl h3 {
   text-align: center;
   color: #01ABCF;
@@ -5501,22 +5493,22 @@ h1.titre-vdl {
   margin: 0.3125em;
 }
 
-/* line 213, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 204, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl {
   width: 98%;
   margin: 0 auto;
   padding: 0.625em 0.3125em;
   list-style: none;
 }
-/* line 219, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 210, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl div {
   margin: 0.3125em 0;
 }
-/* line 223, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 214, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl span {
   margin: 0.125em 0;
 }
-/* line 227, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 218, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl a {
   font-weight: bold;
   text-decoration: none;
@@ -5527,12 +5519,12 @@ h1.titre-vdl {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 234, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 225, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl a:hover {
   text-decoration: none;
   background: #ECECED;
 }
-/* line 241, ../sass/content-type-style/_contenu-vdl.scss */
+/* line 232, ../sass/content-type-style/_contenu-vdl.scss */
 .liste_docs_joints_vdl .filefield-icon {
   display: none;
 }
@@ -8112,11 +8104,11 @@ Indiquer les classes ou les IDs des enveloppes des galeries
 /*
 Override du style de galerie vignettes Chocolat
 */
-/* line 8, ../sass/galeries/_chocolat-vignette-zoom.scss */
+/* line 10, ../sass/galeries/_chocolat-vignette-zoom.scss */
 .galerie-vdl .chocolat-parent {
   margin: 0 1.875em;
 }
-/* line 10, ../sass/galeries/_chocolat-vignette-zoom.scss */
+/* line 13, ../sass/galeries/_chocolat-vignette-zoom.scss */
 .galerie-vdl .chocolat-parent > div {
   width: 47.44898%;
   float: left;
@@ -8135,7 +8127,7 @@ Override du style de galerie vignettes Chocolat
   clear: none;
 }
 @media (min-width: 990px) {
-  /* line 10, ../sass/galeries/_chocolat-vignette-zoom.scss */
+  /* line 13, ../sass/galeries/_chocolat-vignette-zoom.scss */
   .galerie-vdl .chocolat-parent > div {
     width: 32.23684%;
     float: left;
@@ -8160,8 +8152,67 @@ Override du style de galerie vignettes Chocolat
     clear: none;
   }
 }
-/* line 16, ../sass/galeries/_chocolat-vignette-zoom.scss */
+/* line 19, ../sass/galeries/_chocolat-vignette-zoom.scss */
 .galerie-vdl .chocolat-parent img {
+  border: 0.3em solid white;
+  -moz-box-shadow: #606070 0px 0px 0.5em;
+  -webkit-box-shadow: #606070 0px 0px 0.5em;
+  box-shadow: #606070 0px 0px 0.5em;
+}
+
+/*
+Override du style de galerie vignettes BaguetteBox
+*/
+/* line 11, ../sass/galeries/_baguettebox-vignette-zoom.scss */
+.galerie-vdl .galerieBaguetteBox .view-content {
+  margin: 0 1.875em;
+}
+/* line 14, ../sass/galeries/_baguettebox-vignette-zoom.scss */
+.galerie-vdl .galerieBaguetteBox .view-content > div {
+  width: 47.44898%;
+  float: left;
+}
+/* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
+.galerie-vdl .galerieBaguetteBox .view-content > div:nth-child(2n + 1) {
+  margin-left: 0;
+  margin-right: -100%;
+  clear: both;
+  margin-left: 0;
+}
+/* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
+.galerie-vdl .galerieBaguetteBox .view-content > div:nth-child(2n + 2) {
+  margin-left: 52.55102%;
+  margin-right: -100%;
+  clear: none;
+}
+@media (min-width: 990px) {
+  /* line 14, ../sass/galeries/_baguettebox-vignette-zoom.scss */
+  .galerie-vdl .galerieBaguetteBox .view-content > div {
+    width: 32.23684%;
+    float: left;
+  }
+  /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
+  .galerie-vdl .galerieBaguetteBox .view-content > div:nth-child(3n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
+  .galerie-vdl .galerieBaguetteBox .view-content > div:nth-child(3n + 2) {
+    margin-left: 33.88158%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../../../../../../home/webmaster/.rvm/gems/ruby-1.9.3-p484/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
+  .galerie-vdl .galerieBaguetteBox .view-content > div:nth-child(3n + 3) {
+    margin-left: 67.76316%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+/* line 20, ../sass/galeries/_baguettebox-vignette-zoom.scss */
+.galerie-vdl .galerieBaguetteBox .view-content img {
   border: 0.3em solid white;
   -moz-box-shadow: #606070 0px 0px 0.5em;
   -webkit-box-shadow: #606070 0px 0px 0.5em;

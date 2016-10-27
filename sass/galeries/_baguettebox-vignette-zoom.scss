@@ -1,5 +1,5 @@
 /*
-Override du style de galerie vignettes Chocolat
+Override du style de galerie vignettes BaguetteBox
 */
 
 //@include breakpoint ($mobile){}
@@ -7,7 +7,8 @@ Override du style de galerie vignettes Chocolat
 //@include breakpoint ($tablet){}
 //@include breakpoint(($desktop,$tablet)){}
 
-.galerie-vdl .chocolat-parent
+
+.galerie-vdl .galerieBaguetteBox .view-content
 {
     margin:0 em(30px);
     >div{
