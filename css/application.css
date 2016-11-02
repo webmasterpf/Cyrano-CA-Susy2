@@ -7066,7 +7066,11 @@ body .conteneur .conteneur-flex #colonne-3.CLASS_NAME {
 }
 
 /*Bloc image pour affichage en colonne (sortie table)*/
-/* line 63, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 62, ../sass/content-type-style/_page-vdl-globale.scss */
+#bloc_vdl {
+  width: 100%;
+}
+/* line 64, ../sass/content-type-style/_page-vdl-globale.scss */
 #bloc_vdl h3 {
   font-family: "Arista", Trebuchet MS, sans-serif;
   font-size: x-large;
@@ -7076,29 +7080,29 @@ body .conteneur .conteneur-flex #colonne-3.CLASS_NAME {
   height: 3.125em;
 }
 
-/* line 86, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 87, ../sass/content-type-style/_page-vdl-globale.scss */
 .image_vdl {
   border: 0px solid #606070;
 }
 
 /*Bloc image pour affichage en colonne (sortie liste html)*/
-/* line 91, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 92, ../sass/content-type-style/_page-vdl-globale.scss */
 .item-liste-vdl ul {
   margin: 0 auto;
-  width: auto;
+  width: 100%;
 }
-/* line 95, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 96, ../sass/content-type-style/_page-vdl-globale.scss */
 .item-liste-vdl li {
   display: block;
   margin: 0;
   padding: 0;
   max-height: 15em;
 }
-/* line 102, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 103, ../sass/content-type-style/_page-vdl-globale.scss */
 .item-liste-vdl a:hover {
   color: #ECECED;
 }
-/* line 105, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 106, ../sass/content-type-style/_page-vdl-globale.scss */
 .item-liste-vdl li:hover {
   opacity: 0.7;
   /*0.6*/
@@ -7109,11 +7113,11 @@ body .conteneur .conteneur-flex #colonne-3.CLASS_NAME {
   /* IE < 8 */
   -khtml-opacity: 0.7;
 }
-/* line 108, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 109, ../sass/content-type-style/_page-vdl-globale.scss */
 .item-liste-vdl .img-gs-hover {
   opacity: 100;
 }
-/* line 111, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 112, ../sass/content-type-style/_page-vdl-globale.scss */
 .item-liste-vdl img {
   margin: 0 auto;
   display: block;
@@ -7121,13 +7125,13 @@ body .conteneur .conteneur-flex #colonne-3.CLASS_NAME {
 }
 
 /*Lien voir archives selon colonne*/
-/* line 122, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 123, ../sass/content-type-style/_page-vdl-globale.scss */
 .colonne-sortie-action a.archives_vdl, .colonne-projet a.archives_vdl,
 .colonne-intervenants a.archives_vdl, .colonne-innovations a.archives_vdl,
 .colonne-mini-stage a.archives_vdl {
   color: #606070;
 }
-/* line 124, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 125, ../sass/content-type-style/_page-vdl-globale.scss */
 .colonne-sortie-action a.archives_vdl:hover.archives_vdl, .colonne-projet a.archives_vdl:hover.archives_vdl,
 .colonne-intervenants a.archives_vdl:hover.archives_vdl, .colonne-innovations a.archives_vdl:hover.archives_vdl,
 .colonne-mini-stage a.archives_vdl:hover.archives_vdl {
@@ -7136,20 +7140,20 @@ body .conteneur .conteneur-flex #colonne-3.CLASS_NAME {
 }
 
 /* CSS commune pour un bloc*/
-/* line 135, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 136, ../sass/content-type-style/_page-vdl-globale.scss */
 a.archives_vdl {
   text-align: right;
   color: red;
   text-decoration: none;
   padding: 0.125em;
 }
-/* line 140, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 141, ../sass/content-type-style/_page-vdl-globale.scss */
 a.archives_vdl:hover.archives_vdl {
   background: red;
   color: white;
 }
 
-/* line 147, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 148, ../sass/content-type-style/_page-vdl-globale.scss */
 .transparency_vdl {
   background: none repeat scroll 0 0 #9898a6;
   top: -4.25em;
@@ -7169,14 +7173,14 @@ a.archives_vdl:hover.archives_vdl {
   margin: 0 auto;
 }
 @media (min-width: 990px), (min-width: 800px) and (max-width: 989px) {
-  /* line 147, ../sass/content-type-style/_page-vdl-globale.scss */
+  /* line 148, ../sass/content-type-style/_page-vdl-globale.scss */
   .transparency_vdl {
     margin: 0;
     max-width: 100%;
   }
 }
 
-/* line 162, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 163, ../sass/content-type-style/_page-vdl-globale.scss */
 .bloc_image_vdl {
   position: relative;
   bottom: 10%;
@@ -7187,13 +7191,13 @@ a.archives_vdl:hover.archives_vdl {
   margin: 0 auto;
 }
 @media (min-width: 990px), (min-width: 800px) and (max-width: 989px) {
-  /* line 162, ../sass/content-type-style/_page-vdl-globale.scss */
+  /* line 163, ../sass/content-type-style/_page-vdl-globale.scss */
   .bloc_image_vdl {
     margin: 0;
     max-width: 100%;
   }
 }
-/* line 174, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 175, ../sass/content-type-style/_page-vdl-globale.scss */
 .bloc_image_vdl h2 {
   color: white;
   padding: 0.3125em;
@@ -7204,7 +7208,7 @@ a.archives_vdl:hover.archives_vdl {
   text-shadow: 0.125em 0.125em 0.1875em #606070;
   filter: dropshadow(color=#606070, offx=0.125em, offy=0.125em);
 }
-/* line 184, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 185, ../sass/content-type-style/_page-vdl-globale.scss */
 .bloc_image_vdl a {
   color: white;
   text-decoration: none;

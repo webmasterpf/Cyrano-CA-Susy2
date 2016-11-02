@@ -60,6 +60,7 @@ body .conteneur .conteneur-flex{
 .colonne-mini-stage{background: $vert;}
 /*Bloc image pour affichage en colonne (sortie table)*/
 #bloc_vdl{
+    width:100%;
     h3{
         font-family: $AristaFont;
         font-size: x-large;
@@ -90,7 +91,7 @@ body .conteneur .conteneur-flex{
 .item-liste-vdl{
     ul{
         margin: 0 auto;
-        width: auto;
+        width: 100%;
     }
     li{
         display: block;
