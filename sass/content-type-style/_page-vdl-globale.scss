@@ -53,9 +53,9 @@ body .conteneur .conteneur-flex{
     margin: 0;
     @include arrondis (em(5px));
     }
-.colonne-sortie-action{background: $gris-clair-moyen;}
+.colonne-sortie-action{background: $jaune;}
 .colonne-projet{background: $bleu-turquoise;}
-.colonne-intervenants{background: $jaune;}
+.colonne-intervenants{background: $gris-clair-moyen;}
 .colonne-innovations{background: $orange;}
 .colonne-mini-stage{background: $vert;}
 /*Bloc image pour affichage en colonne (sortie table)*/

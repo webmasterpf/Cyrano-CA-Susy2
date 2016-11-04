@@ -2,10 +2,10 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <?php
   $head_title = 'Lyc&eacute;e Provence Formation :: Site-offline';
-  $logo = '/sites/all/themes/CyranoD6_susy2_lr/images/logo_celony.gif';
+  $logo = '/sites/all/themes/CyranoD6_susy2-ca/images/logo_caucadis.gif';
 
-  // If your theme is set to display the site name, uncomment this line and replace the value:
-   $site_name = 'Le site du lyc&eacute;e Le Rocher';
+    // If your theme is set to display the site name, uncomment this line and replace the value:
+   $site_name = 'Le site du lyc&eacute;e Caucadis';
 
   // If your theme is set to *not* display the site name, uncomment this line:
   unset($site_name);
