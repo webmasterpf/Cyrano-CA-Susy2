@@ -2,7 +2,8 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <?php
   $head_title = 'Lyc&eacute;e Provence Formation :: Site-offline';
-  $logo = '/sites/all/themes/CyranoD6_susy2-ca/images/logo_caucadis.gif';
+  global $theme_path;
+  $logo = $theme_path.'/images/logo_caucadis.gif';
 
     // If your theme is set to display the site name, uncomment this line and replace the value:
    $site_name = 'Le site du lyc&eacute;e Caucadis';
@@ -20,7 +21,7 @@
   $content = "<p>Le site rencontre actuellement des probl&egrave;mes techniques, veuillez nous en excuser.</p><hr /><p>Si vous en &ecirc;tes l'administrateur, veuillez v&eacute;rifier les acc&egrave;s &agrave; votre base de donn&eacute;es </p>";
 
   //Texte pour le footer
-  $footer ='<p>Lycée Le Rocher Montée de la Transhumance 13300 Salon-de-Provence - Tél: 04.90.56.13.79 - Fax: 04.90.56.71.26<br>
+  $footer ='<p>Lycée Caucadis - Boulevard Alfred Casile 13127 VITROLLES Tél :04.42.89.42.02 - Fax :04.42.79.74.98<br>
 Tous droits réservés © 2011 Reproduction interdite sans autorisation</p>';
   ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language ?>" lang="<?php print $language->language ?>" dir="<?php print $language->dir ?>">
@@ -80,17 +81,9 @@ print $content;
               <?php print $feed_icons; ?>
           </div> <!-- /#content-area -->
 
-
-
-
-
       </div> <!-- /content-inner /content -->
 
 
-
-
-
-    	 <br clear="all"/>
          <!-- ______________________ CONTENU BAS _______________________ -->
          <div id="footer-offline">
 

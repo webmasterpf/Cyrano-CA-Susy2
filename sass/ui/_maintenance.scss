@@ -1,5 +1,11 @@
 /* $Id: maintenance.css,v 1.1 2007/11/30 12:19:10 goba Exp $ */
 
+
+/*Layout MAintenance Page*/
+#page{
+    max-width: 60%;
+    margin: 0 auto;
+}
 /* Update styles */
 #update-results {
   margin-top: 3em;
@@ -23,8 +29,8 @@
 }
 /*STYLE MAINTENANCE OFFLINE*/
 #name-and-slogan-offline, #site-slogan-offline{
-     background: $violet;//couleur du bg du slogan du site - à changer selon le site
-    color: $gris-clair;//couleur du texte du slogan du site - à changer selon le site
+    background: $gris-clair;//couleur du bg du slogan du site - à changer selon le site
+    color: $gris-anthracite;//couleur du texte du slogan du site - à changer selon le site
     padding: em(5px);
     -moz-border-radius: em(5px);
     -webkit-border-radius:em(5px);
@@ -90,7 +96,7 @@
     max-width: 100%;
     background: white url(../images/bg_footer.jpg) no-repeat bottom right;
     text-align: left;
-    color: #9898a6;
+    color: $gris-clair-moyen;
     height:auto;
     font-size: small;
     a{

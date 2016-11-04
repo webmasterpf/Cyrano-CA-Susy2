@@ -3672,8 +3672,8 @@ Layout pour les desktop.Breakpoint définit par variable dans _variables.scss
 /*STYLE MAINTENANCE OFFLINE*/
 /* line 25, ../sass/ui/_maintenance.scss */
 #name-and-slogan-offline, #site-slogan-offline {
-  background: #911381;
-  color: #ECECED;
+  background: #ECECED;
+  color: #606070;
   padding: 0.3125em;
   -moz-border-radius: 0.3125em;
   -webkit-border-radius: 0.3125em;
@@ -3702,8 +3702,8 @@ Layout pour les desktop.Breakpoint définit par variable dans _variables.scss
 /*STYLE MAINTENANCE */
 /* line 52, ../sass/ui/_maintenance.scss */
 #name-and-slogan-maintenance, #site-slogan-maintenance {
-  background: #911381;
-  color: #ECECED;
+  background: #ECECED;
+  color: #606070;
   padding: 0.3125em;
   -moz-border-radius: 0.3125em;
   -webkit-border-radius: 0.3125em;
