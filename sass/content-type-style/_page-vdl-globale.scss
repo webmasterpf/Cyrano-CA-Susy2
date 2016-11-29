@@ -113,6 +113,10 @@ body .conteneur .conteneur-flex{
         margin: 0 auto;
         display: block;
         max-width: 100%;
+        @include breakpoint(($desktop,$tablet)){
+            margin: 0;
+            height: em(180px);
+        }
     }
 }
 

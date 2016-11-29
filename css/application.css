@@ -7137,15 +7137,22 @@ body .conteneur .conteneur-flex #colonne-3.CLASS_NAME {
   display: block;
   max-width: 100%;
 }
+@media (min-width: 990px), (min-width: 800px) and (max-width: 989px) {
+  /* line 112, ../sass/content-type-style/_page-vdl-globale.scss */
+  .item-liste-vdl img {
+    margin: 0;
+    height: 11.25em;
+  }
+}
 
 /*Lien voir archives selon colonne*/
-/* line 123, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 127, ../sass/content-type-style/_page-vdl-globale.scss */
 .colonne-sortie-action a.archives_vdl, .colonne-projet a.archives_vdl,
 .colonne-intervenants a.archives_vdl, .colonne-innovations a.archives_vdl,
 .colonne-mini-stage a.archives_vdl {
   color: #606070;
 }
-/* line 125, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 129, ../sass/content-type-style/_page-vdl-globale.scss */
 .colonne-sortie-action a.archives_vdl:hover.archives_vdl, .colonne-projet a.archives_vdl:hover.archives_vdl,
 .colonne-intervenants a.archives_vdl:hover.archives_vdl, .colonne-innovations a.archives_vdl:hover.archives_vdl,
 .colonne-mini-stage a.archives_vdl:hover.archives_vdl {
@@ -7154,20 +7161,20 @@ body .conteneur .conteneur-flex #colonne-3.CLASS_NAME {
 }
 
 /* CSS commune pour un bloc*/
-/* line 136, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 140, ../sass/content-type-style/_page-vdl-globale.scss */
 a.archives_vdl {
   text-align: right;
   color: red;
   text-decoration: none;
   padding: 0.125em;
 }
-/* line 141, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 145, ../sass/content-type-style/_page-vdl-globale.scss */
 a.archives_vdl:hover.archives_vdl {
   background: red;
   color: white;
 }
 
-/* line 148, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 152, ../sass/content-type-style/_page-vdl-globale.scss */
 .transparency_vdl {
   background: none repeat scroll 0 0 #9898a6;
   top: -4.25em;
@@ -7187,14 +7194,14 @@ a.archives_vdl:hover.archives_vdl {
   margin: 0 auto;
 }
 @media (min-width: 990px), (min-width: 800px) and (max-width: 989px) {
-  /* line 148, ../sass/content-type-style/_page-vdl-globale.scss */
+  /* line 152, ../sass/content-type-style/_page-vdl-globale.scss */
   .transparency_vdl {
     margin: 0;
     max-width: 100%;
   }
 }
 
-/* line 163, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 167, ../sass/content-type-style/_page-vdl-globale.scss */
 .bloc_image_vdl {
   position: relative;
   bottom: 10%;
@@ -7205,13 +7212,13 @@ a.archives_vdl:hover.archives_vdl {
   margin: 0 auto;
 }
 @media (min-width: 990px), (min-width: 800px) and (max-width: 989px) {
-  /* line 163, ../sass/content-type-style/_page-vdl-globale.scss */
+  /* line 167, ../sass/content-type-style/_page-vdl-globale.scss */
   .bloc_image_vdl {
     margin: 0;
     max-width: 100%;
   }
 }
-/* line 175, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 179, ../sass/content-type-style/_page-vdl-globale.scss */
 .bloc_image_vdl h2 {
   color: white;
   padding: 0.3125em;
@@ -7222,7 +7229,7 @@ a.archives_vdl:hover.archives_vdl {
   text-shadow: 0.125em 0.125em 0.1875em #606070;
   filter: dropshadow(color=#606070, offx=0.125em, offy=0.125em);
 }
-/* line 185, ../sass/content-type-style/_page-vdl-globale.scss */
+/* line 189, ../sass/content-type-style/_page-vdl-globale.scss */
 .bloc_image_vdl a {
   color: white;
   text-decoration: none;
