@@ -935,7 +935,7 @@ aside.navStatic select {
   /* line 57, ../sass/global/_sub-nav.scss */
   aside.navStatic ul.horizontal-nav li.logo {
     /*background-image: image-url("logo-Pf-sites-lycees.jpg");//avec compass*/
-    background-image: url('../images/logo-PF-lycees.svg?1473681636');
+    background-image: url('../images/logo-PF-lycees.svg?1479221185');
     background-position: left 0.45em;
     background-size: contain;
     text-indent: -9999em;
@@ -1787,6 +1787,13 @@ body .conteneur .layout_5col {
   padding-right: 0.5em;
 }
 
+/* line 443, ../sass/layout/_layout-nodes.scss */
+body .conteneur .layout_5col_is {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+}
 @media (min-width: 990px) {
   /* line 443, ../sass/layout/_layout-nodes.scss */
   body .conteneur .layout_5col_is {
@@ -1801,14 +1808,14 @@ body .conteneur .layout_5col {
 
 /*\\\\\\ LAYOUT IMBRIQUE (NESTED) - SPECIAUX ///////////*/
 @media (min-width: 990px) {
-  /* line 454, ../sass/layout/_layout-nodes.scss */
+  /* line 455, ../sass/layout/_layout-nodes.scss */
   body .conteneur .layout_2col_items_4_8 {
     width: 310.20408%;
     float: left;
     margin-left: 0;
     margin-right: -100%;
   }
-  /* line 456, ../sass/layout/_layout-nodes.scss */
+  /* line 457, ../sass/layout/_layout-nodes.scss */
   body .conteneur .layout_2col_items_4_8:nth-child(odd) {
     clear: both;
     width: 32.23684%;
@@ -1816,7 +1823,7 @@ body .conteneur .layout_5col {
     margin-left: 0;
     margin-right: -100%;
   }
-  /* line 461, ../sass/layout/_layout-nodes.scss */
+  /* line 462, ../sass/layout/_layout-nodes.scss */
   body .conteneur .layout_2col_items_4_8:nth-child(even) {
     width: 66.11842%;
     float: left;
@@ -2987,7 +2994,7 @@ body .conteneur #header .headBas .headSearch {
 body .conteneur #footer {
   padding: 0;
   color: #9898a6;
-  background: transparent url('../images/bg_footer.jpg?1473864587') no-repeat scroll right bottom;
+  background: transparent url('../images/bg_footer.jpg?1479221184') no-repeat scroll right bottom;
 }
 /* line 21, ../sass/layout/_layout-footer.scss */
 body .conteneur #footer a {
@@ -3638,8 +3645,15 @@ Layout pour les desktop.Breakpoint définit par variable dans _variables.scss
 }
 
 /* $Id: maintenance.css,v 1.1 2007/11/30 12:19:10 goba Exp $ */
+/*Layout MAintenance Page*/
+/* line 5, ../sass/ui/_maintenance.scss */
+#page {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
 /* Update styles */
-/* line 4, ../sass/ui/_maintenance.scss */
+/* line 10, ../sass/ui/_maintenance.scss */
 #update-results {
   margin-top: 3em;
   padding: 0.25em;
@@ -3648,29 +3662,29 @@ Layout pour les desktop.Breakpoint définit par variable dans _variables.scss
   font-size: smaller;
 }
 
-/* line 11, ../sass/ui/_maintenance.scss */
+/* line 17, ../sass/ui/_maintenance.scss */
 #update-results h2 {
   margin-top: 0.25em;
 }
 
-/* line 14, ../sass/ui/_maintenance.scss */
+/* line 20, ../sass/ui/_maintenance.scss */
 #update-results h4 {
   margin-bottom: 0.25em;
 }
 
-/* line 17, ../sass/ui/_maintenance.scss */
+/* line 23, ../sass/ui/_maintenance.scss */
 #update-results li.none {
   color: #888;
   font-style: italic;
 }
 
-/* line 21, ../sass/ui/_maintenance.scss */
+/* line 27, ../sass/ui/_maintenance.scss */
 #update-results li.failure strong {
   color: #b63300;
 }
 
 /*STYLE MAINTENANCE OFFLINE*/
-/* line 25, ../sass/ui/_maintenance.scss */
+/* line 31, ../sass/ui/_maintenance.scss */
 #name-and-slogan-offline, #site-slogan-offline {
   background: #ECECED;
   color: #606070;
@@ -3680,7 +3694,7 @@ Layout pour les desktop.Breakpoint définit par variable dans _variables.scss
   border-radius: 0.3125em;
 }
 
-/* line 33, ../sass/ui/_maintenance.scss */
+/* line 39, ../sass/ui/_maintenance.scss */
 #contentPage-offline {
   margin: 0 auto;
   padding: 0;
@@ -3688,7 +3702,7 @@ Layout pour les desktop.Breakpoint définit par variable dans _variables.scss
   background-color: white;
 }
 
-/* line 41, ../sass/ui/_maintenance.scss */
+/* line 47, ../sass/ui/_maintenance.scss */
 #footer-offline {
   margin: 0 auto;
   padding: 0.3125em 0;
@@ -3700,7 +3714,7 @@ Layout pour les desktop.Breakpoint définit par variable dans _variables.scss
 }
 
 /*STYLE MAINTENANCE */
-/* line 52, ../sass/ui/_maintenance.scss */
+/* line 58, ../sass/ui/_maintenance.scss */
 #name-and-slogan-maintenance, #site-slogan-maintenance {
   background: #ECECED;
   color: #606070;
@@ -3710,13 +3724,13 @@ Layout pour les desktop.Breakpoint définit par variable dans _variables.scss
   border-radius: 0.3125em;
 }
 
-/* line 60, ../sass/ui/_maintenance.scss */
+/* line 66, ../sass/ui/_maintenance.scss */
 #site-name-maintenance {
   margin: 0;
   padding: 0.9375em;
 }
 
-/* line 64, ../sass/ui/_maintenance.scss */
+/* line 70, ../sass/ui/_maintenance.scss */
 #contentPage-maintenance {
   margin: 0 auto;
   padding: 10px 0;
@@ -3725,7 +3739,7 @@ Layout pour les desktop.Breakpoint définit par variable dans _variables.scss
   text-align: center;
 }
 
-/* line 73, ../sass/ui/_maintenance.scss */
+/* line 79, ../sass/ui/_maintenance.scss */
 #middle-content-maintenance {
   margin: 0 auto;
   max-width: 100%;
@@ -3733,7 +3747,7 @@ Layout pour les desktop.Breakpoint définit par variable dans _variables.scss
   background: transparent url(../images/zebra-gros-clair.gif) repeat top left;
   padding: 0.9375em 0;
 }
-/* line 79, ../sass/ui/_maintenance.scss */
+/* line 85, ../sass/ui/_maintenance.scss */
 #middle-content-maintenance p {
   background: white;
   padding: 5px;
@@ -3741,7 +3755,7 @@ Layout pour les desktop.Breakpoint définit par variable dans _variables.scss
   margin: 0 auto;
 }
 
-/* line 87, ../sass/ui/_maintenance.scss */
+/* line 93, ../sass/ui/_maintenance.scss */
 #footer-maintenance {
   margin: 0 auto;
   padding: 0.625em 0;
@@ -3752,12 +3766,12 @@ Layout pour les desktop.Breakpoint définit par variable dans _variables.scss
   height: auto;
   font-size: small;
 }
-/* line 96, ../sass/ui/_maintenance.scss */
+/* line 102, ../sass/ui/_maintenance.scss */
 #footer-maintenance a {
   color: #606070;
   text-decoration: none;
 }
-/* line 99, ../sass/ui/_maintenance.scss */
+/* line 105, ../sass/ui/_maintenance.scss */
 #footer-maintenance a:hover {
   text-decoration: underline;
 }
@@ -3850,7 +3864,7 @@ Layout pour les desktop.Breakpoint définit par variable dans _variables.scss
 /*----Navigation backoffice------*/
 /* line 12, ../sass/ui/_style-backoffice.scss */
 #block-user-1 {
-  background: url('../images/bg_nav_backoffice.gif?1473864587') repeat scroll left top;
+  background: url('../images/bg_nav_backoffice.gif?1479221184') repeat scroll left top;
   padding: 0;
   margin: 0;
 }
@@ -4116,7 +4130,7 @@ body .conteneur-flex .HPDiapoVerticalDroite aside.DiapoDroiteHP img {
 |-----------------------------------------*/
 /* line 15, ../sass/layout/_layout-vertical-hp-droite.scss */
 body .conteneur {
-  background: transparent url('../images/bg_content_etoile.gif?1473681635') no-repeat left bottom;
+  background: transparent url('../images/bg_content_etoile.gif?1479221184') no-repeat left bottom;
 }
 /* line 19, ../sass/layout/_layout-vertical-hp-droite.scss */
 body .conteneur .conteneur-flex {

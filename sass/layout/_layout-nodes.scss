@@ -441,6 +441,7 @@ body .conteneur{
 @include with-layout(inside-static){
     body .conteneur{
         .layout_5col_is{
+            @include span($mobilecol no-gutters);
             @include breakpoint ($desktop){
                 @include span($desktopcol/5 of $desktopcol);
             }
